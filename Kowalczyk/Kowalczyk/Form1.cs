@@ -8,13 +8,13 @@ using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace WindowsFormsApp1
+namespace Kowalczyk
 {
-    public partial class poZalogowaniuUczen : Form
+    public partial class Form1 : Form
     {
-        public poZalogowaniuUczen()
+        public Form1()
         {
             InitializeComponent();
         }
-    }   
+    }
 }
