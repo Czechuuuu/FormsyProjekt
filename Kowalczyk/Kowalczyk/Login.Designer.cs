@@ -80,7 +80,6 @@
             this.pass.Name = "pass";
             this.pass.Size = new System.Drawing.Size(219, 20);
             this.pass.TabIndex = 4;
-            this.pass.TextChanged += new System.EventHandler(this.txt_password_TextChanged);
             // 
             // button_login
             // 
@@ -115,7 +114,6 @@
             this.Controls.Add(this.label1);
             this.Name = "Login";
             this.Text = "Form1";
-            this.Load += new System.EventHandler(this.Login_Load);
             this.ResumeLayout(false);
             this.PerformLayout();
 

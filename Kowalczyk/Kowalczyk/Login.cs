@@ -21,10 +21,7 @@ namespace Kowalczyk
             InitializeComponent();
         }
 
-        private void Login_Load(object sender, EventArgs e)
-        {
-
-        }
+   
 
         private void button_login_Click(object sender, EventArgs e)
         {
@@ -55,9 +52,6 @@ namespace Kowalczyk
             }
         }
 
-        private void txt_password_TextChanged(object sender, EventArgs e)
-        {
-
-        }
+   
     }
 }
