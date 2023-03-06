@@ -43,11 +43,11 @@ namespace Kowalczyk
 
                 if (dt.Rows.Count> 0)
                 {
-                    MessageBox.Show("Zalogowano", "fefwe");
+                    MessageBox.Show("Zalogowano", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
                 }
                 else
                 {
-                    MessageBox.Show("efeef","error");
+                    MessageBox.Show("Sprawdz swoje haslo lub login","Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
                 }
             }
         }
