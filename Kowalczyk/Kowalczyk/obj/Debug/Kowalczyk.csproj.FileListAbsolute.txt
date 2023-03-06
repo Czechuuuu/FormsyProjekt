@@ -1,0 +1,11 @@
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.AssemblyReference.cache
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.SuggestedBindingRedirects.cache
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Login.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Properties.Resources.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.GenerateResource.cache
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.CoreCompileInputs.cache
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Kowalczyk.exe.config
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Kowalczyk.exe
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Kowalczyk.pdb
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.exe
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.pdb
