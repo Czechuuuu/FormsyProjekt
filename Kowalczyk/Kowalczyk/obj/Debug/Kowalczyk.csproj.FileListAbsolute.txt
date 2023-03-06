@@ -9,3 +9,8 @@ C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Kowalczyk
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Kowalczyk.pdb
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.exe
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.pdb
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\msvcr100.dll
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\SQLite.Interop.dll
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Database1.db
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\System.Data.SQLite.dll
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.CopyComplete

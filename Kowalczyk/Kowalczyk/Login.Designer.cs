@@ -31,8 +31,8 @@
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
-            this.txt_username = new System.Windows.Forms.TextBox();
-            this.txt_password = new System.Windows.Forms.TextBox();
+            this.user = new System.Windows.Forms.TextBox();
+            this.pass = new System.Windows.Forms.TextBox();
             this.button_login = new System.Windows.Forms.Button();
             this.button_exit = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -67,19 +67,20 @@
             this.label3.TabIndex = 2;
             this.label3.Text = "Hasło:";
             // 
-            // txt_username
+            // user
             // 
-            this.txt_username.Location = new System.Drawing.Point(295, 167);
-            this.txt_username.Name = "txt_username";
-            this.txt_username.Size = new System.Drawing.Size(219, 20);
-            this.txt_username.TabIndex = 3;
+            this.user.Location = new System.Drawing.Point(295, 167);
+            this.user.Name = "user";
+            this.user.Size = new System.Drawing.Size(219, 20);
+            this.user.TabIndex = 3;
             // 
-            // txt_password
+            // pass
             // 
-            this.txt_password.Location = new System.Drawing.Point(295, 217);
-            this.txt_password.Name = "txt_password";
-            this.txt_password.Size = new System.Drawing.Size(219, 20);
-            this.txt_password.TabIndex = 4;
+            this.pass.Location = new System.Drawing.Point(295, 219);
+            this.pass.Name = "pass";
+            this.pass.Size = new System.Drawing.Size(219, 20);
+            this.pass.TabIndex = 4;
+            this.pass.TextChanged += new System.EventHandler(this.txt_password_TextChanged);
             // 
             // button_login
             // 
@@ -107,8 +108,8 @@
             this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.button_login);
-            this.Controls.Add(this.txt_password);
-            this.Controls.Add(this.txt_username);
+            this.Controls.Add(this.pass);
+            this.Controls.Add(this.user);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
@@ -125,8 +126,8 @@
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
         private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.TextBox txt_username;
-        private System.Windows.Forms.TextBox txt_password;
+        private System.Windows.Forms.TextBox user;
+        private System.Windows.Forms.TextBox pass;
         private System.Windows.Forms.Button button_login;
         private System.Windows.Forms.Button button_exit;
     }

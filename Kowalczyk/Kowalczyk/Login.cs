@@ -9,8 +9,8 @@ using System.Threading.Tasks;
 using System.Windows.Forms;
 using System.Data.SqlClient;
 using System.Linq.Expressions;
-using System.Data.OleDb;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
+using System.Data.SQLite;
 
 namespace Kowalczyk
 {
@@ -20,8 +20,7 @@ namespace Kowalczyk
         {
             InitializeComponent();
         }
-        OleDbConnection conn = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\Database7.accdb;User ID=admin");
-        OleDbCommand cmd = new OleDbCommand("select id, username, password");
+
         private void Login_Load(object sender, EventArgs e)
         {
 
@@ -29,25 +28,36 @@ namespace Kowalczyk
 
         private void button_login_Click(object sender, EventArgs e)
         {
-            OleDbConnection db_conn;
-            OleDbCommand db_comm;
-            db_conn = new OleDbConnection(@"Provider=Microsoft.ACE.OLEDB.12.0;Data Source=C:\\Users\\mrora\\Desktop\\git\\FormsyProjekt\\Kowalczyk\\Kowalczyk\\Database7.accdb;User ID=admin");
-            db_conn.Open();
-            string que = "SELECT COUNT (*) FROM userinfo WHERE user_id=@uid and user_pass=@upa";
-            db_comm = new OleDbCommand(que, db_conn);
-            db_comm.Parameters.Add("@uid", OleDbType.VarChar).Value = txt_username.Text;
-            db_comm.Parameters.Add("@upa", OleDbType.VarChar).Value = txt_password.Text;
-            int count = (int)db_comm.ExecuteScalar();
-            db_conn.Close();
-            db_conn = null;
-            if (count <= 0)
+            if(user.Text.Trim() == "" && pass.Text.Trim() == "")
             {
-                MessageBox.Show("Użytkownik nie istnieje");
+                MessageBox.Show("Empty Fields", "Error");
             }
             else
             {
-                MessageBox.Show("Zalogowano");
+                string query = "SELECT * from Login WHERE username= @user and password = @pass";
+                SQLiteConnection conn = new SQLiteConnection("Data Source=Database1.db;Version=3;");
+                conn.Open();
+                SQLiteCommand cmd = new SQLiteCommand(query, conn);
+                cmd.Parameters.AddWithValue("@user", user.Text);
+                cmd.Parameters.AddWithValue("@pass", pass.Text);
+                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
+                DataTable dt = new DataTable();
+                da.Fill(dt);
+
+                if (dt.Rows.Count> 0)
+                {
+                    MessageBox.Show("Zalogowano", "fefwe");
+                }
+                else
+                {
+                    MessageBox.Show("efeef","error");
+                }
             }
+        }
+
+        private void txt_password_TextChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
