@@ -11,6 +11,7 @@ using System.Data.SqlClient;
 using System.Linq.Expressions;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Data.SQLite;
+using System.Threading;
 
 namespace Kowalczyk
 {
@@ -21,9 +22,7 @@ namespace Kowalczyk
             InitializeComponent();
         }
 
-   
-
-        private void button_login_Click(object sender, EventArgs e)
+        public void button_login_Click(object sender, EventArgs e)
         {
             if(user.Text.Trim() == "" && pass.Text.Trim() == "")
             {
@@ -31,7 +30,7 @@ namespace Kowalczyk
             }
             else
             {
-                string query = "SELECT * from Login WHERE username= @user and password = @pass";
+                string query = "SELECT * from Login WHERE username = @user and password = @pass";
                 SQLiteConnection conn = new SQLiteConnection("Data Source=Database1.db;Version=3;");
                 conn.Open();
                 SQLiteCommand cmd = new SQLiteCommand(query, conn);
@@ -44,6 +43,7 @@ namespace Kowalczyk
                 if (dt.Rows.Count> 0)
                 {
                     MessageBox.Show("Zalogowano", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    stronaGlowna();
                 }
                 else
                 {
@@ -51,7 +51,11 @@ namespace Kowalczyk
                 }
             }
         }
-
-   
+        public void stronaGlowna()
+        {
+            this.Hide();
+            Form1 f1 = new Form1();
+            f1.Show();
+        }
     }
 }
