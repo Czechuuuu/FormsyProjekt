@@ -43,7 +43,7 @@ namespace Kowalczyk
                 if (dt.Rows.Count> 0)
                 {
                     MessageBox.Show("Zalogowano", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    stronaGlowna();
+                    this.Close();
                 }
                 else
                 {
@@ -51,11 +51,11 @@ namespace Kowalczyk
                 }
             }
         }
-        public void stronaGlowna()
+
+        private void button_exit_Click(object sender, EventArgs e)
         {
-            this.Hide();
-            Form1 f1 = new Form1();
-            f1.Show();
+            stronaGlowna.powrot();
+            this.Close();
         }
     }
 }

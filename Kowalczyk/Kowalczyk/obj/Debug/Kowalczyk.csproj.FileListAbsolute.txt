@@ -30,4 +30,9 @@ C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\K
 C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.CopyComplete
 C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.exe
 C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.pdb
-C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form1.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaGlowna.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form2.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form3.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form4.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form5.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form6.resources

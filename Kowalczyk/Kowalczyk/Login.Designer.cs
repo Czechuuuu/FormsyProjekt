@@ -99,6 +99,7 @@
             this.button_exit.TabIndex = 6;
             this.button_exit.Text = "Wyjście";
             this.button_exit.UseVisualStyleBackColor = true;
+            this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
             // Login
             // 
