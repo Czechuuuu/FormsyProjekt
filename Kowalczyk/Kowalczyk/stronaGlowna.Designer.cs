@@ -29,7 +29,6 @@
         private void InitializeComponent()
         {
             this.btnZaloguj = new System.Windows.Forms.Button();
-            this.logo = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.stronaGlownaNowosci = new System.Windows.Forms.Label();
             this.button1 = new System.Windows.Forms.Button();
@@ -39,8 +38,9 @@
             this.button5 = new System.Windows.Forms.Button();
             this.textBox1 = new System.Windows.Forms.TextBox();
             this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).BeginInit();
+            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
             this.SuspendLayout();
             // 
             // btnZaloguj
@@ -52,15 +52,6 @@
             this.btnZaloguj.Text = "Zaloguj";
             this.btnZaloguj.UseVisualStyleBackColor = true;
             this.btnZaloguj.Click += new System.EventHandler(this.btnZaloguj_Click);
-            // 
-            // logo
-            // 
-            this.logo.Image = global::Kowalczyk.Properties.Resources.logo;
-            this.logo.Location = new System.Drawing.Point(12, 12);
-            this.logo.Name = "logo";
-            this.logo.Size = new System.Drawing.Size(500, 75);
-            this.logo.TabIndex = 1;
-            this.logo.TabStop = false;
             // 
             // pictureBox1
             // 
@@ -147,11 +138,21 @@
             this.label1.TabIndex = 10;
             this.label1.Text = "Czego szukasz?";
             // 
+            // pictureBox2
+            // 
+            this.pictureBox2.Image = global::Kowalczyk.Properties.Resources.logo;
+            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
+            this.pictureBox2.Name = "pictureBox2";
+            this.pictureBox2.Size = new System.Drawing.Size(500, 75);
+            this.pictureBox2.TabIndex = 12;
+            this.pictureBox2.TabStop = false;
+            // 
             // stronaGlowna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1167, 610);
+            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.textBox1);
             this.Controls.Add(this.button5);
@@ -161,12 +162,11 @@
             this.Controls.Add(this.button1);
             this.Controls.Add(this.stronaGlownaNowosci);
             this.Controls.Add(this.pictureBox1);
-            this.Controls.Add(this.logo);
             this.Controls.Add(this.btnZaloguj);
             this.Name = "stronaGlowna";
             this.Text = "Strona Glówna";
-            ((System.ComponentModel.ISupportInitialize)(this.logo)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
             this.PerformLayout();
 
@@ -175,7 +175,6 @@
         #endregion
 
         private System.Windows.Forms.Button btnZaloguj;
-        private System.Windows.Forms.PictureBox logo;
         private System.Windows.Forms.PictureBox pictureBox1;
         private System.Windows.Forms.Label stronaGlownaNowosci;
         private System.Windows.Forms.Button button1;
@@ -185,5 +184,6 @@
         private System.Windows.Forms.Button button5;
         private System.Windows.Forms.TextBox textBox1;
         private System.Windows.Forms.Label label1;
+        private System.Windows.Forms.PictureBox pictureBox2;
     }
 }

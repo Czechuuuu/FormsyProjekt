@@ -10,17 +10,11 @@ using System.Windows.Forms;
 
 namespace Kowalczyk
 {
-    public partial class Form2 : Form
+    public partial class koszyk : Form
     {
-        public Form2()
+        public koszyk()
         {
             InitializeComponent();
-        }
-
-        private void btnLogo1_Click(object sender, EventArgs e)
-        {
-            stronaGlowna.powrot();
-            this.Close();
         }
     }
 }

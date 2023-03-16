@@ -27,6 +27,7 @@ namespace Kowalczyk
             login.Show();
             this.Hide();
             btnZaloguj.Text = "Wyloguj";
+            this.Show();
         }
 
         private void button1_Click(object sender, EventArgs e)

@@ -49,6 +49,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="koszyk.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="koszyk.Designer.cs">
+      <DependentUpon>koszyk.cs</DependentUpon>
+    </Compile>
     <Compile Include="stronaGlowna.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -144,10 +150,12 @@
     <Content Include="msvcr100.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
-    <None Include="Resources\logo.png" />
     <Content Include="SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="Resources\" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
 </Project>
