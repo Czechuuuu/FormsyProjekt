@@ -36,3 +36,9 @@ C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\K
 C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form4.resources
 C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form5.resources
 C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form6.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form2.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form3.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form4.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form5.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form6.resources
+C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaGlowna.resources

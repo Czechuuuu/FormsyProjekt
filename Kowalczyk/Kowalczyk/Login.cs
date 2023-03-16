@@ -12,6 +12,7 @@ using System.Linq.Expressions;
 using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Data.SQLite;
 using System.Threading;
+using System.Runtime.CompilerServices;
 
 namespace Kowalczyk
 {
@@ -24,6 +25,7 @@ namespace Kowalczyk
 
         public void button_login_Click(object sender, EventArgs e)
         {
+            bool admin = false;
             if(user.Text.Trim() == "" && pass.Text.Trim() == "")
             {
                 MessageBox.Show("Empty Fields", "Error");
@@ -40,7 +42,13 @@ namespace Kowalczyk
                 DataTable dt = new DataTable();
                 da.Fill(dt);
 
-                if (dt.Rows.Count> 0)
+                if (dt.Rows.Count> 0 && user.Text == "admin")
+                {
+                    MessageBox.Show("Witaj adminie", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
+                    admin = true;
+                    this.Close();
+                }
+                if (dt.Rows.Count > 0 && admin == false)
                 {
                     MessageBox.Show("Zalogowano", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
                     this.Close();
