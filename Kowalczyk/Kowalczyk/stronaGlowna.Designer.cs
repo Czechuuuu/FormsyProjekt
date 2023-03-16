@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(stronaGlowna));
             this.btnZaloguj = new System.Windows.Forms.Button();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
             this.stronaGlownaNowosci = new System.Windows.Forms.Label();
@@ -140,7 +141,7 @@
             // 
             // pictureBox2
             // 
-            this.pictureBox2.Image = global::Kowalczyk.Properties.Resources.logo;
+            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
             this.pictureBox2.Location = new System.Drawing.Point(12, 12);
             this.pictureBox2.Name = "pictureBox2";
             this.pictureBox2.Size = new System.Drawing.Size(500, 75);

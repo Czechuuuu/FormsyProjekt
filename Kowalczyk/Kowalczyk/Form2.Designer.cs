@@ -28,12 +28,13 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(Form2));
             this.btnLogo1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // btnLogo1
             // 
-            this.btnLogo1.Image = global::Kowalczyk.Properties.Resources.logo;
+            this.btnLogo1.Image = ((System.Drawing.Image)(resources.GetObject("btnLogo1.Image")));
             this.btnLogo1.Location = new System.Drawing.Point(13, 13);
             this.btnLogo1.Name = "btnLogo1";
             this.btnLogo1.Size = new System.Drawing.Size(500, 75);
