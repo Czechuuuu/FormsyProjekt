@@ -16,8 +16,16 @@ namespace Kowalczyk
         {
             InitializeComponent();
         }
-        public static void powrot()
+
+        private void AddUserControl(UserControl userControl) 
         {
+            userControl.Dock = DockStyle.Fill;
+            panelContainer.Controls.Clear();
+            panelContainer.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
+        public static void powrot()
+        {   
             stronaGlowna sg = new stronaGlowna();
             sg.Show();
         }
@@ -28,6 +36,42 @@ namespace Kowalczyk
             this.Hide();
             btnZaloguj.Text = "Wyloguj";
             this.Show();
+        }
+
+        private void buttonMenu_Click(object sender, EventArgs e)
+        {
+            menuRestaur menuR = new menuRestaur();
+            AddUserControl(menuR);
+        }
+
+        private void buttonRestauracje_Click(object sender, EventArgs e)
+        {
+            restauracjeRestaur restR = new restauracjeRestaur();
+            AddUserControl(restR);
+        }
+
+        private void buttonKontakt_Click(object sender, EventArgs e)
+        {
+            kontaktRestaur kontR = new kontaktRestaur();
+            AddUserControl(kontR);
+        }
+
+        private void buttonKupony_Click(object sender, EventArgs e)
+        {
+            kuponyRestaur kupoR = new kuponyRestaur();
+            AddUserControl(kupoR);
+        }
+
+        private void buttonKoszyk_Click(object sender, EventArgs e)
+        {
+            koszykRestaur koszR = new koszykRestaur();
+            AddUserControl(koszR);
+        }
+
+        private void buttonLogo_Click(object sender, EventArgs e)
+        {
+            stronaglownaRestaur sgloR = new stronaglownaRestaur();
+            AddUserControl(sgloR);
         }
     }
 }

@@ -37,3 +37,9 @@ C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form5.resources
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Form6.resources
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaGlowna.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.menuRestaur.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.kuponyRestaur.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.kontaktRestaur.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.restauracjeRestaur.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.koszykRestaur.resources
+C:\Users\johny\OneDrive\Pulpit\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaglownaRestaur.resources

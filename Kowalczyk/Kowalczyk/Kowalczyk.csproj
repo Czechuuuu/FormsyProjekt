@@ -49,11 +49,47 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UserControl\stronaglownaRestaur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\stronaglownaRestaur.Designer.cs">
+      <DependentUpon>stronaglownaRestaur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\kontaktRestaur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\kontaktRestaur.Designer.cs">
+      <DependentUpon>kontaktRestaur.cs</DependentUpon>
+    </Compile>
     <Compile Include="koszyk.cs">
       <SubType>Form</SubType>
     </Compile>
     <Compile Include="koszyk.Designer.cs">
       <DependentUpon>koszyk.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\restauracjeRestaur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\restauracjeRestaur.Designer.cs">
+      <DependentUpon>restauracjeRestaur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\koszykRestaur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\koszykRestaur.Designer.cs">
+      <DependentUpon>koszykRestaur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\kuponyRestaur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\kuponyRestaur.Designer.cs">
+      <DependentUpon>kuponyRestaur.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\menuRestaur.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\menuRestaur.Designer.cs">
+      <DependentUpon>menuRestaur.cs</DependentUpon>
     </Compile>
     <Compile Include="stronaGlowna.cs">
       <SubType>Form</SubType>
@@ -69,6 +105,24 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="UserControl\stronaglownaRestaur.resx">
+      <DependentUpon>stronaglownaRestaur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\kontaktRestaur.resx">
+      <DependentUpon>kontaktRestaur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\restauracjeRestaur.resx">
+      <DependentUpon>restauracjeRestaur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\koszykRestaur.resx">
+      <DependentUpon>koszykRestaur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\kuponyRestaur.resx">
+      <DependentUpon>kuponyRestaur.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="UserControl\menuRestaur.resx">
+      <DependentUpon>menuRestaur.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="stronaGlowna.resx">
       <DependentUpon>stronaGlowna.cs</DependentUpon>
     </EmbeddedResource>

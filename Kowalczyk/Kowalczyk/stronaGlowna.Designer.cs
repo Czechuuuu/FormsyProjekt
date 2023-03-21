@@ -31,16 +31,16 @@
             System.ComponentModel.ComponentResourceManager resources = new System.ComponentModel.ComponentResourceManager(typeof(stronaGlowna));
             this.btnZaloguj = new System.Windows.Forms.Button();
             this.button1 = new System.Windows.Forms.Button();
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.button3 = new System.Windows.Forms.Button();
             this.button4 = new System.Windows.Forms.Button();
             this.button5 = new System.Windows.Forms.Button();
-            this.button6 = new System.Windows.Forms.Button();
-            this.button2 = new System.Windows.Forms.Button();
-            this.button7 = new System.Windows.Forms.Button();
-            this.button8 = new System.Windows.Forms.Button();
-            this.button9 = new System.Windows.Forms.Button();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
+            this.buttonRestauracje = new System.Windows.Forms.Button();
+            this.buttonKoszyk = new System.Windows.Forms.Button();
+            this.buttonKupony = new System.Windows.Forms.Button();
+            this.buttonMenu = new System.Windows.Forms.Button();
+            this.buttonKontakt = new System.Windows.Forms.Button();
+            this.buttonLogo = new System.Windows.Forms.Button();
+            this.panelContainer = new System.Windows.Forms.Panel();
             this.SuspendLayout();
             // 
             // btnZaloguj
@@ -62,15 +62,6 @@
             this.button1.TabIndex = 4;
             this.button1.Text = "button1";
             this.button1.UseVisualStyleBackColor = true;
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Image = ((System.Drawing.Image)(resources.GetObject("pictureBox2.Image")));
-            this.pictureBox2.Location = new System.Drawing.Point(12, 12);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(500, 75);
-            this.pictureBox2.TabIndex = 12;
-            this.pictureBox2.TabStop = false;
             // 
             // button3
             // 
@@ -99,70 +90,92 @@
             this.button5.Text = "button5";
             this.button5.UseVisualStyleBackColor = true;
             // 
-            // button6
+            // buttonRestauracje
             // 
-            this.button6.Location = new System.Drawing.Point(705, 93);
-            this.button6.Name = "button6";
-            this.button6.Size = new System.Drawing.Size(225, 80);
-            this.button6.TabIndex = 17;
-            this.button6.Text = "button6";
-            this.button6.UseVisualStyleBackColor = true;
+            this.buttonRestauracje.Location = new System.Drawing.Point(705, 93);
+            this.buttonRestauracje.Name = "buttonRestauracje";
+            this.buttonRestauracje.Size = new System.Drawing.Size(225, 80);
+            this.buttonRestauracje.TabIndex = 17;
+            this.buttonRestauracje.Text = "Nasze Restauracje";
+            this.buttonRestauracje.UseVisualStyleBackColor = true;
+            this.buttonRestauracje.Click += new System.EventHandler(this.buttonRestauracje_Click);
             // 
-            // button2
+            // buttonKoszyk
             // 
-            this.button2.Location = new System.Drawing.Point(474, 93);
-            this.button2.Name = "button2";
-            this.button2.Size = new System.Drawing.Size(225, 80);
-            this.button2.TabIndex = 18;
-            this.button2.Text = "button2";
-            this.button2.UseVisualStyleBackColor = true;
+            this.buttonKoszyk.Location = new System.Drawing.Point(474, 93);
+            this.buttonKoszyk.Name = "buttonKoszyk";
+            this.buttonKoszyk.Size = new System.Drawing.Size(225, 80);
+            this.buttonKoszyk.TabIndex = 18;
+            this.buttonKoszyk.Text = "Koszyk";
+            this.buttonKoszyk.UseVisualStyleBackColor = true;
+            this.buttonKoszyk.Click += new System.EventHandler(this.buttonKoszyk_Click);
             // 
-            // button7
+            // buttonKupony
             // 
-            this.button7.Location = new System.Drawing.Point(243, 93);
-            this.button7.Name = "button7";
-            this.button7.Size = new System.Drawing.Size(225, 80);
-            this.button7.TabIndex = 19;
-            this.button7.Text = "button7";
-            this.button7.UseVisualStyleBackColor = true;
+            this.buttonKupony.Location = new System.Drawing.Point(243, 93);
+            this.buttonKupony.Name = "buttonKupony";
+            this.buttonKupony.Size = new System.Drawing.Size(225, 80);
+            this.buttonKupony.TabIndex = 19;
+            this.buttonKupony.Text = "Kupony";
+            this.buttonKupony.UseVisualStyleBackColor = true;
+            this.buttonKupony.Click += new System.EventHandler(this.buttonKupony_Click);
             // 
-            // button8
+            // buttonMenu
             // 
-            this.button8.Location = new System.Drawing.Point(12, 93);
-            this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(225, 80);
-            this.button8.TabIndex = 20;
-            this.button8.Text = "button8";
-            this.button8.UseVisualStyleBackColor = true;
+            this.buttonMenu.Location = new System.Drawing.Point(12, 93);
+            this.buttonMenu.Name = "buttonMenu";
+            this.buttonMenu.Size = new System.Drawing.Size(225, 80);
+            this.buttonMenu.TabIndex = 20;
+            this.buttonMenu.Text = "Menu";
+            this.buttonMenu.UseVisualStyleBackColor = true;
+            this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
             // 
-            // button9
+            // buttonKontakt
             // 
-            this.button9.Location = new System.Drawing.Point(936, 93);
-            this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(225, 80);
-            this.button9.TabIndex = 21;
-            this.button9.Text = "button9";
-            this.button9.UseVisualStyleBackColor = true;
+            this.buttonKontakt.Location = new System.Drawing.Point(936, 93);
+            this.buttonKontakt.Name = "buttonKontakt";
+            this.buttonKontakt.Size = new System.Drawing.Size(225, 80);
+            this.buttonKontakt.TabIndex = 21;
+            this.buttonKontakt.Text = "Kontakt";
+            this.buttonKontakt.UseVisualStyleBackColor = true;
+            this.buttonKontakt.Click += new System.EventHandler(this.buttonKontakt_Click);
+            // 
+            // buttonLogo
+            // 
+            this.buttonLogo.Image = ((System.Drawing.Image)(resources.GetObject("buttonLogo.Image")));
+            this.buttonLogo.Location = new System.Drawing.Point(12, 12);
+            this.buttonLogo.Name = "buttonLogo";
+            this.buttonLogo.Size = new System.Drawing.Size(500, 75);
+            this.buttonLogo.TabIndex = 22;
+            this.buttonLogo.UseVisualStyleBackColor = true;
+            this.buttonLogo.Click += new System.EventHandler(this.buttonLogo_Click);
+            // 
+            // panelContainer
+            // 
+            this.panelContainer.Location = new System.Drawing.Point(13, 180);
+            this.panelContainer.Name = "panelContainer";
+            this.panelContainer.Size = new System.Drawing.Size(1149, 419);
+            this.panelContainer.TabIndex = 23;
             // 
             // stronaGlowna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1167, 610);
-            this.Controls.Add(this.button9);
-            this.Controls.Add(this.button8);
-            this.Controls.Add(this.button7);
-            this.Controls.Add(this.button2);
-            this.Controls.Add(this.button6);
+            this.Controls.Add(this.panelContainer);
+            this.Controls.Add(this.buttonLogo);
+            this.Controls.Add(this.buttonKontakt);
+            this.Controls.Add(this.buttonMenu);
+            this.Controls.Add(this.buttonKupony);
+            this.Controls.Add(this.buttonKoszyk);
+            this.Controls.Add(this.buttonRestauracje);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
-            this.Controls.Add(this.pictureBox2);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.btnZaloguj);
             this.Name = "stronaGlowna";
             this.Text = "Strona Glówna";
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
             this.ResumeLayout(false);
 
         }
@@ -171,14 +184,15 @@
 
         private System.Windows.Forms.Button btnZaloguj;
         private System.Windows.Forms.Button button1;
-        private System.Windows.Forms.PictureBox pictureBox2;
         private System.Windows.Forms.Button button3;
         private System.Windows.Forms.Button button4;
         private System.Windows.Forms.Button button5;
-        private System.Windows.Forms.Button button6;
-        private System.Windows.Forms.Button button2;
-        private System.Windows.Forms.Button button7;
-        private System.Windows.Forms.Button button8;
-        private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button buttonRestauracje;
+        private System.Windows.Forms.Button buttonKoszyk;
+        private System.Windows.Forms.Button buttonKupony;
+        private System.Windows.Forms.Button buttonMenu;
+        private System.Windows.Forms.Button buttonKontakt;
+        private System.Windows.Forms.Button buttonLogo;
+        private System.Windows.Forms.Panel panelContainer;
     }
 }
