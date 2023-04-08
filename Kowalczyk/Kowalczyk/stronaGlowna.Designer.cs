@@ -40,18 +40,24 @@
             this.buttonMenu = new System.Windows.Forms.Button();
             this.buttonKontakt = new System.Windows.Forms.Button();
             this.buttonLogo = new System.Windows.Forms.Button();
-            this.panelContainer = new System.Windows.Forms.Panel();
+            this.panelContainerSG = new System.Windows.Forms.Panel();
+            this.panel1 = new System.Windows.Forms.Panel();
+            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
             // btnZaloguj
             // 
+            this.btnZaloguj.BackColor = System.Drawing.Color.White;
+            this.btnZaloguj.FlatAppearance.BorderSize = 0;
+            this.btnZaloguj.FlatStyle = System.Windows.Forms.FlatStyle.Flat;
             this.btnZaloguj.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnZaloguj.Location = new System.Drawing.Point(911, 12);
+            this.btnZaloguj.Location = new System.Drawing.Point(932, 12);
             this.btnZaloguj.Name = "btnZaloguj";
-            this.btnZaloguj.Size = new System.Drawing.Size(250, 75);
+            this.btnZaloguj.Size = new System.Drawing.Size(223, 75);
             this.btnZaloguj.TabIndex = 0;
             this.btnZaloguj.Text = "Zaloguj";
-            this.btnZaloguj.UseVisualStyleBackColor = true;
+            this.btnZaloguj.UseVisualStyleBackColor = false;
             this.btnZaloguj.Click += new System.EventHandler(this.btnZaloguj_Click);
             // 
             // button1
@@ -92,9 +98,11 @@
             // 
             // buttonRestauracje
             // 
-            this.buttonRestauracje.Location = new System.Drawing.Point(705, 93);
+            this.buttonRestauracje.FlatAppearance.BorderSize = 0;
+            this.buttonRestauracje.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonRestauracje.Location = new System.Drawing.Point(693, 5);
             this.buttonRestauracje.Name = "buttonRestauracje";
-            this.buttonRestauracje.Size = new System.Drawing.Size(225, 80);
+            this.buttonRestauracje.Size = new System.Drawing.Size(220, 80);
             this.buttonRestauracje.TabIndex = 17;
             this.buttonRestauracje.Text = "Nasze Restauracje";
             this.buttonRestauracje.UseVisualStyleBackColor = true;
@@ -102,9 +110,11 @@
             // 
             // buttonKoszyk
             // 
-            this.buttonKoszyk.Location = new System.Drawing.Point(474, 93);
+            this.buttonKoszyk.FlatAppearance.BorderSize = 0;
+            this.buttonKoszyk.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonKoszyk.Location = new System.Drawing.Point(460, 5);
             this.buttonKoszyk.Name = "buttonKoszyk";
-            this.buttonKoszyk.Size = new System.Drawing.Size(225, 80);
+            this.buttonKoszyk.Size = new System.Drawing.Size(220, 80);
             this.buttonKoszyk.TabIndex = 18;
             this.buttonKoszyk.Text = "Koszyk";
             this.buttonKoszyk.UseVisualStyleBackColor = true;
@@ -112,9 +122,11 @@
             // 
             // buttonKupony
             // 
-            this.buttonKupony.Location = new System.Drawing.Point(243, 93);
+            this.buttonKupony.FlatAppearance.BorderSize = 0;
+            this.buttonKupony.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonKupony.Location = new System.Drawing.Point(229, 5);
             this.buttonKupony.Name = "buttonKupony";
-            this.buttonKupony.Size = new System.Drawing.Size(225, 80);
+            this.buttonKupony.Size = new System.Drawing.Size(220, 80);
             this.buttonKupony.TabIndex = 19;
             this.buttonKupony.Text = "Kupony";
             this.buttonKupony.UseVisualStyleBackColor = true;
@@ -122,19 +134,25 @@
             // 
             // buttonMenu
             // 
-            this.buttonMenu.Location = new System.Drawing.Point(12, 93);
+            this.buttonMenu.FlatAppearance.BorderColor = System.Drawing.Color.White;
+            this.buttonMenu.FlatAppearance.BorderSize = 0;
+            this.buttonMenu.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonMenu.Location = new System.Drawing.Point(3, 5);
             this.buttonMenu.Name = "buttonMenu";
-            this.buttonMenu.Size = new System.Drawing.Size(225, 80);
+            this.buttonMenu.Size = new System.Drawing.Size(220, 80);
             this.buttonMenu.TabIndex = 20;
             this.buttonMenu.Text = "Menu";
+            this.buttonMenu.UseMnemonic = false;
             this.buttonMenu.UseVisualStyleBackColor = true;
             this.buttonMenu.Click += new System.EventHandler(this.buttonMenu_Click);
             // 
             // buttonKontakt
             // 
-            this.buttonKontakt.Location = new System.Drawing.Point(936, 93);
+            this.buttonKontakt.FlatAppearance.BorderSize = 0;
+            this.buttonKontakt.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.buttonKontakt.Location = new System.Drawing.Point(919, 5);
             this.buttonKontakt.Name = "buttonKontakt";
-            this.buttonKontakt.Size = new System.Drawing.Size(225, 80);
+            this.buttonKontakt.Size = new System.Drawing.Size(220, 80);
             this.buttonKontakt.TabIndex = 21;
             this.buttonKontakt.Text = "Kontakt";
             this.buttonKontakt.UseVisualStyleBackColor = true;
@@ -150,25 +168,34 @@
             this.buttonLogo.UseVisualStyleBackColor = true;
             this.buttonLogo.Click += new System.EventHandler(this.buttonLogo_Click);
             // 
-            // panelContainer
+            // panelContainerSG
             // 
-            this.panelContainer.Location = new System.Drawing.Point(13, 180);
-            this.panelContainer.Name = "panelContainer";
-            this.panelContainer.Size = new System.Drawing.Size(1149, 419);
-            this.panelContainer.TabIndex = 23;
+            this.panelContainerSG.Location = new System.Drawing.Point(13, 189);
+            this.panelContainerSG.Name = "panelContainerSG";
+            this.panelContainerSG.Size = new System.Drawing.Size(1142, 410);
+            this.panelContainerSG.TabIndex = 23;
+            // 
+            // panel1
+            // 
+            this.panel1.BackColor = System.Drawing.Color.Tomato;
+            this.panel1.Controls.Add(this.buttonMenu);
+            this.panel1.Controls.Add(this.buttonKupony);
+            this.panel1.Controls.Add(this.buttonKontakt);
+            this.panel1.Controls.Add(this.buttonRestauracje);
+            this.panel1.Controls.Add(this.buttonKoszyk);
+            this.panel1.Location = new System.Drawing.Point(13, 93);
+            this.panel1.Name = "panel1";
+            this.panel1.Size = new System.Drawing.Size(1142, 90);
+            this.panel1.TabIndex = 24;
             // 
             // stronaGlowna
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1167, 610);
-            this.Controls.Add(this.panelContainer);
+            this.Controls.Add(this.panel1);
+            this.Controls.Add(this.panelContainerSG);
             this.Controls.Add(this.buttonLogo);
-            this.Controls.Add(this.buttonKontakt);
-            this.Controls.Add(this.buttonMenu);
-            this.Controls.Add(this.buttonKupony);
-            this.Controls.Add(this.buttonKoszyk);
-            this.Controls.Add(this.buttonRestauracje);
             this.Controls.Add(this.button5);
             this.Controls.Add(this.button4);
             this.Controls.Add(this.button3);
@@ -176,6 +203,7 @@
             this.Controls.Add(this.btnZaloguj);
             this.Name = "stronaGlowna";
             this.Text = "Strona Glówna";
+            this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -193,6 +221,8 @@
         private System.Windows.Forms.Button buttonMenu;
         private System.Windows.Forms.Button buttonKontakt;
         private System.Windows.Forms.Button buttonLogo;
-        private System.Windows.Forms.Panel panelContainer;
+        private System.Windows.Forms.Panel panelContainerSG;
+        private System.Windows.Forms.Panel panel1;
+        private System.Windows.Forms.ColorDialog colorDialog1;
     }
 }

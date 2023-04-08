@@ -10,9 +10,9 @@ using System.Windows.Forms;
 
 namespace Kowalczyk
 {
-    public partial class koszyk : Form
+    public partial class UserCMenu1 : UserControl
     {
-        public koszyk()
+        public UserCMenu1()
         {
             InitializeComponent();
         }

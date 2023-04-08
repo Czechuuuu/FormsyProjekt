@@ -20,8 +20,8 @@ namespace Kowalczyk
         private void AddUserControl(UserControl userControl) 
         {
             userControl.Dock = DockStyle.Fill;
-            panelContainer.Controls.Clear();
-            panelContainer.Controls.Add(userControl);
+            panelContainerSG.Controls.Clear();
+            panelContainerSG.Controls.Add(userControl);
             userControl.BringToFront();
         }
         public static void powrot()

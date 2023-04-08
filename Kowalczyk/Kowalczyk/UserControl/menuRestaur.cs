@@ -16,5 +16,13 @@ namespace Kowalczyk
         {
             InitializeComponent();
         }
+
+        private void AddUserControl(UserControl userControl)
+        {
+            userControl.Dock = DockStyle.Fill;
+            panelContainerMenu.Controls.Clear();
+            panelContainerMenu.Controls.Add(userControl);
+            userControl.BringToFront();
+        }
     }
 }

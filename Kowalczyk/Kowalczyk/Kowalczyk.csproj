@@ -49,6 +49,18 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="UserControl\UserControlMenu\UserCMenu2.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UserControlMenu\UserCMenu2.Designer.cs">
+      <DependentUpon>UserCMenu2.cs</DependentUpon>
+    </Compile>
+    <Compile Include="UserControl\UserControlMenu\UserCMenu1.cs">
+      <SubType>UserControl</SubType>
+    </Compile>
+    <Compile Include="UserControl\UserControlMenu\UserCMenu1.Designer.cs">
+      <DependentUpon>UserCMenu1.cs</DependentUpon>
+    </Compile>
     <Compile Include="UserControl\stronaglownaRestaur.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -60,12 +72,6 @@
     </Compile>
     <Compile Include="UserControl\kontaktRestaur.Designer.cs">
       <DependentUpon>kontaktRestaur.cs</DependentUpon>
-    </Compile>
-    <Compile Include="koszyk.cs">
-      <SubType>Form</SubType>
-    </Compile>
-    <Compile Include="koszyk.Designer.cs">
-      <DependentUpon>koszyk.cs</DependentUpon>
     </Compile>
     <Compile Include="UserControl\restauracjeRestaur.cs">
       <SubType>UserControl</SubType>
