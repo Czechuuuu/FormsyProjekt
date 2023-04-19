@@ -32,10 +32,9 @@ namespace Kowalczyk
         private void btnZaloguj_Click(object sender, EventArgs e)
         {
             Login login = new Login();
-            login.Show();
             this.Hide();
-            btnZaloguj.Text = "Wyloguj";
-            this.Show();
+            login.ShowDialog();
+            this.Close();
         }
 
         private void buttonMenu_Click(object sender, EventArgs e)

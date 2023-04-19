@@ -13,11 +13,13 @@ using static System.Windows.Forms.VisualStyles.VisualStyleElement;
 using System.Data.SQLite;
 using System.Threading;
 using System.Runtime.CompilerServices;
+using System.Media;
 
 namespace Kowalczyk
 {
     public partial class Login : Form
     {
+        public static String L, H;
         public Login()
         {
             InitializeComponent();
@@ -25,45 +27,48 @@ namespace Kowalczyk
 
         public void button_login_Click(object sender, EventArgs e)
         {
-            bool admin = false;
-            if(user.Text.Trim() == "" && pass.Text.Trim() == "")
+            SQLiteConnection conn = new SQLiteConnection("Data Source=Database1.db; Pooling=false");
+            conn.Open();
+            SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM Login", conn);
+            SQLiteDataReader reader = cmd.ExecuteReader();
+            bool flag = false;
+            while (reader.Read())
             {
-                MessageBox.Show("Empty Fields", "Error");
+                
+                String login = reader.GetString(1);
+                String password = reader.GetString(2);
+                if (user.Text == login && pass.Text == password)
+                {
+                    L = login; H = password;
+                    MessageBox.Show("Zalogowano");
+                    stronaGlownaZalogowana zalogowano = new stronaGlownaZalogowana();
+                    this.Hide();
+                    zalogowano.ShowDialog();
+                    this.Dispose();
+                }
             }
-            else
+            flag = true;
+            if (flag == true)
             {
-                string query = "SELECT * from Login WHERE username = @user and password = @pass";
-                SQLiteConnection conn = new SQLiteConnection("Data Source=Database1.db;Version=3;");
-                conn.Open();
-                SQLiteCommand cmd = new SQLiteCommand(query, conn);
-                cmd.Parameters.AddWithValue("@user", user.Text);
-                cmd.Parameters.AddWithValue("@pass", pass.Text);
-                SQLiteDataAdapter da = new SQLiteDataAdapter(cmd);
-                DataTable dt = new DataTable();
-                da.Fill(dt);
+                SystemSounds.Asterisk.Play();
+                MessageBox.Show("Nie udalo sie zalogowac");
+                flag = false;
+            }
+            reader.Close();
+            conn.Close();
+            
 
-                if (dt.Rows.Count> 0 && user.Text == "admin")
-                {
-                    MessageBox.Show("Witaj adminie", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    admin = true;
-                    this.Close();
-                }
-                if (dt.Rows.Count > 0 && admin == false)
-                {
-                    MessageBox.Show("Zalogowano", "Zalogowano", MessageBoxButtons.OK, MessageBoxIcon.Information);
-                    this.Close();
-                }
-                else
-                {
-                    MessageBox.Show("Sprawdz swoje haslo lub login","Błąd", MessageBoxButtons.OK, MessageBoxIcon.Error);
-                }
-            }
         }
 
         private void button_exit_Click(object sender, EventArgs e)
         {
             stronaGlowna.powrot();
             this.Close();
+        }
+
+        private void Login_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
