@@ -51,7 +51,7 @@ namespace Kowalczyk
             if (flag == true)
             {
                 SystemSounds.Asterisk.Play();
-                MessageBox.Show("Nie udalo sie zalogowac");
+                MessageBox.Show("Nie udalo sie zalogowa");
                 flag = false;
             }
             reader.Close();
