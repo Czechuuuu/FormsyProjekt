@@ -30,16 +30,28 @@ namespace Kowalczyk
                     var word = lines[i].Split(' ');
                     if (word[2] == Login.H)
                     {
+                        if (word[0] == "1")
+                            Login.czyAdmin = true;
                         lines[i] = $"{word[0]} {word[1]} {newpass.Text}";
                         break;
                     }
                 }
                 File.WriteAllLines("uzytkownicy.txt", lines);
                 MessageBox.Show("Zmieniono hasło");
-                stronaGlownaZalogowana sgz = new stronaGlownaZalogowana();
-                this.Hide();
-                sgz.ShowDialog();
-                this.Close();
+                if (Login.czyAdmin == false)
+                {
+                    stronaGlownaZalogowana sgz = new stronaGlownaZalogowana();
+                    this.Hide();
+                    sgz.ShowDialog();
+                    this.Close();
+                }
+                else
+                {
+                    stronaGlownaZalogowanaA sgz = new stronaGlownaZalogowanaA();
+                    this.Hide();
+                    sgz.ShowDialog();
+                    this.Close();
+                }
 
             }
             else if (curpass.Text == newpass.Text)   
@@ -61,10 +73,20 @@ namespace Kowalczyk
 
         private void button_exit_Click(object sender, EventArgs e)
         {
-            stronaGlownaZalogowana sgz = new stronaGlownaZalogowana();
-            this.Hide();
-            sgz.ShowDialog();
-            this.Close();
+            if (Login.czyAdmin == false)
+            {
+                stronaGlownaZalogowana sgz = new stronaGlownaZalogowana();
+                this.Hide();
+                sgz.ShowDialog();
+                this.Close();
+            }
+            else
+            {
+                stronaGlownaZalogowanaA sgz = new stronaGlownaZalogowanaA();
+                this.Hide();
+                sgz.ShowDialog();
+                this.Close();
+            }
         }
 
         private void curpass_TextChanged(object sender, EventArgs e)

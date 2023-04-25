@@ -69,3 +69,6 @@ C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalc
 C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaGlownaZalogowana.resources
 C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.ZDU.resources
 C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Database2.db
+C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaGlownaZalogowanaA.resources
+C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.DU.resources
+C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.ZU.resources

@@ -49,6 +49,24 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Dodanie użytkownika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Dodanie użytkownika.Designer.cs">
+      <DependentUpon>Dodanie użytkownika.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Zarządzenie użytkownikami.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zarządzenie użytkownikami.Designer.cs">
+      <DependentUpon>Zarządzenie użytkownikami.cs</DependentUpon>
+    </Compile>
+    <Compile Include="stronaGlownaZalogowanaAdmin .cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="stronaGlownaZalogowanaAdmin .Designer.cs">
+      <DependentUpon>stronaGlownaZalogowanaAdmin .cs</DependentUpon>
+    </Compile>
     <Compile Include="stronaGlownaZalogowana.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -123,6 +141,15 @@
     <Compile Include="ZDU.designer.cs">
       <DependentUpon>ZDU.cs</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="Dodanie użytkownika.resx">
+      <DependentUpon>Dodanie użytkownika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zarządzenie użytkownikami.resx">
+      <DependentUpon>Zarządzenie użytkownikami.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="stronaGlownaZalogowanaAdmin .resx">
+      <DependentUpon>stronaGlownaZalogowanaAdmin .cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="stronaGlownaZalogowana.resx">
       <DependentUpon>stronaGlownaZalogowana.cs</DependentUpon>
     </EmbeddedResource>

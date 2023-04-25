@@ -15,12 +15,14 @@ using System.Threading;
 using System.Runtime.CompilerServices;
 using System.Media;
 using System.IO;
+using System.Diagnostics.Eventing.Reader;
 
 namespace Kowalczyk
 {
     public partial class Login : Form
     {
         public static String L, H;
+        public static bool czyAdmin = false;
         public Login()
         {
             InitializeComponent();
@@ -37,6 +39,8 @@ namespace Kowalczyk
                 if (x[1] == user.Text && x[2] == pass.Text)
                 {
                     flag = false;
+                    if (x[0] == "1") // Admin to zawsze uzytkownik z ID 1
+                        Login.czyAdmin = true;
                     L = x[1]; H = x[2];
                     MessageBox.Show("Zalogowano");
                 }
@@ -50,11 +54,22 @@ namespace Kowalczyk
             }
             else
             {
-                sr.Close();
-                stronaGlownaZalogowana zalogowano = new stronaGlownaZalogowana();
-                this.Hide();
-                zalogowano.ShowDialog();
-                this.Dispose();
+                if (czyAdmin == false)
+                {
+                    sr.Close();
+                    stronaGlownaZalogowana zalogowano = new stronaGlownaZalogowana();
+                    this.Hide();
+                    zalogowano.ShowDialog();
+                    this.Dispose();
+                }
+                else
+                {
+                    sr.Close();
+                    stronaGlownaZalogowanaA zalogowano = new stronaGlownaZalogowanaA();
+                    this.Hide();
+                    zalogowano.ShowDialog();
+                    this.Dispose();
+                }
 
             }
         }
