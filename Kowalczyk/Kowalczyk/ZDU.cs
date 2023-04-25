@@ -4,6 +4,7 @@ using System.ComponentModel;
 using System.Data;
 using System.Data.SQLite;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Media;
 using System.Text;
@@ -21,24 +22,27 @@ namespace Kowalczyk
 
         private void asd_Click(object sender, EventArgs e)
         {
-            if (curpass.Text == Login.H)
+            if (curpass.Text == Login.H && (curpass.Text != newpass.Text))
             {
-                
-                String nowehaslo = curpass.Text;
-                SQLiteConnection conn2 = new SQLiteConnection("Data Source=Database1.db; Pooling=false");
-                conn2.Open();
-               
-                SQLiteCommand cmd = new SQLiteCommand($"UPDATE Login SET password = '{nowehaslo}' WHERE password = '{Login.H}'", conn2);        
-                cmd.ExecuteNonQuery();
-                
-                SystemSounds.Beep.Play();
+                var lines = File.ReadAllLines("uzytkownicy.txt");
+                for (int i = 0; i < lines.Length; i++)
+                {
+                    var word = lines[i].Split(' ');
+                    if (word[2] == Login.H)
+                    {
+                        lines[i] = $"{word[0]} {word[1]} {newpass.Text}";
+                        break;
+                    }
+                }
+                File.WriteAllLines("uzytkownicy.txt", lines);
                 MessageBox.Show("Zmieniono hasło");
-                
-                conn2.Close();
-
+                stronaGlownaZalogowana sgz = new stronaGlownaZalogowana();
+                this.Hide();
+                sgz.ShowDialog();
+                this.Close();
 
             }
-            else if (curpass.Text == newpass.Text && (curpass.Text != "" || newpass.Text != ""))   
+            else if (curpass.Text == newpass.Text)   
             {
                 SystemSounds.Asterisk.Play();
                 MessageBox.Show("Podano to samo hasło");

@@ -34,7 +34,6 @@
             this.newpass = new System.Windows.Forms.TextBox();
             this.asd = new System.Windows.Forms.Button();
             this.button_exit = new System.Windows.Forms.Button();
-            this.listBox1 = new System.Windows.Forms.ListBox();
             this.SuspendLayout();
             // 
             // ObecneHaslo
@@ -97,22 +96,11 @@
             this.button_exit.UseVisualStyleBackColor = true;
             this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
-            // listBox1
-            // 
-            this.listBox1.FormattingEnabled = true;
-            this.listBox1.ItemHeight = 16;
-            this.listBox1.Location = new System.Drawing.Point(804, 116);
-            this.listBox1.Name = "listBox1";
-            this.listBox1.Size = new System.Drawing.Size(165, 100);
-            this.listBox1.TabIndex = 9;
-            this.listBox1.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
-            // 
             // ZDU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
-            this.Controls.Add(this.listBox1);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.asd);
             this.Controls.Add(this.newpass);
@@ -134,6 +122,5 @@
         private System.Windows.Forms.TextBox newpass;
         private System.Windows.Forms.Button asd;
         private System.Windows.Forms.Button button_exit;
-        private System.Windows.Forms.ListBox listBox1;
     }
 }

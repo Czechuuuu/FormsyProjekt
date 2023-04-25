@@ -14,6 +14,7 @@ using System.Data.SQLite;
 using System.Threading;
 using System.Runtime.CompilerServices;
 using System.Media;
+using System.IO;
 
 namespace Kowalczyk
 {
@@ -27,37 +28,35 @@ namespace Kowalczyk
 
         public void button_login_Click(object sender, EventArgs e)
         {
-            SQLiteConnection conn = new SQLiteConnection("Data Source=Database1.db; Pooling=false");
-            conn.Open();
-            SQLiteCommand cmd = new SQLiteCommand("SELECT * FROM Login", conn);
-            SQLiteDataReader reader = cmd.ExecuteReader();
-            bool flag = false;
-            while (reader.Read())
+            StreamReader sr = new StreamReader("uzytkownicy.txt");
+            bool flag = true;
+            while (sr.Peek() >= 0)
             {
-                
-                String login = reader.GetString(1);
-                String password = reader.GetString(2);
-                if (user.Text == login && pass.Text == password)
+                string a = sr.ReadLine();
+                string[] x = a.Split(' ');
+                if (x[1] == user.Text && x[2] == pass.Text)
                 {
-                    L = login; H = password;
+                    flag = false;
+                    L = x[1]; H = x[2];
                     MessageBox.Show("Zalogowano");
-                    stronaGlownaZalogowana zalogowano = new stronaGlownaZalogowana();
-                    this.Hide();
-                    zalogowano.ShowDialog();
-                    this.Dispose();
                 }
             }
-            flag = true;
             if (flag == true)
             {
                 SystemSounds.Asterisk.Play();
-                MessageBox.Show("Nie udalo sie zalogowa");
+                MessageBox.Show("Nie udalo sie zalogować");
                 flag = false;
+                sr.Close();
             }
-            reader.Close();
-            conn.Close();
-            
+            else
+            {
+                sr.Close();
+                stronaGlownaZalogowana zalogowano = new stronaGlownaZalogowana();
+                this.Hide();
+                zalogowano.ShowDialog();
+                this.Dispose();
 
+            }
         }
 
         private void button_exit_Click(object sender, EventArgs e)
