@@ -72,3 +72,4 @@ C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\bin\Debug\Databa
 C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.stronaGlownaZalogowanaA.resources
 C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.DU.resources
 C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.ZU.resources
+C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.UU.resources

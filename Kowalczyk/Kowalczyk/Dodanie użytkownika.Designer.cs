@@ -31,8 +31,8 @@
             this.button_exit = new System.Windows.Forms.Button();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
-            this.user = new System.Windows.Forms.TextBox();
-            this.textBox1 = new System.Windows.Forms.TextBox();
+            this.login = new System.Windows.Forms.TextBox();
+            this.haslo = new System.Windows.Forms.TextBox();
             this.label3 = new System.Windows.Forms.Label();
             this.asd = new System.Windows.Forms.Button();
             this.SuspendLayout();
@@ -69,21 +69,22 @@
             this.label2.Text = "Hasło nowego użytkownika";
             this.label2.Click += new System.EventHandler(this.label2_Click);
             // 
-            // user
+            // login
             // 
-            this.user.Location = new System.Drawing.Point(524, 184);
-            this.user.Margin = new System.Windows.Forms.Padding(4);
-            this.user.Name = "user";
-            this.user.Size = new System.Drawing.Size(291, 22);
-            this.user.TabIndex = 13;
+            this.login.Location = new System.Drawing.Point(524, 191);
+            this.login.Margin = new System.Windows.Forms.Padding(4);
+            this.login.Name = "login";
+            this.login.Size = new System.Drawing.Size(291, 22);
+            this.login.TabIndex = 13;
+            this.login.TextChanged += new System.EventHandler(this.user_TextChanged);
             // 
-            // textBox1
+            // haslo
             // 
-            this.textBox1.Location = new System.Drawing.Point(524, 283);
-            this.textBox1.Margin = new System.Windows.Forms.Padding(4);
-            this.textBox1.Name = "textBox1";
-            this.textBox1.Size = new System.Drawing.Size(291, 22);
-            this.textBox1.TabIndex = 14;
+            this.haslo.Location = new System.Drawing.Point(524, 283);
+            this.haslo.Margin = new System.Windows.Forms.Padding(4);
+            this.haslo.Name = "haslo";
+            this.haslo.Size = new System.Drawing.Size(291, 22);
+            this.haslo.TabIndex = 14;
             // 
             // label3
             // 
@@ -104,6 +105,7 @@
             this.asd.TabIndex = 16;
             this.asd.Text = "Zatwierdz ";
             this.asd.UseVisualStyleBackColor = true;
+            this.asd.Click += new System.EventHandler(this.asd_Click);
             // 
             // DU
             // 
@@ -112,8 +114,8 @@
             this.ClientSize = new System.Drawing.Size(1067, 554);
             this.Controls.Add(this.asd);
             this.Controls.Add(this.label3);
-            this.Controls.Add(this.textBox1);
-            this.Controls.Add(this.user);
+            this.Controls.Add(this.haslo);
+            this.Controls.Add(this.login);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.label1);
             this.Controls.Add(this.button_exit);
@@ -129,8 +131,8 @@
         private System.Windows.Forms.Button button_exit;
         private System.Windows.Forms.Label label1;
         private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.TextBox user;
-        private System.Windows.Forms.TextBox textBox1;
+        private System.Windows.Forms.TextBox login;
+        private System.Windows.Forms.TextBox haslo;
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button asd;
     }

@@ -69,6 +69,7 @@
             this.UU.TabIndex = 29;
             this.UU.Text = "Usunięcie użytkownika";
             this.UU.UseVisualStyleBackColor = true;
+            this.UU.Click += new System.EventHandler(this.UU_Click);
             // 
             // button2
             // 

@@ -32,5 +32,15 @@ namespace Kowalczyk
             x.ShowDialog();
             this.Close();
         }
+
+        private void UU_Click(object sender, EventArgs e)
+        {
+            
+
+            UU x = new UU();
+            this.Hide();
+            x.ShowDialog();
+            this.Close();
+        }
     }
 }

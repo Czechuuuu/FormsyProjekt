@@ -55,6 +55,12 @@
     <Compile Include="Dodanie użytkownika.Designer.cs">
       <DependentUpon>Dodanie użytkownika.cs</DependentUpon>
     </Compile>
+    <Compile Include="Usunięcie użytkownika.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Usunięcie użytkownika.Designer.cs">
+      <DependentUpon>Usunięcie użytkownika.cs</DependentUpon>
+    </Compile>
     <Compile Include="Zarządzenie użytkownikami.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -143,6 +149,9 @@
     </Compile>
     <EmbeddedResource Include="Dodanie użytkownika.resx">
       <DependentUpon>Dodanie użytkownika.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Usunięcie użytkownika.resx">
+      <DependentUpon>Usunięcie użytkownika.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zarządzenie użytkownikami.resx">
       <DependentUpon>Zarządzenie użytkownikami.cs</DependentUpon>
