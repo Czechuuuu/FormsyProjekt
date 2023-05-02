@@ -21,7 +21,7 @@ namespace Kowalczyk
 {
     public partial class Login : Form
     {
-        public static String L, H;
+        public static String L, H, ID;
         public static bool czyAdmin = false;
         public Login()
         {
@@ -41,7 +41,7 @@ namespace Kowalczyk
                     flag = false;
                     if (x[0] == "1") // Admin to zawsze uzytkownik z ID 1
                         Login.czyAdmin = true;
-                    L = x[1]; H = x[2];
+                    L = x[1]; H = x[2]; ID = x[0];  
                     MessageBox.Show("Zalogowano");
                 }
             }

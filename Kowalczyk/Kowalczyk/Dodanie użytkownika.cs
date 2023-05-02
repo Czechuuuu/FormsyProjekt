@@ -65,12 +65,15 @@ namespace Kowalczyk
                         newUzytkownicy[i] = lines[i];
                     }
                 }
-                File.WriteAllLines("uzytkownicy.txt", newUzytkownicy);
 
-                ZU sgz = new ZU();
-                this.Hide();
-                sgz.ShowDialog();
-                this.Close();
+                ListaU.Items.Clear();
+                File.WriteAllLines("uzytkownicy.txt", newUzytkownicy);
+                for (int j = 1; j < newUzytkownicy.Length; j++)
+                {
+                    var word4 = newUzytkownicy[j].Split(' ');
+                    ListaU.Items.Add($"ID: {word4[0]}   Login: {word4[1]}   Hasło: {word4[2]}");
+                }
+
 
             }
             
@@ -130,6 +133,21 @@ namespace Kowalczyk
         private void user_TextChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void DU_Load(object sender, EventArgs e)
+        {
+            var lines = File.ReadAllLines("uzytkownicy.txt");
+            String[] lista = new String[lines.Length];
+            for (int i = 1; i < lines.Length; i++)
+            {
+                var word = lines[i].Split(' ');
+                lista[i] = $"ID: {word[0]}   Login: {word[1]}   Hasło: {word[2]}";
+            }
+            for (int i = 1; i < lista.Length; i++)
+            {
+                ListaU.Items.Add(lista[i]);
+            }
         }
     }
 }

@@ -32,6 +32,8 @@
             this.DU = new System.Windows.Forms.Button();
             this.UU = new System.Windows.Forms.Button();
             this.button2 = new System.Windows.Forms.Button();
+            this.ListaU = new System.Windows.Forms.ListBox();
+            this.label3 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // button_exit
@@ -82,19 +84,45 @@
             this.button2.TabIndex = 30;
             this.button2.Text = "Zmiana danych użytkownika";
             this.button2.UseVisualStyleBackColor = true;
+            this.button2.Click += new System.EventHandler(this.button2_Click);
+            // 
+            // ListaU
+            // 
+            this.ListaU.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.ListaU.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ListaU.FormattingEnabled = true;
+            this.ListaU.ItemHeight = 20;
+            this.ListaU.Location = new System.Drawing.Point(556, 58);
+            this.ListaU.Name = "ListaU";
+            this.ListaU.Size = new System.Drawing.Size(375, 424);
+            this.ListaU.TabIndex = 31;
+            // 
+            // label3
+            // 
+            this.label3.AutoSize = true;
+            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
+            this.label3.Location = new System.Drawing.Point(551, 25);
+            this.label3.Name = "label3";
+            this.label3.Size = new System.Drawing.Size(235, 29);
+            this.label3.TabIndex = 32;
+            this.label3.Text = "Lista użytkowników";
             // 
             // ZU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.label3);
+            this.Controls.Add(this.ListaU);
             this.Controls.Add(this.button2);
             this.Controls.Add(this.UU);
             this.Controls.Add(this.DU);
             this.Controls.Add(this.button_exit);
             this.Name = "ZU";
             this.Text = "Zarządzanie Użytkownikami";
+            this.Load += new System.EventHandler(this.ZU_Load);
             this.ResumeLayout(false);
+            this.PerformLayout();
 
         }
 
@@ -104,5 +132,7 @@
         private System.Windows.Forms.Button DU;
         private System.Windows.Forms.Button UU;
         private System.Windows.Forms.Button button2;
+        public System.Windows.Forms.ListBox ListaU;
+        private System.Windows.Forms.Label label3;
     }
 }

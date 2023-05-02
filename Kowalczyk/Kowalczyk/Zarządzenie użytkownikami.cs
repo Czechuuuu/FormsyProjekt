@@ -3,6 +3,7 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.IO;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
@@ -41,6 +42,29 @@ namespace Kowalczyk
             this.Hide();
             x.ShowDialog();
             this.Close();
+        }
+
+        private void button2_Click(object sender, EventArgs e)
+        {
+            ZDU2 x = new ZDU2();
+            this.Hide();
+            x.ShowDialog();
+            this.Close();
+        }
+
+        private void ZU_Load(object sender, EventArgs e)
+        {
+            var lines = File.ReadAllLines("uzytkownicy.txt");
+            String[] lista = new String[lines.Length];
+            for (int i = 1; i < lines.Length; i++)
+            {
+                var word = lines[i].Split(' ');
+                lista[i] = $"ID: {word[0]}   Login: {word[1]}   Hasło: {word[2]}";
+            }
+            for (int i = 1; i < lista.Length; i++)
+            {
+                ListaU.Items.Add(lista[i]);
+            }
         }
     }
 }
