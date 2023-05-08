@@ -232,6 +232,20 @@
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
     <None Include="Resources\logo.png" />
+    <None Include="Resources\Coca cola.jpg" />
+    <None Include="Resources\Caesar salad.jpg" />
+    <None Include="Resources\Cheeseburger.jpg" />
+    <None Include="Resources\Chicken nuggets.jpg" />
+    <None Include="Resources\Chicken wings.jpg" />
+    <None Include="Resources\Coffee.jpg" />
+    <None Include="Resources\Double cheeseburger.jpg" />
+    <None Include="Resources\French fries.jpg" />
+    <None Include="Resources\Hamburger.jpg" />
+    <None Include="Resources\Hot dog.jpg" />
+    <None Include="Resources\Iced tea.jpg" />
+    <None Include="Resources\Lemonade.jpg" />
+    <None Include="Resources\Milkshake.jpg" />
+    <None Include="Resources\Onion rings.jpg" />
     <Content Include="SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

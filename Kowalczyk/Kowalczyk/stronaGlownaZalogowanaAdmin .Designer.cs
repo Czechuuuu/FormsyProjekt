@@ -28,8 +28,10 @@
         /// </summary>
         private void InitializeComponent()
         {
+            System.Windows.Forms.Button btnWyloguj;
             this.ZDU = new System.Windows.Forms.Button();
             this.ZU = new System.Windows.Forms.Button();
+            btnWyloguj = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // ZDU
@@ -41,7 +43,7 @@
             this.ZDU.Name = "ZDU";
             this.ZDU.Size = new System.Drawing.Size(293, 98);
             this.ZDU.TabIndex = 27;
-            this.ZDU.Text = "Zmiana danych użytkownika";
+            this.ZDU.Text = "Zmiana hasła admina";
             this.ZDU.UseVisualStyleBackColor = true;
             this.ZDU.Click += new System.EventHandler(this.ZDU_Click);
             // 
@@ -58,11 +60,24 @@
             this.ZU.UseVisualStyleBackColor = true;
             this.ZU.Click += new System.EventHandler(this.button1_Click);
             // 
+            // btnWyloguj
+            // 
+            btnWyloguj.Font = new System.Drawing.Font("Calibri", 12F);
+            btnWyloguj.Location = new System.Drawing.Point(786, 324);
+            btnWyloguj.Margin = new System.Windows.Forms.Padding(4);
+            btnWyloguj.Name = "btnWyloguj";
+            btnWyloguj.Size = new System.Drawing.Size(293, 85);
+            btnWyloguj.TabIndex = 29;
+            btnWyloguj.Text = "Wyloguj";
+            btnWyloguj.UseVisualStyleBackColor = true;
+            btnWyloguj.Click += new System.EventHandler(this.btnWyloguj_Click);
+            // 
             // stronaGlownaZalogowanaA
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1556, 751);
+            this.Controls.Add(btnWyloguj);
             this.Controls.Add(this.ZU);
             this.Controls.Add(this.ZDU);
             this.Name = "stronaGlownaZalogowanaA";

@@ -108,7 +108,7 @@
             this.Controls.Add(this.NoweHaslo);
             this.Controls.Add(this.ObecneHaslo);
             this.Name = "ZDU";
-            this.Text = "Zmiana danych użytkownika";
+            this.Text = "Zmiana danych";
             this.ResumeLayout(false);
             this.PerformLayout();
 

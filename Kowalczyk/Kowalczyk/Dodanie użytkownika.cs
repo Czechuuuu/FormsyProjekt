@@ -73,6 +73,9 @@ namespace Kowalczyk
                     var word4 = newUzytkownicy[j].Split(' ');
                     ListaU.Items.Add($"ID: {word4[0]}   Login: {word4[1]}   Hasło: {word4[2]}");
                 }
+                login.Text = "";
+                haslo.Text = "";
+                
 
 
             }
