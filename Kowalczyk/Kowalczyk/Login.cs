@@ -76,7 +76,9 @@ namespace Kowalczyk
 
         private void button_exit_Click(object sender, EventArgs e)
         {
-            stronaGlowna.powrot();
+            stronaGlowna x = new stronaGlowna();
+            this.Hide();
+            x.ShowDialog();
             this.Close();
         }
 
