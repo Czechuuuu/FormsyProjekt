@@ -30,5 +30,13 @@ namespace Kowalczyk
         {
             
         }
+
+        private void btnWyloguj_Click(object sender, EventArgs e)
+        {
+            stronaGlowna x = new stronaGlowna();
+            this.Hide();
+            x.ShowDialog();
+            this.Close();
+        }
     }
 }
