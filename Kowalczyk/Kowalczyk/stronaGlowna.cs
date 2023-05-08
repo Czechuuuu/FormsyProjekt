@@ -15,6 +15,8 @@ namespace Kowalczyk
         public stronaGlowna()
         {
             InitializeComponent();
+            menuRestaur menuR = new menuRestaur();
+            AddUserControl(menuR);
         }
 
         private void AddUserControl(UserControl userControl) 
