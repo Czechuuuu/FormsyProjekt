@@ -217,6 +217,7 @@
             this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.Name = "stronaGlowna";
             this.Text = "Strona Glówna";
+            this.Load += new System.EventHandler(this.stronaGlowna_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

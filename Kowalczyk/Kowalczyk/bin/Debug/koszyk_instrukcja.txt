@@ -1,0 +1,5 @@
+
+ID zamówienia//ID uzytkownika//Suma pojedynczego zamowienia
+1              2              250
+2              3              33
+3              3              59

@@ -15,8 +15,7 @@ namespace Kowalczyk
         public stronaGlowna()
         {
             InitializeComponent();
-            menuRestaur menuR = new menuRestaur();
-            AddUserControl(menuR);
+            
         }
 
         private void AddUserControl(UserControl userControl) 
@@ -73,6 +72,11 @@ namespace Kowalczyk
         {
             stronaglownaRestaur sgloR = new stronaglownaRestaur();
             AddUserControl(sgloR);
+        }
+
+        private void stronaGlowna_Load(object sender, EventArgs e)
+        {
+
         }
     }
 }
