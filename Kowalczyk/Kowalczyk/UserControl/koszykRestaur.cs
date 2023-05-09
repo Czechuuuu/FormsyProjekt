@@ -460,5 +460,56 @@ namespace Kowalczyk
         {
 
         }
+
+        private void button15_Click(object sender, EventArgs e)
+        {
+            //dodawanie do koszyka całych kuponów rabatowych
+                //Kupon 1 Hamburger
+                if (promokod.Text == "7YvgAz")
+                {
+                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add($"{Produkty[10]} - {Ceny[10]} zł");
+                    kosz.Items.Add($"{Produkty[9]} - {Ceny[9]} zł");
+                    kosz.Items.Add($"{Produkty[11]} - {Ceny[11]} zł");
+                    kosz.Items.Add("----------------------------");
+                    suma = 16;
+                    sumapro.Text = $"{suma.ToString()} zł";
+                }
+                //kupon 2 Cheeseburger
+                if (promokod.Text == "oMfUkk")
+                {
+                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add($"{Produkty[3]} - {Ceny[3]} zł");
+                    kosz.Items.Add($"{Produkty[5]} - {Ceny[5]} zł");
+                    kosz.Items.Add($"{Produkty[0]} - {Ceny[0]} zł");
+                    kosz.Items.Add("----------------------------");
+                    suma = 22;
+                    sumapro.Text = $"{suma.ToString()} zł";
+                }
+                //kupon3 skrzydałka
+                if (promokod.Text == "ndrueB")
+                {
+                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add($"{Produkty[7]} - {Ceny[7]} zł");
+                    kosz.Items.Add($"{Produkty[8]} - {Ceny[8]} zł");
+                    kosz.Items.Add($"{Produkty[10]} - {Ceny[10]} zł");
+                    kosz.Items.Add("----------------------------");
+                    suma = 17;
+                    sumapro.Text = $"{suma.ToString()} zł";
+                }
+                //kupon4 Nuggets
+                if (promokod.Text == "wjL95V")
+                {
+                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add($"{Produkty[4]} - {Ceny[4]} zł");
+                    kosz.Items.Add($"{Produkty[2]} - {Ceny[2]} zł");
+                    kosz.Items.Add($"{Produkty[11]} - {Ceny[10]} zł");
+                    kosz.Items.Add("----------------------------");
+                    suma = 15;
+                    sumapro.Text = $"{suma.ToString()} zł";
+                }
+
+            
+        }
     }
 }
