@@ -58,6 +58,8 @@
             this.button13 = new System.Windows.Forms.Button();
             this.button14 = new System.Windows.Forms.Button();
             this.kosz = new System.Windows.Forms.ListBox();
+            this.lista = new System.Windows.Forms.ListBox();
+            this.label15 = new System.Windows.Forms.Label();
             this.SuspendLayout();
             // 
             // label1
@@ -149,6 +151,7 @@
             this.label13.Size = new System.Drawing.Size(244, 20);
             this.label13.TabIndex = 25;
             this.label13.Text = "Podwójny cheeseburger - 13 zł ";
+            this.label13.Click += new System.EventHandler(this.label13_Click);
             // 
             // label8
             // 
@@ -333,7 +336,7 @@
             // 
             // button13
             // 
-            this.button13.Location = new System.Drawing.Point(1111, 446);
+            this.button13.Location = new System.Drawing.Point(1084, 445);
             this.button13.Name = "button13";
             this.button13.Size = new System.Drawing.Size(156, 47);
             this.button13.TabIndex = 44;
@@ -343,7 +346,7 @@
             // 
             // button14
             // 
-            this.button14.Location = new System.Drawing.Point(951, 446);
+            this.button14.Location = new System.Drawing.Point(912, 445);
             this.button14.Name = "button14";
             this.button14.Size = new System.Drawing.Size(154, 47);
             this.button14.TabIndex = 45;
@@ -359,13 +362,36 @@
             this.kosz.ItemHeight = 20;
             this.kosz.Location = new System.Drawing.Point(606, 56);
             this.kosz.Name = "kosz";
-            this.kosz.Size = new System.Drawing.Size(546, 384);
+            this.kosz.Size = new System.Drawing.Size(460, 384);
             this.kosz.TabIndex = 46;
+            // 
+            // lista
+            // 
+            this.lista.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
+            this.lista.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lista.FormattingEnabled = true;
+            this.lista.ItemHeight = 20;
+            this.lista.Location = new System.Drawing.Point(1084, 57);
+            this.lista.Name = "lista";
+            this.lista.Size = new System.Drawing.Size(417, 384);
+            this.lista.TabIndex = 47;
+            // 
+            // label15
+            // 
+            this.label15.AutoSize = true;
+            this.label15.Font = new System.Drawing.Font("Microsoft Sans Serif", 14F);
+            this.label15.Location = new System.Drawing.Point(1079, 25);
+            this.label15.Name = "label15";
+            this.label15.Size = new System.Drawing.Size(297, 29);
+            this.label15.TabIndex = 48;
+            this.label15.Text = "Ilość produktów w koszyku";
             // 
             // koszykRestaur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
+            this.Controls.Add(this.label15);
+            this.Controls.Add(this.lista);
             this.Controls.Add(this.kosz);
             this.Controls.Add(this.button14);
             this.Controls.Add(this.button13);
@@ -396,7 +422,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.button1);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
+            this.Margin = new System.Windows.Forms.Padding(4);
             this.Name = "koszykRestaur";
             this.Size = new System.Drawing.Size(1532, 516);
             this.Load += new System.EventHandler(this.koszykRestaur_Load);
@@ -436,5 +462,7 @@
         private System.Windows.Forms.Button button13;
         private System.Windows.Forms.Button button14;
         public System.Windows.Forms.ListBox kosz;
+        public System.Windows.Forms.ListBox lista;
+        private System.Windows.Forms.Label label15;
     }
 }

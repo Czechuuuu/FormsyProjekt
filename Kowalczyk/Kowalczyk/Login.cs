@@ -32,6 +32,7 @@ namespace Kowalczyk
         {
             StreamReader sr = new StreamReader("uzytkownicy.txt");
             bool flag = true;
+            czyAdmin = false;
             while (sr.Peek() >= 0)
             {
                 string a = sr.ReadLine();

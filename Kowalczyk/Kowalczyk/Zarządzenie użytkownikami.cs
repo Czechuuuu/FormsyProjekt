@@ -66,5 +66,18 @@ namespace Kowalczyk
                 ListaU.Items.Add(lista[i]);
             }
         }
+
+        private void button1_Click(object sender, EventArgs e)
+        {
+            PoglądZamówień x = new PoglądZamówień();
+            this.Hide();
+            x.ShowDialog();
+            this.Close();
+        }
+
+        private void ListaU_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
+        }
     }
 }

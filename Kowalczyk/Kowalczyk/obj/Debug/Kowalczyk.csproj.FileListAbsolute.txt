@@ -83,3 +83,4 @@ C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.kuponyRestaur.resources
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.menuRestaur.resources
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.ZDU.resources
+C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.PoglądZamówień.resources

@@ -34,11 +34,12 @@
             this.button2 = new System.Windows.Forms.Button();
             this.ListaU = new System.Windows.Forms.ListBox();
             this.label3 = new System.Windows.Forms.Label();
+            this.button1 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // button_exit
             // 
-            this.button_exit.Location = new System.Drawing.Point(100, 454);
+            this.button_exit.Location = new System.Drawing.Point(100, 483);
             this.button_exit.Margin = new System.Windows.Forms.Padding(4);
             this.button_exit.Name = "button_exit";
             this.button_exit.Size = new System.Drawing.Size(100, 28);
@@ -96,6 +97,7 @@
             this.ListaU.Name = "ListaU";
             this.ListaU.Size = new System.Drawing.Size(375, 424);
             this.ListaU.TabIndex = 31;
+            this.ListaU.SelectedIndexChanged += new System.EventHandler(this.ListaU_SelectedIndexChanged);
             // 
             // label3
             // 
@@ -107,11 +109,25 @@
             this.label3.TabIndex = 32;
             this.label3.Text = "Lista użytkowników";
             // 
+            // button1
+            // 
+            this.button1.FlatAppearance.BorderSize = 0;
+            this.button1.Font = new System.Drawing.Font("Calibri", 12F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.button1.Location = new System.Drawing.Point(100, 358);
+            this.button1.Margin = new System.Windows.Forms.Padding(4);
+            this.button1.Name = "button1";
+            this.button1.Size = new System.Drawing.Size(293, 98);
+            this.button1.TabIndex = 33;
+            this.button1.Text = "Pogląd zamówień";
+            this.button1.UseVisualStyleBackColor = true;
+            this.button1.Click += new System.EventHandler(this.button1_Click);
+            // 
             // ZU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.Controls.Add(this.button1);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ListaU);
             this.Controls.Add(this.button2);
@@ -134,5 +150,6 @@
         private System.Windows.Forms.Button button2;
         public System.Windows.Forms.ListBox ListaU;
         private System.Windows.Forms.Label label3;
+        private System.Windows.Forms.Button button1;
     }
 }
