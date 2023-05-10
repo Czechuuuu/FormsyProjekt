@@ -61,6 +61,11 @@
     <Compile Include="Pogląd zamówień.Designer.cs">
       <DependentUpon>Pogląd zamówień.cs</DependentUpon>
     </Compile>
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
     <Compile Include="Zmiana danych użytkownika admin.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -206,14 +211,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
-      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
       <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
     </EmbeddedResource>
-    <Compile Include="Properties\Resources.Designer.cs">
-      <AutoGen>True</AutoGen>
-      <DependentUpon>Resources.resx</DependentUpon>
-      <DesignTime>True</DesignTime>
-    </Compile>
     <EmbeddedResource Include="ZDU.resx">
       <DependentUpon>ZDU.cs</DependentUpon>
     </EmbeddedResource>
@@ -232,6 +232,7 @@
       <DependentUpon>Settings.settings</DependentUpon>
       <DesignTimeSharedInput>True</DesignTimeSharedInput>
     </Compile>
+    <None Include="Resources\UniversidadPersonalUseBold-X3D6a.ttf" />
   </ItemGroup>
   <ItemGroup>
     <None Include="App.config" />
@@ -260,6 +261,8 @@
     <None Include="Resources\kupon3.png" />
     <None Include="Resources\kupon_1.jpg" />
     <None Include="Resources\Bez tytułu.png2.png" />
+    <None Include="Resources\2083799-Ze-wzgledu-na-zmieniajace-sie-potrzeby-gosci-wlasciciele-restauracji-Harnas-postanowili-nieco-odswiezyc-wnetrze-lokalu-oraz-karte-dan.jpg" />
+    <None Include="Resources\resttauracja w srodku.png" />
     <Content Include="SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

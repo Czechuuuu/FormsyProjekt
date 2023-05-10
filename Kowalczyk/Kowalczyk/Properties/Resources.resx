@@ -118,8 +118,8 @@
     <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
   </resheader>
   <assembly alias="System.Windows.Forms" name="System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089" />
-  <data name="Onion rings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Onion rings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="Bez tytułu.png2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Bez tytułu.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Chicken wings" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chicken wings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -160,11 +160,17 @@
   <data name="Chicken nuggets" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chicken nuggets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="Onion rings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Onion rings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kupon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kupon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lemonade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="2083799-Ze-wzgledu-na-zmieniajace-sie-potrzeby-gosci-wlasciciele-restauracji-Harnas-postanowili-nieco-odswiezyc-wnetrze-lokalu-oraz-karte-dan" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\2083799-Ze-wzgledu-na-zmieniajace-sie-potrzeby-gosci-wlasciciele-restauracji-Harnas-postanowili-nieco-odswiezyc-wnetrze-lokalu-oraz-karte-dan.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Double cheeseburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Double cheeseburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -178,7 +184,7 @@
   <data name="Coca cola1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coca cola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Bez tytułu.png2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Bez tytułu.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="resttauracja w srodku" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\resttauracja w srodku.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

@@ -41,7 +41,8 @@
             this.buttonLogo = new System.Windows.Forms.Button();
             this.panelContainerSG = new System.Windows.Forms.Panel();
             this.panel1 = new System.Windows.Forms.Panel();
-            this.colorDialog1 = new System.Windows.Forms.ColorDialog();
+            this.stronaglownaRestaur1 = new Kowalczyk.stronaglownaRestaur();
+            this.panelContainerSG.SuspendLayout();
             this.panel1.SuspendLayout();
             this.SuspendLayout();
             // 
@@ -169,9 +170,10 @@
             // 
             // panelContainerSG
             // 
+            this.panelContainerSG.Controls.Add(this.stronaglownaRestaur1);
             this.panelContainerSG.Location = new System.Drawing.Point(13, 189);
             this.panelContainerSG.Name = "panelContainerSG";
-            this.panelContainerSG.Size = new System.Drawing.Size(1142, 410);
+            this.panelContainerSG.Size = new System.Drawing.Size(1142, 409);
             this.panelContainerSG.TabIndex = 23;
             // 
             // panel1
@@ -186,6 +188,14 @@
             this.panel1.Name = "panel1";
             this.panel1.Size = new System.Drawing.Size(1142, 90);
             this.panel1.TabIndex = 24;
+            // 
+            // stronaglownaRestaur1
+            // 
+            this.stronaglownaRestaur1.BackColor = System.Drawing.Color.BurlyWood;
+            this.stronaglownaRestaur1.Location = new System.Drawing.Point(0, 0);
+            this.stronaglownaRestaur1.Name = "stronaglownaRestaur1";
+            this.stronaglownaRestaur1.Size = new System.Drawing.Size(1149, 419);
+            this.stronaglownaRestaur1.TabIndex = 0;
             // 
             // stronaGlowna
             // 
@@ -203,7 +213,7 @@
             this.Controls.Add(this.btnZaloguj);
             this.Name = "stronaGlowna";
             this.Text = "Strona Glówna";
-            this.Load += new System.EventHandler(this.stronaGlowna_Load);
+            this.panelContainerSG.ResumeLayout(false);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 
@@ -224,6 +234,6 @@
         private System.Windows.Forms.Button buttonLogo;
         private System.Windows.Forms.Panel panelContainerSG;
         private System.Windows.Forms.Panel panel1;
-        private System.Windows.Forms.ColorDialog colorDialog1;
+        private stronaglownaRestaur stronaglownaRestaur1;
     }
 }

@@ -3,7 +3,9 @@ using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
 using System.Drawing;
+using System.Drawing.Text;
 using System.Linq;
+using System.Reflection.Emit;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -15,7 +17,6 @@ namespace Kowalczyk
         public stronaGlowna()
         {
             InitializeComponent();
-            
         }
 
         private void AddUserControl(UserControl userControl) 
@@ -72,11 +73,6 @@ namespace Kowalczyk
         {
             stronaglownaRestaur sgloR = new stronaglownaRestaur();
             AddUserControl(sgloR);
-        }
-
-        private void stronaGlowna_Load(object sender, EventArgs e)
-        {
-
         }
     }
 }

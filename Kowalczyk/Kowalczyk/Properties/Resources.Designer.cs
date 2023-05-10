@@ -63,6 +63,17 @@ namespace Kowalczyk.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _2083799_Ze_wzgledu_na_zmieniajace_sie_potrzeby_gosci_wlasciciele_restauracji_Harnas_postanowili_nieco_odswiezyc_wnetrze_lokalu_oraz_karte_dan {
+            get {
+                object obj = ResourceManager.GetObject("2083799-Ze-wzgledu-na-zmieniajace-sie-potrzeby-gosci-wlasciciele-restauracji-Harn" +
+                        "as-postanowili-nieco-odswiezyc-wnetrze-lokalu-oraz-karte-dan", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bez_tytułu_png2 {
             get {
                 object obj = ResourceManager.GetObject("Bez tytułu.png2", resourceCulture);
@@ -266,6 +277,16 @@ namespace Kowalczyk.Properties {
         internal static System.Drawing.Bitmap Onion_rings {
             get {
                 object obj = ResourceManager.GetObject("Onion rings", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap resttauracja_w_srodku {
+            get {
+                object obj = ResourceManager.GetObject("resttauracja w srodku", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }
