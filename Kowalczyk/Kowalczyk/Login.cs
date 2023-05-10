@@ -26,6 +26,7 @@ namespace Kowalczyk
         public Login()
         {
             InitializeComponent();
+            passHide.Hide();
         }
 
         public void button_login_Click(object sender, EventArgs e)
@@ -73,6 +74,24 @@ namespace Kowalczyk
                 }
 
             }
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            passHide.Text = pass.Text;
+        }
+
+        private void btnPassHide_MouseDown(object sender, MouseEventArgs e)
+        {
+            passHide.Show();
+            pass.Hide();
+        }
+
+        private void btnPassHide_MouseUp(object sender, MouseEventArgs e)
+        {
+            passHide.Hide();
+            pass.Show();   
+
         }
 
         private void button_exit_Click(object sender, EventArgs e)

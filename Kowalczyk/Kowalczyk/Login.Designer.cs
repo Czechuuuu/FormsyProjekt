@@ -28,6 +28,7 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.label1 = new System.Windows.Forms.Label();
             this.label2 = new System.Windows.Forms.Label();
             this.label3 = new System.Windows.Forms.Label();
@@ -35,6 +36,9 @@
             this.pass = new System.Windows.Forms.TextBox();
             this.button_login = new System.Windows.Forms.Button();
             this.button_exit = new System.Windows.Forms.Button();
+            this.passHide = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
+            this.btnPassHide = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -102,12 +106,38 @@
             this.button_exit.UseVisualStyleBackColor = true;
             this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
+            // passHide
+            // 
+            this.passHide.Location = new System.Drawing.Point(295, 219);
+            this.passHide.Name = "passHide";
+            this.passHide.Size = new System.Drawing.Size(219, 20);
+            this.passHide.TabIndex = 7;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
+            // btnPassHide
+            // 
+            this.btnPassHide.Location = new System.Drawing.Point(520, 217);
+            this.btnPassHide.Name = "btnPassHide";
+            this.btnPassHide.Size = new System.Drawing.Size(75, 23);
+            this.btnPassHide.TabIndex = 8;
+            this.btnPassHide.Text = "Pokaż hasło";
+            this.btnPassHide.UseVisualStyleBackColor = true;
+            this.btnPassHide.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnPassHide_MouseDown);
+            this.btnPassHide.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnPassHide_MouseUp);
+            // 
             // Login
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.btnPassHide);
+            this.Controls.Add(this.passHide);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.button_login);
             this.Controls.Add(this.pass);
@@ -133,6 +163,9 @@
         private System.Windows.Forms.TextBox pass;
         private System.Windows.Forms.Button button_login;
         private System.Windows.Forms.Button button_exit;
+        private System.Windows.Forms.TextBox passHide;
+        private System.Windows.Forms.Timer timer1;
+        private System.Windows.Forms.Button btnPassHide;
     }
 }
 
