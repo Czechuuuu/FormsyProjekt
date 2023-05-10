@@ -89,5 +89,10 @@ namespace Kowalczyk
             kontaktRestaur kontR = new kontaktRestaur();
             AddUserControl(kontR);
         }
+
+        private void stronaGlownaZalogowana_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }

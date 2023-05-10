@@ -40,26 +40,25 @@
             // 
             this.label1.AutoSize = true;
             this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label1.Location = new System.Drawing.Point(102, 193);
+            this.label1.Location = new System.Drawing.Point(76, 157);
+            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(464, 29);
+            this.label1.Size = new System.Drawing.Size(375, 24);
             this.label1.TabIndex = 12;
             this.label1.Text = "ID użytkownika, którego chcesz usunąć";
             // 
             // kogousunac
             // 
-            this.kogousunac.Location = new System.Drawing.Point(107, 239);
-            this.kogousunac.Margin = new System.Windows.Forms.Padding(4);
+            this.kogousunac.Location = new System.Drawing.Point(80, 194);
             this.kogousunac.Name = "kogousunac";
-            this.kogousunac.Size = new System.Drawing.Size(100, 22);
+            this.kogousunac.Size = new System.Drawing.Size(76, 20);
             this.kogousunac.TabIndex = 14;
             // 
             // button_exit
             // 
-            this.button_exit.Location = new System.Drawing.Point(107, 414);
-            this.button_exit.Margin = new System.Windows.Forms.Padding(4);
+            this.button_exit.Location = new System.Drawing.Point(80, 336);
             this.button_exit.Name = "button_exit";
-            this.button_exit.Size = new System.Drawing.Size(100, 28);
+            this.button_exit.Size = new System.Drawing.Size(75, 23);
             this.button_exit.TabIndex = 16;
             this.button_exit.Text = "Wyjście";
             this.button_exit.UseVisualStyleBackColor = true;
@@ -70,10 +69,11 @@
             this.ListaU.AccessibleRole = System.Windows.Forms.AccessibleRole.None;
             this.ListaU.Font = new System.Drawing.Font("Microsoft Sans Serif", 10.2F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.ListaU.FormattingEnabled = true;
-            this.ListaU.ItemHeight = 20;
-            this.ListaU.Location = new System.Drawing.Point(632, 95);
+            this.ListaU.ItemHeight = 17;
+            this.ListaU.Location = new System.Drawing.Point(474, 77);
+            this.ListaU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.ListaU.Name = "ListaU";
-            this.ListaU.Size = new System.Drawing.Size(375, 424);
+            this.ListaU.Size = new System.Drawing.Size(282, 344);
             this.ListaU.TabIndex = 17;
             this.ListaU.SelectedIndexChanged += new System.EventHandler(this.listBox1_SelectedIndexChanged);
             // 
@@ -81,17 +81,19 @@
             // 
             this.label3.AutoSize = true;
             this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Bold);
-            this.label3.Location = new System.Drawing.Point(627, 63);
+            this.label3.Location = new System.Drawing.Point(470, 51);
+            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
             this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(235, 29);
+            this.label3.Size = new System.Drawing.Size(186, 24);
             this.label3.TabIndex = 18;
             this.label3.Text = "Lista użytkowników";
             // 
             // asd
             // 
-            this.asd.Location = new System.Drawing.Point(107, 268);
+            this.asd.Location = new System.Drawing.Point(80, 218);
+            this.asd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.asd.Name = "asd";
-            this.asd.Size = new System.Drawing.Size(100, 28);
+            this.asd.Size = new System.Drawing.Size(75, 23);
             this.asd.TabIndex = 19;
             this.asd.Text = "Zatwierdz ";
             this.asd.UseVisualStyleBackColor = true;
@@ -99,15 +101,17 @@
             // 
             // UU
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
-            this.ClientSize = new System.Drawing.Size(1067, 554);
+            this.BackColor = System.Drawing.Color.BurlyWood;
+            this.ClientSize = new System.Drawing.Size(800, 450);
             this.Controls.Add(this.asd);
             this.Controls.Add(this.label3);
             this.Controls.Add(this.ListaU);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.kogousunac);
             this.Controls.Add(this.label1);
+            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
             this.Name = "UU";
             this.Text = "Usunięcie użytkownika";
             this.Load += new System.EventHandler(this.UU_Load);

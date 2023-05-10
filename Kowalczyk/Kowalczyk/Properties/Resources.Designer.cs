@@ -63,6 +63,16 @@ namespace Kowalczyk.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap Bez_tytułu_png2 {
+            get {
+                object obj = ResourceManager.GetObject("Bez tytułu.png2", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Caesar_salad {
             get {
                 object obj = ResourceManager.GetObject("Caesar salad", resourceCulture);

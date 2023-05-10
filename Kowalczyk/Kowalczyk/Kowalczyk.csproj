@@ -259,6 +259,7 @@
     <None Include="Resources\kupon2.png" />
     <None Include="Resources\kupon3.png" />
     <None Include="Resources\kupon_1.jpg" />
+    <None Include="Resources\Bez tytułu.png2.png" />
     <Content Include="SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>

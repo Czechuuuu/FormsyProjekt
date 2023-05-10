@@ -144,11 +144,6 @@ namespace Kowalczyk
             ilosc[9] = ilosc[9] + 1;
         }
 
-        private void label15_Click(object sender, EventArgs e)
-        {
-
-        }
-
         private void button2_Click(object sender, EventArgs e)
         {
             kosz.Items.Add($"{Produkty[1]} - {Ceny[1]} zł");
