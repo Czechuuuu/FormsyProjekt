@@ -46,9 +46,10 @@
             // 
             this.ZDU.FlatAppearance.BorderSize = 0;
             this.ZDU.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ZDU.Location = new System.Drawing.Point(772, 9);
+            this.ZDU.Location = new System.Drawing.Point(1029, 11);
+            this.ZDU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ZDU.Name = "ZDU";
-            this.ZDU.Size = new System.Drawing.Size(150, 75);
+            this.ZDU.Size = new System.Drawing.Size(200, 92);
             this.ZDU.TabIndex = 27;
             this.ZDU.Text = "Zmiana hasła admina";
             this.ZDU.UseVisualStyleBackColor = true;
@@ -58,9 +59,10 @@
             // 
             this.ZU.FlatAppearance.BorderSize = 0;
             this.ZU.Font = new System.Drawing.Font("Calibri", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.ZU.Location = new System.Drawing.Point(616, 9);
+            this.ZU.Location = new System.Drawing.Point(821, 11);
+            this.ZU.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.ZU.Name = "ZU";
-            this.ZU.Size = new System.Drawing.Size(150, 75);
+            this.ZU.Size = new System.Drawing.Size(200, 92);
             this.ZU.TabIndex = 28;
             this.ZU.Text = "Zarządzanie użytkownikami";
             this.ZU.UseVisualStyleBackColor = true;
@@ -70,11 +72,13 @@
             // 
             this.buttonLogo.FlatStyle = System.Windows.Forms.FlatStyle.Popup;
             this.buttonLogo.Image = global::Kowalczyk.Properties.Resources.Bez_tytułu_png2;
-            this.buttonLogo.Location = new System.Drawing.Point(13, 10);
+            this.buttonLogo.Location = new System.Drawing.Point(17, 12);
+            this.buttonLogo.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonLogo.Name = "buttonLogo";
-            this.buttonLogo.Size = new System.Drawing.Size(500, 75);
+            this.buttonLogo.Size = new System.Drawing.Size(667, 92);
             this.buttonLogo.TabIndex = 30;
             this.buttonLogo.UseVisualStyleBackColor = true;
+            this.buttonLogo.Click += new System.EventHandler(this.buttonLogo_Click);
             // 
             // panel1
             // 
@@ -84,9 +88,10 @@
             this.panel1.Controls.Add(this.buttonKontakt);
             this.panel1.Controls.Add(this.buttonRestauracje);
             this.panel1.Controls.Add(this.buttonKoszyk);
-            this.panel1.Location = new System.Drawing.Point(10, 92);
+            this.panel1.Location = new System.Drawing.Point(13, 113);
+            this.panel1.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panel1.Name = "panel1";
-            this.panel1.Size = new System.Drawing.Size(1142, 90);
+            this.panel1.Size = new System.Drawing.Size(1523, 111);
             this.panel1.TabIndex = 31;
             // 
             // buttonMenu
@@ -94,9 +99,10 @@
             this.buttonMenu.FlatAppearance.BorderColor = System.Drawing.Color.White;
             this.buttonMenu.FlatAppearance.BorderSize = 0;
             this.buttonMenu.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonMenu.Location = new System.Drawing.Point(3, 5);
+            this.buttonMenu.Location = new System.Drawing.Point(4, 6);
+            this.buttonMenu.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonMenu.Name = "buttonMenu";
-            this.buttonMenu.Size = new System.Drawing.Size(220, 80);
+            this.buttonMenu.Size = new System.Drawing.Size(293, 98);
             this.buttonMenu.TabIndex = 20;
             this.buttonMenu.Text = "Menu";
             this.buttonMenu.UseMnemonic = false;
@@ -107,9 +113,10 @@
             // 
             this.buttonKupony.FlatAppearance.BorderSize = 0;
             this.buttonKupony.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonKupony.Location = new System.Drawing.Point(229, 5);
+            this.buttonKupony.Location = new System.Drawing.Point(305, 6);
+            this.buttonKupony.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonKupony.Name = "buttonKupony";
-            this.buttonKupony.Size = new System.Drawing.Size(220, 80);
+            this.buttonKupony.Size = new System.Drawing.Size(293, 98);
             this.buttonKupony.TabIndex = 19;
             this.buttonKupony.Text = "Kupony";
             this.buttonKupony.UseVisualStyleBackColor = true;
@@ -119,9 +126,10 @@
             // 
             this.buttonKontakt.FlatAppearance.BorderSize = 0;
             this.buttonKontakt.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonKontakt.Location = new System.Drawing.Point(919, 5);
+            this.buttonKontakt.Location = new System.Drawing.Point(1225, 6);
+            this.buttonKontakt.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonKontakt.Name = "buttonKontakt";
-            this.buttonKontakt.Size = new System.Drawing.Size(220, 80);
+            this.buttonKontakt.Size = new System.Drawing.Size(293, 98);
             this.buttonKontakt.TabIndex = 21;
             this.buttonKontakt.Text = "Kontakt";
             this.buttonKontakt.UseVisualStyleBackColor = true;
@@ -131,9 +139,10 @@
             // 
             this.buttonRestauracje.FlatAppearance.BorderSize = 0;
             this.buttonRestauracje.Font = new System.Drawing.Font("Calibri", 21.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonRestauracje.Location = new System.Drawing.Point(693, 5);
+            this.buttonRestauracje.Location = new System.Drawing.Point(924, 6);
+            this.buttonRestauracje.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonRestauracje.Name = "buttonRestauracje";
-            this.buttonRestauracje.Size = new System.Drawing.Size(220, 80);
+            this.buttonRestauracje.Size = new System.Drawing.Size(293, 98);
             this.buttonRestauracje.TabIndex = 17;
             this.buttonRestauracje.Text = "Nasze Restauracje";
             this.buttonRestauracje.UseVisualStyleBackColor = true;
@@ -143,9 +152,10 @@
             // 
             this.buttonKoszyk.FlatAppearance.BorderSize = 0;
             this.buttonKoszyk.Font = new System.Drawing.Font("Calibri", 36F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.buttonKoszyk.Location = new System.Drawing.Point(460, 5);
+            this.buttonKoszyk.Location = new System.Drawing.Point(613, 6);
+            this.buttonKoszyk.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.buttonKoszyk.Name = "buttonKoszyk";
-            this.buttonKoszyk.Size = new System.Drawing.Size(220, 80);
+            this.buttonKoszyk.Size = new System.Drawing.Size(293, 98);
             this.buttonKoszyk.TabIndex = 18;
             this.buttonKoszyk.Text = "Koszyk";
             this.buttonKoszyk.UseVisualStyleBackColor = true;
@@ -156,9 +166,10 @@
             this.btnZaloguj.BackColor = System.Drawing.Color.White;
             this.btnZaloguj.FlatAppearance.BorderSize = 0;
             this.btnZaloguj.Font = new System.Drawing.Font("Calibri", 27.75F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.btnZaloguj.Location = new System.Drawing.Point(932, 9);
+            this.btnZaloguj.Location = new System.Drawing.Point(1243, 11);
+            this.btnZaloguj.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.btnZaloguj.Name = "btnZaloguj";
-            this.btnZaloguj.Size = new System.Drawing.Size(223, 75);
+            this.btnZaloguj.Size = new System.Drawing.Size(297, 92);
             this.btnZaloguj.TabIndex = 32;
             this.btnZaloguj.Text = "Wyloguj";
             this.btnZaloguj.UseVisualStyleBackColor = false;
@@ -166,26 +177,28 @@
             // 
             // panelContainerSG
             // 
-            this.panelContainerSG.Location = new System.Drawing.Point(10, 188);
+            this.panelContainerSG.Location = new System.Drawing.Point(13, 231);
+            this.panelContainerSG.Margin = new System.Windows.Forms.Padding(4, 4, 4, 4);
             this.panelContainerSG.Name = "panelContainerSG";
-            this.panelContainerSG.Size = new System.Drawing.Size(1142, 410);
+            this.panelContainerSG.Size = new System.Drawing.Size(1523, 505);
             this.panelContainerSG.TabIndex = 33;
             // 
             // stronaGlownaZalogowanaA
             // 
-            this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
+            this.AutoScaleDimensions = new System.Drawing.SizeF(8F, 16F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
-            this.ClientSize = new System.Drawing.Size(1167, 610);
+            this.ClientSize = new System.Drawing.Size(1556, 751);
             this.Controls.Add(this.panelContainerSG);
             this.Controls.Add(this.btnZaloguj);
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonLogo);
             this.Controls.Add(this.ZU);
             this.Controls.Add(this.ZDU);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(3, 2, 3, 2);
             this.Name = "stronaGlownaZalogowanaA";
             this.Text = "stronaGlownaZalogowanaAdmin ";
+            this.Load += new System.EventHandler(this.stronaGlownaZalogowanaA_Load);
             this.panel1.ResumeLayout(false);
             this.ResumeLayout(false);
 

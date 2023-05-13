@@ -92,7 +92,8 @@ namespace Kowalczyk
 
         private void stronaGlownaZalogowana_Load(object sender, EventArgs e)
         {
-
+            stronaglownaRestaur sgloR = new stronaglownaRestaur();
+            AddUserControl(sgloR);
         }
     }
 }

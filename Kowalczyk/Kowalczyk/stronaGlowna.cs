@@ -74,5 +74,15 @@ namespace Kowalczyk
             stronaglownaRestaur sgloR = new stronaglownaRestaur();
             AddUserControl(sgloR);
         }
+
+        private void stronaglownaRestaur1_Load(object sender, EventArgs e)
+        {
+
+        }
+
+        private void stronaGlowna_Load(object sender, EventArgs e)
+        {
+
+        }
     }
 }
