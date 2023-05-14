@@ -104,47 +104,62 @@ namespace Kowalczyk
 
                 if ((czyjest == false) && (czycosjest == true))
                 {
-                    ID = 1;
-                    String[] linia = new string[1] { $"{ID} {Login.ID} {suma} {ilosc[0]} {ilosc[1]} {ilosc[2]} {ilosc[3]} {ilosc[4]} {ilosc[5]} {ilosc[6]} {ilosc[7]} {ilosc[8]} {ilosc[9]} {ilosc[10]} {ilosc[11]}" };
-                    File.WriteAllLines("koszyk.txt", linia);
 
-                    kosz.Items.Clear();
-                    lista.Items.Clear();
-                    ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                    suma = 0;
-                    sumapro.Text = $"{suma.ToString()}";
+                    Zamówienie sgz = new Zamówienie();
+                    sgz.ShowDialog();
 
-                    MessageBox.Show("Dokonano zamówienia");
+                    if (Zamówienie.czyDokonanoZamowienia == true)
+                    {
+
+                        ID = 1;
+                        String[] linia = new string[1] { $"{ID} {Login.ID} {suma} {ilosc[0]} {ilosc[1]} {ilosc[2]} {ilosc[3]} {ilosc[4]} {ilosc[5]} {ilosc[6]} {ilosc[7]} {ilosc[8]} {ilosc[9]} {ilosc[10]} {ilosc[11]} {czyjuzjest[0]} {czyjuzjest[1]} {czyjuzjest[2]} {czyjuzjest[3]}" };
+                        File.WriteAllLines("koszyk.txt", linia);
+
+                        kosz.Items.Clear();
+                        lista.Items.Clear();
+                        ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        czyjuzjest = new int[4] { 0, 0, 0, 0 };
+                        suma = 0;
+                        sumapro.Text = $"{suma.ToString()}";
+                    }
+ 
                 }
                 else if ((czyjest == true) && (czycosjest == true))
                 {
 
-                    String[] newlines = new string[lines.Length + 1];
-                    for (int i = 0; i < newlines.Length; i++)
+                    Zamówienie sgz = new Zamówienie();
+                    sgz.ShowDialog();
+
+                    if (Zamówienie.czyDokonanoZamowienia == true)
                     {
 
-                        if (i == (newlines.Length - 1))
+
+                        String[] newlines = new string[lines.Length + 1];
+                        for (int i = 0; i < newlines.Length; i++)
                         {
-                            var word = lines[i - 1].Split(' ');
-                            ID = int.Parse(word[0]);                          
-                            int newID = ID + 1;
-                            String newID2 = newID.ToString();
-                            newlines[i] = $"{newID2} {Login.ID} {suma} {ilosc[0]} {ilosc[1]} {ilosc[2]} {ilosc[3]} {ilosc[4]} {ilosc[5]} {ilosc[6]} {ilosc[7]} {ilosc[8]} {ilosc[9]} {ilosc[10]} {ilosc[11]}";
+
+                            if (i == (newlines.Length - 1))
+                            {
+                                var word = lines[i - 1].Split(' ');
+                                ID = int.Parse(word[0]);
+                                int newID = ID + 1;
+                                String newID2 = newID.ToString();
+                                newlines[i] = $"{newID2} {Login.ID} {suma} {ilosc[0]} {ilosc[1]} {ilosc[2]} {ilosc[3]} {ilosc[4]} {ilosc[5]} {ilosc[6]} {ilosc[7]} {ilosc[8]} {ilosc[9]} {ilosc[10]} {ilosc[11]} {czyjuzjest[0]} {czyjuzjest[1]} {czyjuzjest[2]} {czyjuzjest[3]}";
+                            }
+                            else
+                            {
+                                newlines[i] = lines[i];
+                            }
                         }
-                        else
-                        {
-                            newlines[i] = lines[i];
-                        }
+                        File.WriteAllLines("koszyk.txt", newlines);
+
+                        kosz.Items.Clear();
+                        lista.Items.Clear();
+                        ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                        czyjuzjest = new int[4] { 0, 0, 0, 0 };
+                        suma = 0;
+                        sumapro.Text = $"{suma.ToString()}";
                     }
-                    File.WriteAllLines("koszyk.txt", newlines);
-
-                    kosz.Items.Clear();
-                    lista.Items.Clear();
-                    ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
-                    suma = 0;
-                    sumapro.Text = $"{suma.ToString()}";
-
-                    MessageBox.Show("Dokonano zamówienia");
                 }
             }
             else

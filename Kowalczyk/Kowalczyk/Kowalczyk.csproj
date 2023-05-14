@@ -55,6 +55,12 @@
     <Compile Include="Dodanie użytkownika.Designer.cs">
       <DependentUpon>Dodanie użytkownika.cs</DependentUpon>
     </Compile>
+    <Compile Include="Zamówienie.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Zamówienie.Designer.cs">
+      <DependentUpon>Zamówienie.cs</DependentUpon>
+    </Compile>
     <Compile Include="Rejestracja.cs">
       <SubType>Form</SubType>
     </Compile>
@@ -178,6 +184,9 @@
     </EmbeddedResource>
     <EmbeddedResource Include="Rejestracja.resx">
       <DependentUpon>Rejestracja.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Zamówienie.resx">
+      <DependentUpon>Zamówienie.cs</DependentUpon>
     </EmbeddedResource>
     <EmbeddedResource Include="Zmiana danych użytkownika admin.resx">
       <DependentUpon>Zmiana danych użytkownika admin.cs</DependentUpon>
