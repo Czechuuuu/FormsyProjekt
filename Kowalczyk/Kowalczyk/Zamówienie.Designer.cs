@@ -233,6 +233,7 @@
             this.nrtele.Name = "nrtele";
             this.nrtele.Size = new System.Drawing.Size(187, 22);
             this.nrtele.TabIndex = 22;
+            this.nrtele.TextChanged += new System.EventHandler(this.nrtele_TextChanged);
             // 
             // Zamówienie
             // 
