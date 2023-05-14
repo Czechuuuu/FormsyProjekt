@@ -42,6 +42,21 @@ namespace Kowalczyk
                 listazam.Items.Add($"Suma zakupu: {word[2]} zł");
                 listazam.Items.Add($"=================================");
             }
+            var lines2 = File.ReadAllLines("dane_przy_zamawianiu.txt");
+            for (int i = 0; i < lines2.Length; i++)
+            {
+                var word = lines2[i].Split(' ');
+                IOZ.Items.Add($"ID użytkownika zamawiającego: {word[0]}");
+                IOZ.Items.Add($"Imię: {word[1]}");
+                IOZ.Items.Add($"Nazwisko: {word[2]}");
+                IOZ.Items.Add($"Ulica: {word[3]}");
+                IOZ.Items.Add($"Numer domu/mieszkania: {word[4]}");
+                IOZ.Items.Add($"Kod pocztowy: {word[5]}");
+                IOZ.Items.Add($"Miasto/miejscowość: {word[6]}");
+                IOZ.Items.Add($"Adres poczty elektronicznej: {word[7]}");
+                IOZ.Items.Add($"Numer telefonu: {word[8]}");
+                IOZ.Items.Add($"=================================");
+            }
         }
 
         private void ListaU_SelectedIndexChanged(object sender, EventArgs e)
@@ -55,6 +70,11 @@ namespace Kowalczyk
             this.Hide();
             x.ShowDialog();
             this.Close();
+        }
+
+        private void IOZ_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }
