@@ -82,14 +82,39 @@ namespace Kowalczyk
                     czyjest = true;
                 }
                 sr.Close();
-                if (czyjest == false)
+
+                bool czycosjest = false;
+
+                for (int i = 0; i < ilosc.Length; i++)
+                {
+                    if (ilosc[i] != 0)
+                    {
+                        czycosjest = true;
+                        break;
+                    }
+                }
+
+                if (czycosjest == false)
+                {
+                    SystemSounds.Asterisk.Play();
+                    MessageBox.Show("W koszyku nic nie ma");
+                }
+
+                if ((czyjest == false) && (czycosjest == true))
                 {
                     ID = 1;
                     String[] linia = new string[1] { $"{ID} {Login.ID} {suma} {ilosc[0]} {ilosc[1]} {ilosc[2]} {ilosc[3]} {ilosc[4]} {ilosc[5]} {ilosc[6]} {ilosc[7]} {ilosc[8]} {ilosc[9]} {ilosc[10]} {ilosc[11]}" };
                     File.WriteAllLines("koszyk.txt", linia);
+
+                    kosz.Items.Clear();
+                    lista.Items.Clear();
+                    ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                    suma = 0;
+                    sumapro.Text = $"{suma.ToString()}";
+
                     MessageBox.Show("Dokonano zamówienia");
                 }
-                else
+                else if ((czyjest == true) && (czycosjest == true))
                 {
 
                     String[] newlines = new string[lines.Length + 1];
@@ -110,6 +135,13 @@ namespace Kowalczyk
                         }
                     }
                     File.WriteAllLines("koszyk.txt", newlines);
+
+                    kosz.Items.Clear();
+                    lista.Items.Clear();
+                    ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+                    suma = 0;
+                    sumapro.Text = $"{suma.ToString()}";
+
                     MessageBox.Show("Dokonano zamówienia");
                 }
             }

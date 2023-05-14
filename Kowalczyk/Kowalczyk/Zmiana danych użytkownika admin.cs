@@ -60,6 +60,9 @@ namespace Kowalczyk
                     MessageBox.Show("Nie ma użytkownika z takim ID");
                 }
             }
+            komuzmienicdane.Text = "";
+            newlogin.Text = "";
+            newpass.Text = "";
         }
 
         private void button_exit_Click(object sender, EventArgs e)

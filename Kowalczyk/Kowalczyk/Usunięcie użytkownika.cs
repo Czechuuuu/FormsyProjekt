@@ -97,6 +97,7 @@ namespace Kowalczyk
                     SystemSounds.Asterisk.Play();
                     MessageBox.Show("Nie ma użytkownika z takim ID");
                 }
+                kogousunac.Text = "";
             }
         }
     }

@@ -84,5 +84,13 @@ namespace Kowalczyk
         {
 
         }
+
+        private void Rej_Click(object sender, EventArgs e)
+        {
+            Rej Rejestracja = new Rej();
+            this.Hide();
+            Rejestracja.ShowDialog();
+            this.Close();
+        }
     }
 }

@@ -149,3 +149,4 @@ E:\Git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.csproj.CopyComplete
 E:\Git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.exe
 E:\Git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.pdb
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.PoglądZamówień.resources
+C:\Users\ROG\Documents\GitHub\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Rej.resources

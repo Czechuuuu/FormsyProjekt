@@ -36,6 +36,12 @@ namespace Kowalczyk
         {
             bool flag = false;
             var lines = File.ReadAllLines("uzytkownicy.txt");
+            if ((login.Text == "" || haslo.Text == "") && flag == false)
+            {
+                SystemSounds.Asterisk.Play();
+                MessageBox.Show("Nie wypełniono danych");
+                flag = true;
+            }
             for (int i = 0; i < lines.Length; i++)
             {
                 var word = lines[i].Split(' ');

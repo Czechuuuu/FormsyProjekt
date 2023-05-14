@@ -39,7 +39,7 @@ namespace Kowalczyk
                 listazam.Items.Add($"Lemoniada: {word[12]}");
                 listazam.Items.Add($"Frytki: {word[13]}");
                 listazam.Items.Add($"Hamburger: {word[14]}");
-                listazam.Items.Add($"Suma zakupu: {word[2]}");
+                listazam.Items.Add($"Suma zakupu: {word[2]} zł");
                 listazam.Items.Add($"=================================");
             }
         }
