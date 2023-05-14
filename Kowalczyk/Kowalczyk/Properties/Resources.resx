@@ -121,44 +121,89 @@
   <data name="Lemonade" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Lemonade.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="344273987_628438739197638_1085012137981715034_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344273987_628438739197638_1085012137981715034_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="resttauracja w srodku" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\resttauracja w srodku.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Iced tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Iced tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="344282046_606346298088871_1908124327145371447_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344282046_606346298088871_1908124327145371447_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344793902_256285613600363_2663326936014552997_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344793902_256285613600363_2663326936014552997_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="kupon3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kupon3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="344786813_636241838352922_9169141008163019317_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344786813_636241838352922_9169141008163019317_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kupon_4" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kupon_4.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344272280_1389569678662051_5996409074685393526_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344272280_1389569678662051_5996409074685393526_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mapa 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mapa 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="344276991_1540903363100291_371106152037371323_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344276991_1540903363100291_371106152037371323_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="logo" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\logo.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344287967_121675787586239_4818448996562911660_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344287967_121675787586239_4818448996562911660_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Milkshake" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Milkshake.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="344286801_268657455530454_2434116791435762519_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344286801_268657455530454_2434116791435762519_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="Bez tytułu.png2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Bez tytułu.png2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hot dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hot dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344288483_3530543033889248_4819229670685967716_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344288483_3530543033889248_4819229670685967716_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Double cheeseburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Double cheeseburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="344287994_1856882418040856_933439313533914579_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344287994_1856882418040856_933439313533914579_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="mapa 2" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mapa 2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="344273987_628438739197638_1085012137981715034_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344273987_628438739197638_1085012137981715034_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kupon_1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kupon_1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344286801_268657455530454_2434116791435762519_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344286801_268657455530454_2434116791435762519_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344276991_1540903363100291_371106152037371323_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344276991_1540903363100291_371106152037371323_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mapa 1" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mapa 1.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coffee" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coffee.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344288489_563756885883072_9068143556588146413_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344288489_563756885883072_9068143556588146413_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Iced tea" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Iced tea.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="Coca cola" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Coca cola.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -175,8 +220,11 @@
   <data name="Cheeseburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Cheeseburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="kupon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\kupon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="344288483_3530543033889248_4819229670685967716_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344288483_3530543033889248_4819229670685967716_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Frame 3" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Frame 3.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="mapa" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\mapa.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
@@ -184,22 +232,31 @@
   <data name="Chicken nuggets" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\Chicken nuggets.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
-  <data name="Hot dog" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hot dog.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Onion rings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Onion rings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Chicken wings" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Chicken wings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
-  </data>
-  <data name="Hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
-    <value>..\Resources\Hamburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  <data name="344289104_766035265201435_2530667855182478101_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344289104_766035265201435_2530667855182478101_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
   <data name="French fries" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\French fries.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
+  <data name="kupon2" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\kupon2.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344287994_1856882418040856_933439313533914579_n" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344287994_1856882418040856_933439313533914579_n.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Chicken wings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Chicken wings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
   <data name="kontakt" type="System.Resources.ResXFileRef, System.Windows.Forms">
     <value>..\Resources\kontakt.png;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Hamburger" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Hamburger.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="Onion rings" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\Onion rings.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
+  </data>
+  <data name="344786813_636241838352922_9169141008163019317_n1" type="System.Resources.ResXFileRef, System.Windows.Forms">
+    <value>..\Resources\344786813_636241838352922_9169141008163019317_n1.jpg;System.Drawing.Bitmap, System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a</value>
   </data>
 </root>

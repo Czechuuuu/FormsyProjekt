@@ -28,286 +28,214 @@
         /// </summary>
         private void InitializeComponent()
         {
-            this.pictureBox2 = new System.Windows.Forms.PictureBox();
-            this.pictureBox3 = new System.Windows.Forms.PictureBox();
-            this.pictureBox4 = new System.Windows.Forms.PictureBox();
-            this.pictureBox5 = new System.Windows.Forms.PictureBox();
-            this.pictureBox6 = new System.Windows.Forms.PictureBox();
-            this.pictureBox7 = new System.Windows.Forms.PictureBox();
-            this.pictureBox8 = new System.Windows.Forms.PictureBox();
-            this.pictureBox9 = new System.Windows.Forms.PictureBox();
-            this.pictureBox10 = new System.Windows.Forms.PictureBox();
-            this.pictureBox1 = new System.Windows.Forms.PictureBox();
-            this.pictureBox11 = new System.Windows.Forms.PictureBox();
-            this.pictureBox12 = new System.Windows.Forms.PictureBox();
             this.panelContainerMenu = new System.Windows.Forms.Panel();
-            this.label13 = new System.Windows.Forms.Label();
-            this.label12 = new System.Windows.Forms.Label();
-            this.label11 = new System.Windows.Forms.Label();
-            this.label10 = new System.Windows.Forms.Label();
-            this.label9 = new System.Windows.Forms.Label();
-            this.label8 = new System.Windows.Forms.Label();
+            this.skrz_lab = new System.Windows.Forms.Label();
+            this.chee_lab = new System.Windows.Forms.Label();
+            this.pchee_lab = new System.Windows.Forms.Label();
+            this.ham_lab = new System.Windows.Forms.Label();
+            this.dod_butt = new System.Windows.Forms.Button();
+            this.nap_butt = new System.Windows.Forms.Button();
+            this.kan_butt = new System.Windows.Forms.Button();
+            this.fry_lab = new System.Windows.Forms.Label();
+            this.lem_lab = new System.Windows.Forms.Label();
+            this.Kaw_lab = new System.Windows.Forms.Label();
             this.label7 = new System.Windows.Forms.Label();
-            this.label6 = new System.Windows.Forms.Label();
-            this.label5 = new System.Windows.Forms.Label();
-            this.label4 = new System.Windows.Forms.Label();
-            this.label3 = new System.Windows.Forms.Label();
-            this.label2 = new System.Windows.Forms.Label();
-            this.label1 = new System.Windows.Forms.Label();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).BeginInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).BeginInit();
+            this.hot_lab = new System.Windows.Forms.Label();
+            this.nug_lab = new System.Windows.Forms.Label();
+            this.cez_lab = new System.Windows.Forms.Label();
+            this.co_lab = new System.Windows.Forms.Label();
+            this.ice_lab = new System.Windows.Forms.Label();
+            this.pchee_img = new System.Windows.Forms.PictureBox();
+            this.chee_img = new System.Windows.Forms.PictureBox();
+            this.ham_img = new System.Windows.Forms.PictureBox();
+            this.ice_img = new System.Windows.Forms.PictureBox();
+            this.co_img = new System.Windows.Forms.PictureBox();
+            this.kaw_img = new System.Windows.Forms.PictureBox();
+            this.lem_img = new System.Windows.Forms.PictureBox();
+            this.cez_img = new System.Windows.Forms.PictureBox();
+            this.hot_img = new System.Windows.Forms.PictureBox();
+            this.fry_img = new System.Windows.Forms.PictureBox();
+            this.nugg_img = new System.Windows.Forms.PictureBox();
+            this.skrz_img = new System.Windows.Forms.PictureBox();
+            this.pictureBox13 = new System.Windows.Forms.PictureBox();
             this.panelContainerMenu.SuspendLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pchee_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chee_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ham_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ice_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.co_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kaw_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lem_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cez_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hot_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fry_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nugg_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.skrz_img)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).BeginInit();
             this.SuspendLayout();
-            // 
-            // pictureBox2
-            // 
-            this.pictureBox2.Cursor = System.Windows.Forms.Cursors.No;
-            this.pictureBox2.Image = global::Kowalczyk.Properties.Resources.Caesar_salad;
-            this.pictureBox2.Location = new System.Drawing.Point(282, 145);
-            this.pictureBox2.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox2.Name = "pictureBox2";
-            this.pictureBox2.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox2.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox2.TabIndex = 1;
-            this.pictureBox2.TabStop = false;
-            // 
-            // pictureBox3
-            // 
-            this.pictureBox3.Image = global::Kowalczyk.Properties.Resources.Cheeseburger;
-            this.pictureBox3.Location = new System.Drawing.Point(823, 145);
-            this.pictureBox3.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox3.Name = "pictureBox3";
-            this.pictureBox3.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox3.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox3.TabIndex = 2;
-            this.pictureBox3.TabStop = false;
-            // 
-            // pictureBox4
-            // 
-            this.pictureBox4.Image = global::Kowalczyk.Properties.Resources.Chicken_nuggets;
-            this.pictureBox4.Location = new System.Drawing.Point(530, 257);
-            this.pictureBox4.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox4.Name = "pictureBox4";
-            this.pictureBox4.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox4.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox4.TabIndex = 3;
-            this.pictureBox4.TabStop = false;
-            // 
-            // pictureBox5
-            // 
-            this.pictureBox5.Image = global::Kowalczyk.Properties.Resources.Chicken_wings;
-            this.pictureBox5.Location = new System.Drawing.Point(530, 145);
-            this.pictureBox5.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox5.Name = "pictureBox5";
-            this.pictureBox5.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox5.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox5.TabIndex = 4;
-            this.pictureBox5.TabStop = false;
-            // 
-            // pictureBox6
-            // 
-            this.pictureBox6.Image = global::Kowalczyk.Properties.Resources.Coca_cola;
-            this.pictureBox6.Location = new System.Drawing.Point(20, 145);
-            this.pictureBox6.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox6.Name = "pictureBox6";
-            this.pictureBox6.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox6.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox6.TabIndex = 5;
-            this.pictureBox6.TabStop = false;
-            // 
-            // pictureBox7
-            // 
-            this.pictureBox7.Image = global::Kowalczyk.Properties.Resources.Coffee;
-            this.pictureBox7.Location = new System.Drawing.Point(20, 253);
-            this.pictureBox7.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox7.Name = "pictureBox7";
-            this.pictureBox7.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox7.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox7.TabIndex = 6;
-            this.pictureBox7.TabStop = false;
-            // 
-            // pictureBox8
-            // 
-            this.pictureBox8.Image = global::Kowalczyk.Properties.Resources.Double_cheeseburger;
-            this.pictureBox8.Location = new System.Drawing.Point(823, 257);
-            this.pictureBox8.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox8.Name = "pictureBox8";
-            this.pictureBox8.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox8.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox8.TabIndex = 7;
-            this.pictureBox8.TabStop = false;
-            // 
-            // pictureBox9
-            // 
-            this.pictureBox9.Image = global::Kowalczyk.Properties.Resources.French_fries;
-            this.pictureBox9.Location = new System.Drawing.Point(282, 253);
-            this.pictureBox9.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox9.Name = "pictureBox9";
-            this.pictureBox9.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox9.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox9.TabIndex = 8;
-            this.pictureBox9.TabStop = false;
-            // 
-            // pictureBox10
-            // 
-            this.pictureBox10.Image = global::Kowalczyk.Properties.Resources.Hamburger;
-            this.pictureBox10.Location = new System.Drawing.Point(823, 37);
-            this.pictureBox10.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox10.Name = "pictureBox10";
-            this.pictureBox10.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox10.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox10.TabIndex = 9;
-            this.pictureBox10.TabStop = false;
-            // 
-            // pictureBox1
-            // 
-            this.pictureBox1.Image = global::Kowalczyk.Properties.Resources.Iced_tea;
-            this.pictureBox1.Location = new System.Drawing.Point(20, 37);
-            this.pictureBox1.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox1.Name = "pictureBox1";
-            this.pictureBox1.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox1.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox1.TabIndex = 0;
-            this.pictureBox1.TabStop = false;
-            // 
-            // pictureBox11
-            // 
-            this.pictureBox11.Image = global::Kowalczyk.Properties.Resources.Hot_dog;
-            this.pictureBox11.Location = new System.Drawing.Point(530, 37);
-            this.pictureBox11.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox11.Name = "pictureBox11";
-            this.pictureBox11.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox11.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox11.TabIndex = 10;
-            this.pictureBox11.TabStop = false;
-            // 
-            // pictureBox12
-            // 
-            this.pictureBox12.Image = global::Kowalczyk.Properties.Resources.Lemonade;
-            this.pictureBox12.Location = new System.Drawing.Point(282, 37);
-            this.pictureBox12.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
-            this.pictureBox12.Name = "pictureBox12";
-            this.pictureBox12.Size = new System.Drawing.Size(83, 104);
-            this.pictureBox12.SizeMode = System.Windows.Forms.PictureBoxSizeMode.Zoom;
-            this.pictureBox12.TabIndex = 11;
-            this.pictureBox12.TabStop = false;
             // 
             // panelContainerMenu
             // 
             this.panelContainerMenu.BackColor = System.Drawing.Color.BurlyWood;
-            this.panelContainerMenu.Controls.Add(this.label13);
-            this.panelContainerMenu.Controls.Add(this.label12);
-            this.panelContainerMenu.Controls.Add(this.label11);
-            this.panelContainerMenu.Controls.Add(this.label10);
-            this.panelContainerMenu.Controls.Add(this.label9);
-            this.panelContainerMenu.Controls.Add(this.label8);
+            this.panelContainerMenu.Controls.Add(this.pchee_img);
+            this.panelContainerMenu.Controls.Add(this.chee_img);
+            this.panelContainerMenu.Controls.Add(this.ham_img);
+            this.panelContainerMenu.Controls.Add(this.ice_img);
+            this.panelContainerMenu.Controls.Add(this.co_img);
+            this.panelContainerMenu.Controls.Add(this.kaw_img);
+            this.panelContainerMenu.Controls.Add(this.skrz_lab);
+            this.panelContainerMenu.Controls.Add(this.chee_lab);
+            this.panelContainerMenu.Controls.Add(this.pchee_lab);
+            this.panelContainerMenu.Controls.Add(this.ham_lab);
+            this.panelContainerMenu.Controls.Add(this.hot_img);
+            this.panelContainerMenu.Controls.Add(this.fry_img);
+            this.panelContainerMenu.Controls.Add(this.nugg_img);
+            this.panelContainerMenu.Controls.Add(this.skrz_img);
+            this.panelContainerMenu.Controls.Add(this.dod_butt);
+            this.panelContainerMenu.Controls.Add(this.nap_butt);
+            this.panelContainerMenu.Controls.Add(this.kan_butt);
+            this.panelContainerMenu.Controls.Add(this.fry_lab);
+            this.panelContainerMenu.Controls.Add(this.lem_lab);
+            this.panelContainerMenu.Controls.Add(this.Kaw_lab);
             this.panelContainerMenu.Controls.Add(this.label7);
-            this.panelContainerMenu.Controls.Add(this.label6);
-            this.panelContainerMenu.Controls.Add(this.label5);
-            this.panelContainerMenu.Controls.Add(this.label4);
-            this.panelContainerMenu.Controls.Add(this.label3);
-            this.panelContainerMenu.Controls.Add(this.label2);
-            this.panelContainerMenu.Controls.Add(this.label1);
-            this.panelContainerMenu.Controls.Add(this.pictureBox12);
-            this.panelContainerMenu.Controls.Add(this.pictureBox11);
-            this.panelContainerMenu.Controls.Add(this.pictureBox10);
-            this.panelContainerMenu.Controls.Add(this.pictureBox9);
-            this.panelContainerMenu.Controls.Add(this.pictureBox8);
-            this.panelContainerMenu.Controls.Add(this.pictureBox7);
-            this.panelContainerMenu.Controls.Add(this.pictureBox6);
-            this.panelContainerMenu.Controls.Add(this.pictureBox5);
-            this.panelContainerMenu.Controls.Add(this.pictureBox4);
-            this.panelContainerMenu.Controls.Add(this.pictureBox3);
-            this.panelContainerMenu.Controls.Add(this.pictureBox2);
-            this.panelContainerMenu.Controls.Add(this.pictureBox1);
+            this.panelContainerMenu.Controls.Add(this.hot_lab);
+            this.panelContainerMenu.Controls.Add(this.nug_lab);
+            this.panelContainerMenu.Controls.Add(this.cez_lab);
+            this.panelContainerMenu.Controls.Add(this.co_lab);
+            this.panelContainerMenu.Controls.Add(this.ice_lab);
+            this.panelContainerMenu.Controls.Add(this.lem_img);
+            this.panelContainerMenu.Controls.Add(this.cez_img);
+            this.panelContainerMenu.Controls.Add(this.pictureBox13);
             this.panelContainerMenu.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
             this.panelContainerMenu.Location = new System.Drawing.Point(3, 3);
             this.panelContainerMenu.Name = "panelContainerMenu";
             this.panelContainerMenu.Size = new System.Drawing.Size(1146, 413);
             this.panelContainerMenu.TabIndex = 5;
             // 
-            // label13
+            // skrz_lab
             // 
-            this.label13.AutoSize = true;
-            this.label13.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label13.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label13.Location = new System.Drawing.Point(910, 283);
-            this.label13.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label13.Name = "label13";
-            this.label13.Size = new System.Drawing.Size(217, 48);
-            this.label13.TabIndex = 24;
-            this.label13.Text = "Podwójny cheeseburger\r\n                 13 zł ";
+            this.skrz_lab.AutoSize = true;
+            this.skrz_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.skrz_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.skrz_lab.Location = new System.Drawing.Point(339, 288);
+            this.skrz_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.skrz_lab.Name = "skrz_lab";
+            this.skrz_lab.Size = new System.Drawing.Size(197, 48);
+            this.skrz_lab.TabIndex = 19;
+            this.skrz_lab.Text = "Skrzydełka z kurczaka\r\n               10 zł";
             // 
-            // label12
+            // chee_lab
             // 
-            this.label12.AutoSize = true;
-            this.label12.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label12.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label12.Location = new System.Drawing.Point(910, 70);
-            this.label12.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label12.Name = "label12";
-            this.label12.Size = new System.Drawing.Size(111, 48);
-            this.label12.TabIndex = 23;
-            this.label12.Text = "Hamburger \r\n       8 zł";
+            this.chee_lab.AutoSize = true;
+            this.chee_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.chee_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.chee_lab.Location = new System.Drawing.Point(901, 288);
+            this.chee_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.chee_lab.Name = "chee_lab";
+            this.chee_lab.Size = new System.Drawing.Size(132, 48);
+            this.chee_lab.TabIndex = 16;
+            this.chee_lab.Text = "Cheeseburger\r\n         8 zł";
+            this.chee_lab.Click += new System.EventHandler(this.label5_Click);
             // 
-            // label11
+            // pchee_lab
             // 
-            this.label11.AutoSize = true;
-            this.label11.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label11.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label11.Location = new System.Drawing.Point(369, 283);
-            this.label11.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(59, 48);
-            this.label11.TabIndex = 22;
-            this.label11.Text = "Frytki \r\n 7 zł";
-            this.label11.Click += new System.EventHandler(this.label11_Click);
+            this.pchee_lab.AutoSize = true;
+            this.pchee_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.pchee_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.pchee_lab.Location = new System.Drawing.Point(665, 288);
+            this.pchee_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.pchee_lab.Name = "pchee_lab";
+            this.pchee_lab.Size = new System.Drawing.Size(217, 48);
+            this.pchee_lab.TabIndex = 24;
+            this.pchee_lab.Text = "Podwójny cheeseburger\r\n                 13 zł ";
             // 
-            // label10
+            // ham_lab
             // 
-            this.label10.AutoSize = true;
-            this.label10.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label10.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label10.Location = new System.Drawing.Point(369, 70);
-            this.label10.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label10.Name = "label10";
-            this.label10.Size = new System.Drawing.Size(109, 48);
-            this.label10.TabIndex = 21;
-            this.label10.Text = "Lemoniada \r\n      6 zł";
+            this.ham_lab.AutoSize = true;
+            this.ham_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.ham_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ham_lab.Location = new System.Drawing.Point(550, 288);
+            this.ham_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ham_lab.Name = "ham_lab";
+            this.ham_lab.Size = new System.Drawing.Size(111, 48);
+            this.ham_lab.TabIndex = 23;
+            this.ham_lab.Text = "Hamburger \r\n       8 zł";
             // 
-            // label9
+            // dod_butt
             // 
-            this.label9.AutoSize = true;
-            this.label9.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label9.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label9.Location = new System.Drawing.Point(107, 283);
-            this.label9.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label9.Name = "label9";
-            this.label9.Size = new System.Drawing.Size(56, 48);
-            this.label9.TabIndex = 20;
-            this.label9.Text = "Kawa\r\n 6 zł";
+            this.dod_butt.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.dod_butt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.dod_butt.Location = new System.Drawing.Point(92, 266);
+            this.dod_butt.Name = "dod_butt";
+            this.dod_butt.Size = new System.Drawing.Size(191, 33);
+            this.dod_butt.TabIndex = 29;
+            this.dod_butt.Text = "Dodatki";
+            this.dod_butt.UseVisualStyleBackColor = false;
+            this.dod_butt.Click += new System.EventHandler(this.dod_butt_Click);
             // 
-            // label8
+            // nap_butt
             // 
-            this.label8.AutoSize = true;
-            this.label8.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label8.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label8.Location = new System.Drawing.Point(617, 174);
-            this.label8.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label8.Name = "label8";
-            this.label8.Size = new System.Drawing.Size(197, 48);
-            this.label8.TabIndex = 19;
-            this.label8.Text = "Skrzydełka z kurczaka\r\n               10 zł";
+            this.nap_butt.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.nap_butt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.nap_butt.Location = new System.Drawing.Point(92, 193);
+            this.nap_butt.Name = "nap_butt";
+            this.nap_butt.Size = new System.Drawing.Size(191, 33);
+            this.nap_butt.TabIndex = 28;
+            this.nap_butt.Text = "Napoje";
+            this.nap_butt.UseVisualStyleBackColor = false;
+            this.nap_butt.Click += new System.EventHandler(this.nap_butt_Click);
+            // 
+            // kan_butt
+            // 
+            this.kan_butt.BackColor = System.Drawing.SystemColors.ActiveCaptionText;
+            this.kan_butt.ForeColor = System.Drawing.Color.FromArgb(((int)(((byte)(192)))), ((int)(((byte)(192)))), ((int)(((byte)(0)))));
+            this.kan_butt.Location = new System.Drawing.Point(92, 120);
+            this.kan_butt.Name = "kan_butt";
+            this.kan_butt.Size = new System.Drawing.Size(191, 33);
+            this.kan_butt.TabIndex = 26;
+            this.kan_butt.Text = "Kanapki i skrzydełka";
+            this.kan_butt.UseVisualStyleBackColor = false;
+            this.kan_butt.Click += new System.EventHandler(this.kan_butt_Click);
+            // 
+            // fry_lab
+            // 
+            this.fry_lab.AutoSize = true;
+            this.fry_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.fry_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.fry_lab.Location = new System.Drawing.Point(754, 288);
+            this.fry_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.fry_lab.Name = "fry_lab";
+            this.fry_lab.Size = new System.Drawing.Size(59, 48);
+            this.fry_lab.TabIndex = 22;
+            this.fry_lab.Text = "Frytki \r\n 7 zł";
+            this.fry_lab.Visible = false;
+            this.fry_lab.Click += new System.EventHandler(this.label11_Click);
+            // 
+            // lem_lab
+            // 
+            this.lem_lab.AutoSize = true;
+            this.lem_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.lem_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.lem_lab.Location = new System.Drawing.Point(359, 288);
+            this.lem_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.lem_lab.Name = "lem_lab";
+            this.lem_lab.Size = new System.Drawing.Size(109, 48);
+            this.lem_lab.TabIndex = 21;
+            this.lem_lab.Text = "Lemoniada \r\n      6 zł";
+            this.lem_lab.Visible = false;
+            // 
+            // Kaw_lab
+            // 
+            this.Kaw_lab.AutoSize = true;
+            this.Kaw_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.Kaw_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.Kaw_lab.Location = new System.Drawing.Point(565, 288);
+            this.Kaw_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.Kaw_lab.Name = "Kaw_lab";
+            this.Kaw_lab.Size = new System.Drawing.Size(56, 48);
+            this.Kaw_lab.TabIndex = 20;
+            this.Kaw_lab.Text = "Kawa\r\n 6 zł";
+            this.Kaw_lab.Visible = false;
             // 
             // label7
             // 
@@ -319,79 +247,199 @@
             this.label7.Size = new System.Drawing.Size(0, 24);
             this.label7.TabIndex = 18;
             // 
-            // label6
+            // hot_lab
             // 
-            this.label6.AutoSize = true;
-            this.label6.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label6.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label6.Location = new System.Drawing.Point(617, 65);
-            this.label6.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label6.Name = "label6";
-            this.label6.Size = new System.Drawing.Size(82, 48);
-            this.label6.TabIndex = 17;
-            this.label6.Text = "Hot dog \r\n    7 zł";
-            this.label6.Click += new System.EventHandler(this.label6_Click);
+            this.hot_lab.AutoSize = true;
+            this.hot_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.hot_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.hot_lab.Location = new System.Drawing.Point(916, 288);
+            this.hot_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.hot_lab.Name = "hot_lab";
+            this.hot_lab.Size = new System.Drawing.Size(82, 48);
+            this.hot_lab.TabIndex = 17;
+            this.hot_lab.Text = "Hot dog \r\n    7 zł";
+            this.hot_lab.Click += new System.EventHandler(this.label6_Click);
             // 
-            // label5
+            // nug_lab
             // 
-            this.label5.AutoSize = true;
-            this.label5.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label5.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label5.Location = new System.Drawing.Point(910, 174);
-            this.label5.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label5.Name = "label5";
-            this.label5.Size = new System.Drawing.Size(132, 48);
-            this.label5.TabIndex = 16;
-            this.label5.Text = "Cheeseburger\r\n         8 zł";
-            this.label5.Click += new System.EventHandler(this.label5_Click);
+            this.nug_lab.AutoSize = true;
+            this.nug_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.nug_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.nug_lab.Location = new System.Drawing.Point(505, 288);
+            this.nug_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.nug_lab.Name = "nug_lab";
+            this.nug_lab.Size = new System.Drawing.Size(188, 48);
+            this.nug_lab.TabIndex = 15;
+            this.nug_lab.Text = "Nuggetsy z kurczaka \r\n              8 zł";
+            this.nug_lab.Visible = false;
             // 
-            // label4
+            // cez_lab
             // 
-            this.label4.AutoSize = true;
-            this.label4.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label4.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label4.Location = new System.Drawing.Point(617, 283);
-            this.label4.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label4.Name = "label4";
-            this.label4.Size = new System.Drawing.Size(188, 48);
-            this.label4.TabIndex = 15;
-            this.label4.Text = "Nuggetsy z kurczaka \r\n              8 zł";
+            this.cez_lab.AutoSize = true;
+            this.cez_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.cez_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.cez_lab.Location = new System.Drawing.Point(349, 288);
+            this.cez_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.cez_lab.Name = "cez_lab";
+            this.cez_lab.Size = new System.Drawing.Size(132, 48);
+            this.cez_lab.TabIndex = 14;
+            this.cez_lab.Text = "Sałatka Cezar \r\n        10 zł";
+            this.cez_lab.Visible = false;
             // 
-            // label3
+            // co_lab
             // 
-            this.label3.AutoSize = true;
-            this.label3.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label3.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label3.Location = new System.Drawing.Point(369, 174);
-            this.label3.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label3.Name = "label3";
-            this.label3.Size = new System.Drawing.Size(132, 48);
-            this.label3.TabIndex = 14;
-            this.label3.Text = "Sałatka Cezar \r\n        10 zł";
+            this.co_lab.AutoSize = true;
+            this.co_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.co_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.co_lab.Location = new System.Drawing.Point(722, 288);
+            this.co_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.co_lab.Name = "co_lab";
+            this.co_lab.Size = new System.Drawing.Size(103, 48);
+            this.co_lab.TabIndex = 13;
+            this.co_lab.Text = "Coca-Cola \r\n     7 zł";
+            this.co_lab.Visible = false;
             // 
-            // label2
+            // ice_lab
             // 
-            this.label2.AutoSize = true;
-            this.label2.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label2.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label2.Location = new System.Drawing.Point(107, 174);
-            this.label2.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label2.Name = "label2";
-            this.label2.Size = new System.Drawing.Size(103, 48);
-            this.label2.TabIndex = 13;
-            this.label2.Text = "Coca-Cola \r\n     7 zł";
+            this.ice_lab.AutoSize = true;
+            this.ice_lab.BackColor = System.Drawing.Color.BlanchedAlmond;
+            this.ice_lab.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
+            this.ice_lab.Location = new System.Drawing.Point(873, 288);
+            this.ice_lab.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
+            this.ice_lab.Name = "ice_lab";
+            this.ice_lab.Size = new System.Drawing.Size(160, 48);
+            this.ice_lab.TabIndex = 12;
+            this.ice_lab.Text = "Herbata mrożona \r\n            6 zł";
+            this.ice_lab.Visible = false;
             // 
-            // label1
+            // pchee_img
             // 
-            this.label1.AutoSize = true;
-            this.label1.BackColor = System.Drawing.Color.BlanchedAlmond;
-            this.label1.Font = new System.Drawing.Font("Microsoft Sans Serif", 14.25F, System.Drawing.FontStyle.Regular, System.Drawing.GraphicsUnit.Point, ((byte)(238)));
-            this.label1.Location = new System.Drawing.Point(107, 65);
-            this.label1.Margin = new System.Windows.Forms.Padding(2, 0, 2, 0);
-            this.label1.Name = "label1";
-            this.label1.Size = new System.Drawing.Size(160, 48);
-            this.label1.TabIndex = 12;
-            this.label1.Text = "Herbata mrożona \r\n            6 zł";
+            this.pchee_img.BackColor = System.Drawing.Color.White;
+            this.pchee_img.Image = global::Kowalczyk.Properties.Resources._344786813_636241838352922_9169141008163019317_n1;
+            this.pchee_img.Location = new System.Drawing.Point(689, 55);
+            this.pchee_img.Name = "pchee_img";
+            this.pchee_img.Size = new System.Drawing.Size(183, 230);
+            this.pchee_img.TabIndex = 42;
+            this.pchee_img.TabStop = false;
+            // 
+            // chee_img
+            // 
+            this.chee_img.BackColor = System.Drawing.Color.White;
+            this.chee_img.Image = global::Kowalczyk.Properties.Resources._344287994_1856882418040856_933439313533914579_n1;
+            this.chee_img.Location = new System.Drawing.Point(860, 55);
+            this.chee_img.Name = "chee_img";
+            this.chee_img.Size = new System.Drawing.Size(183, 230);
+            this.chee_img.TabIndex = 41;
+            this.chee_img.TabStop = false;
+            // 
+            // ham_img
+            // 
+            this.ham_img.BackColor = System.Drawing.Color.White;
+            this.ham_img.Image = global::Kowalczyk.Properties.Resources._344286801_268657455530454_2434116791435762519_n1;
+            this.ham_img.Location = new System.Drawing.Point(509, 55);
+            this.ham_img.Name = "ham_img";
+            this.ham_img.Size = new System.Drawing.Size(183, 230);
+            this.ham_img.TabIndex = 40;
+            this.ham_img.TabStop = false;
+            // 
+            // ice_img
+            // 
+            this.ice_img.BackColor = System.Drawing.Color.White;
+            this.ice_img.Image = global::Kowalczyk.Properties.Resources._344288483_3530543033889248_4819229670685967716_n1;
+            this.ice_img.Location = new System.Drawing.Point(860, 55);
+            this.ice_img.Name = "ice_img";
+            this.ice_img.Size = new System.Drawing.Size(183, 230);
+            this.ice_img.TabIndex = 39;
+            this.ice_img.TabStop = false;
+            // 
+            // co_img
+            // 
+            this.co_img.BackColor = System.Drawing.Color.White;
+            this.co_img.Image = global::Kowalczyk.Properties.Resources._344273987_628438739197638_1085012137981715034_n1;
+            this.co_img.Location = new System.Drawing.Point(689, 55);
+            this.co_img.Name = "co_img";
+            this.co_img.Size = new System.Drawing.Size(183, 230);
+            this.co_img.TabIndex = 38;
+            this.co_img.TabStop = false;
+            // 
+            // kaw_img
+            // 
+            this.kaw_img.BackColor = System.Drawing.Color.White;
+            this.kaw_img.Image = global::Kowalczyk.Properties.Resources._344276991_1540903363100291_371106152037371323_n1;
+            this.kaw_img.Location = new System.Drawing.Point(509, 55);
+            this.kaw_img.Name = "kaw_img";
+            this.kaw_img.Size = new System.Drawing.Size(183, 230);
+            this.kaw_img.TabIndex = 37;
+            this.kaw_img.TabStop = false;
+            // 
+            // lem_img
+            // 
+            this.lem_img.BackColor = System.Drawing.Color.White;
+            this.lem_img.Image = global::Kowalczyk.Properties.Resources._344282046_606346298088871_1908124327145371447_n;
+            this.lem_img.Location = new System.Drawing.Point(333, 55);
+            this.lem_img.Name = "lem_img";
+            this.lem_img.Size = new System.Drawing.Size(183, 230);
+            this.lem_img.TabIndex = 35;
+            this.lem_img.TabStop = false;
+            // 
+            // cez_img
+            // 
+            this.cez_img.BackColor = System.Drawing.Color.White;
+            this.cez_img.Image = global::Kowalczyk.Properties.Resources._344288489_563756885883072_9068143556588146413_n;
+            this.cez_img.Location = new System.Drawing.Point(333, 55);
+            this.cez_img.Name = "cez_img";
+            this.cez_img.Size = new System.Drawing.Size(183, 230);
+            this.cez_img.TabIndex = 36;
+            this.cez_img.TabStop = false;
+            // 
+            // hot_img
+            // 
+            this.hot_img.BackColor = System.Drawing.Color.White;
+            this.hot_img.Image = global::Kowalczyk.Properties.Resources._344793902_256285613600363_2663326936014552997_n;
+            this.hot_img.Location = new System.Drawing.Point(860, 55);
+            this.hot_img.Name = "hot_img";
+            this.hot_img.Size = new System.Drawing.Size(183, 230);
+            this.hot_img.TabIndex = 33;
+            this.hot_img.TabStop = false;
+            // 
+            // fry_img
+            // 
+            this.fry_img.BackColor = System.Drawing.Color.White;
+            this.fry_img.Image = global::Kowalczyk.Properties.Resources._344287967_121675787586239_4818448996562911660_n;
+            this.fry_img.Location = new System.Drawing.Point(689, 55);
+            this.fry_img.Name = "fry_img";
+            this.fry_img.Size = new System.Drawing.Size(183, 230);
+            this.fry_img.TabIndex = 32;
+            this.fry_img.TabStop = false;
+            // 
+            // nugg_img
+            // 
+            this.nugg_img.BackColor = System.Drawing.Color.White;
+            this.nugg_img.Image = global::Kowalczyk.Properties.Resources._344272280_1389569678662051_5996409074685393526_n;
+            this.nugg_img.Location = new System.Drawing.Point(509, 55);
+            this.nugg_img.Name = "nugg_img";
+            this.nugg_img.Size = new System.Drawing.Size(183, 230);
+            this.nugg_img.TabIndex = 31;
+            this.nugg_img.TabStop = false;
+            // 
+            // skrz_img
+            // 
+            this.skrz_img.BackColor = System.Drawing.Color.White;
+            this.skrz_img.Image = global::Kowalczyk.Properties.Resources._344289104_766035265201435_2530667855182478101_n;
+            this.skrz_img.Location = new System.Drawing.Point(333, 55);
+            this.skrz_img.Name = "skrz_img";
+            this.skrz_img.Size = new System.Drawing.Size(183, 230);
+            this.skrz_img.TabIndex = 30;
+            this.skrz_img.TabStop = false;
+            // 
+            // pictureBox13
+            // 
+            this.pictureBox13.Image = global::Kowalczyk.Properties.Resources.Frame_3;
+            this.pictureBox13.Location = new System.Drawing.Point(49, 22);
+            this.pictureBox13.Name = "pictureBox13";
+            this.pictureBox13.Size = new System.Drawing.Size(1035, 357);
+            this.pictureBox13.TabIndex = 25;
+            this.pictureBox13.TabStop = false;
             // 
             // menuRestaur
             // 
@@ -400,50 +448,55 @@
             this.Controls.Add(this.panelContainerMenu);
             this.Name = "menuRestaur";
             this.Size = new System.Drawing.Size(1149, 419);
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox5)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox6)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox7)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox8)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox9)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox10)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox1)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox11)).EndInit();
-            ((System.ComponentModel.ISupportInitialize)(this.pictureBox12)).EndInit();
             this.panelContainerMenu.ResumeLayout(false);
             this.panelContainerMenu.PerformLayout();
+            ((System.ComponentModel.ISupportInitialize)(this.pchee_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.chee_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ham_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.ice_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.co_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.kaw_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.lem_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.cez_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.hot_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.fry_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.nugg_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.skrz_img)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.pictureBox13)).EndInit();
             this.ResumeLayout(false);
 
         }
 
         #endregion
-        private System.Windows.Forms.PictureBox pictureBox2;
-        private System.Windows.Forms.PictureBox pictureBox3;
-        private System.Windows.Forms.PictureBox pictureBox4;
-        private System.Windows.Forms.PictureBox pictureBox5;
-        private System.Windows.Forms.PictureBox pictureBox6;
-        private System.Windows.Forms.PictureBox pictureBox7;
-        private System.Windows.Forms.PictureBox pictureBox8;
-        private System.Windows.Forms.PictureBox pictureBox9;
-        private System.Windows.Forms.PictureBox pictureBox10;
-        private System.Windows.Forms.PictureBox pictureBox1;
-        private System.Windows.Forms.PictureBox pictureBox11;
-        private System.Windows.Forms.PictureBox pictureBox12;
         private System.Windows.Forms.Panel panelContainerMenu;
-        private System.Windows.Forms.Label label12;
-        private System.Windows.Forms.Label label11;
-        private System.Windows.Forms.Label label10;
-        private System.Windows.Forms.Label label9;
-        private System.Windows.Forms.Label label8;
+        private System.Windows.Forms.Label ham_lab;
+        private System.Windows.Forms.Label fry_lab;
+        private System.Windows.Forms.Label lem_lab;
+        private System.Windows.Forms.Label Kaw_lab;
+        private System.Windows.Forms.Label skrz_lab;
         private System.Windows.Forms.Label label7;
-        private System.Windows.Forms.Label label6;
-        private System.Windows.Forms.Label label5;
-        private System.Windows.Forms.Label label4;
-        private System.Windows.Forms.Label label3;
-        private System.Windows.Forms.Label label2;
-        private System.Windows.Forms.Label label1;
-        private System.Windows.Forms.Label label13;
+        private System.Windows.Forms.Label hot_lab;
+        private System.Windows.Forms.Label chee_lab;
+        private System.Windows.Forms.Label nug_lab;
+        private System.Windows.Forms.Label cez_lab;
+        private System.Windows.Forms.Label co_lab;
+        private System.Windows.Forms.Label ice_lab;
+        private System.Windows.Forms.Label pchee_lab;
+        private System.Windows.Forms.PictureBox pictureBox13;
+        private System.Windows.Forms.PictureBox skrz_img;
+        private System.Windows.Forms.Button dod_butt;
+        private System.Windows.Forms.Button nap_butt;
+        private System.Windows.Forms.Button kan_butt;
+        private System.Windows.Forms.PictureBox hot_img;
+        private System.Windows.Forms.PictureBox fry_img;
+        private System.Windows.Forms.PictureBox nugg_img;
+        private System.Windows.Forms.PictureBox lem_img;
+        private System.Windows.Forms.PictureBox cez_img;
+        private System.Windows.Forms.PictureBox kaw_img;
+        private System.Windows.Forms.PictureBox co_img;
+        private System.Windows.Forms.PictureBox ice_img;
+        private System.Windows.Forms.PictureBox ham_img;
+        private System.Windows.Forms.PictureBox chee_img;
+        private System.Windows.Forms.PictureBox pchee_img;
     }
 }

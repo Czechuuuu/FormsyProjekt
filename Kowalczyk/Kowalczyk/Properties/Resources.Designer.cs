@@ -74,6 +74,186 @@ namespace Kowalczyk.Properties {
         /// <summary>
         ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
         /// </summary>
+        internal static System.Drawing.Bitmap _344272280_1389569678662051_5996409074685393526_n {
+            get {
+                object obj = ResourceManager.GetObject("344272280_1389569678662051_5996409074685393526_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344273987_628438739197638_1085012137981715034_n {
+            get {
+                object obj = ResourceManager.GetObject("344273987_628438739197638_1085012137981715034_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344273987_628438739197638_1085012137981715034_n1 {
+            get {
+                object obj = ResourceManager.GetObject("344273987_628438739197638_1085012137981715034_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344276991_1540903363100291_371106152037371323_n {
+            get {
+                object obj = ResourceManager.GetObject("344276991_1540903363100291_371106152037371323_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344276991_1540903363100291_371106152037371323_n1 {
+            get {
+                object obj = ResourceManager.GetObject("344276991_1540903363100291_371106152037371323_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344282046_606346298088871_1908124327145371447_n {
+            get {
+                object obj = ResourceManager.GetObject("344282046_606346298088871_1908124327145371447_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344286801_268657455530454_2434116791435762519_n {
+            get {
+                object obj = ResourceManager.GetObject("344286801_268657455530454_2434116791435762519_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344286801_268657455530454_2434116791435762519_n1 {
+            get {
+                object obj = ResourceManager.GetObject("344286801_268657455530454_2434116791435762519_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344287967_121675787586239_4818448996562911660_n {
+            get {
+                object obj = ResourceManager.GetObject("344287967_121675787586239_4818448996562911660_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344287994_1856882418040856_933439313533914579_n {
+            get {
+                object obj = ResourceManager.GetObject("344287994_1856882418040856_933439313533914579_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344287994_1856882418040856_933439313533914579_n1 {
+            get {
+                object obj = ResourceManager.GetObject("344287994_1856882418040856_933439313533914579_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344288483_3530543033889248_4819229670685967716_n {
+            get {
+                object obj = ResourceManager.GetObject("344288483_3530543033889248_4819229670685967716_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344288483_3530543033889248_4819229670685967716_n1 {
+            get {
+                object obj = ResourceManager.GetObject("344288483_3530543033889248_4819229670685967716_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344288489_563756885883072_9068143556588146413_n {
+            get {
+                object obj = ResourceManager.GetObject("344288489_563756885883072_9068143556588146413_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344289104_766035265201435_2530667855182478101_n {
+            get {
+                object obj = ResourceManager.GetObject("344289104_766035265201435_2530667855182478101_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344786813_636241838352922_9169141008163019317_n {
+            get {
+                object obj = ResourceManager.GetObject("344786813_636241838352922_9169141008163019317_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344786813_636241838352922_9169141008163019317_n1 {
+            get {
+                object obj = ResourceManager.GetObject("344786813_636241838352922_9169141008163019317_n1", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap _344793902_256285613600363_2663326936014552997_n {
+            get {
+                object obj = ResourceManager.GetObject("344793902_256285613600363_2663326936014552997_n", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
         internal static System.Drawing.Bitmap Bez_tytułu_png2 {
             get {
                 object obj = ResourceManager.GetObject("Bez tytułu.png2", resourceCulture);
@@ -157,6 +337,16 @@ namespace Kowalczyk.Properties {
         internal static System.Drawing.Bitmap Double_cheeseburger {
             get {
                 object obj = ResourceManager.GetObject("Double cheeseburger", resourceCulture);
+                return ((System.Drawing.Bitmap)(obj));
+            }
+        }
+        
+        /// <summary>
+        ///   Wyszukuje zlokalizowany zasób typu System.Drawing.Bitmap.
+        /// </summary>
+        internal static System.Drawing.Bitmap Frame_3 {
+            get {
+                object obj = ResourceManager.GetObject("Frame 3", resourceCulture);
                 return ((System.Drawing.Bitmap)(obj));
             }
         }

@@ -155,3 +155,5 @@ C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk
 C:\Users\mrora\Desktop\git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Zamówienie.resources
 E:\Git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Rej.resources
 E:\Git\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Zamówienie.resources
+D:\GitHub\FormsyProjekt\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Rej.resources
+D:\GitHub\FormsyProjekt\FormsyProjekt\Kowalczyk\Kowalczyk\obj\Debug\Kowalczyk.Zamówienie.resources
