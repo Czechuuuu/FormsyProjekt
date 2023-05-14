@@ -38,7 +38,9 @@
             this.ZDU = new System.Windows.Forms.Button();
             this.btnZaloguj = new System.Windows.Forms.Button();
             this.panelContainerSG = new System.Windows.Forms.Panel();
+            this.stronaglownaRestaur1 = new Kowalczyk.stronaglownaRestaur();
             this.panel1.SuspendLayout();
+            this.panelContainerSG.SuspendLayout();
             this.SuspendLayout();
             // 
             // buttonLogo
@@ -154,10 +156,19 @@
             // 
             // panelContainerSG
             // 
+            this.panelContainerSG.Controls.Add(this.stronaglownaRestaur1);
             this.panelContainerSG.Location = new System.Drawing.Point(10, 189);
             this.panelContainerSG.Name = "panelContainerSG";
             this.panelContainerSG.Size = new System.Drawing.Size(1142, 410);
             this.panelContainerSG.TabIndex = 30;
+            // 
+            // stronaglownaRestaur1
+            // 
+            this.stronaglownaRestaur1.BackColor = System.Drawing.Color.BurlyWood;
+            this.stronaglownaRestaur1.Location = new System.Drawing.Point(0, 0);
+            this.stronaglownaRestaur1.Name = "stronaglownaRestaur1";
+            this.stronaglownaRestaur1.Size = new System.Drawing.Size(1142, 410);
+            this.stronaglownaRestaur1.TabIndex = 0;
             // 
             // stronaGlownaZalogowana
             // 
@@ -171,11 +182,12 @@
             this.Controls.Add(this.panel1);
             this.Controls.Add(this.buttonLogo);
             this.ForeColor = System.Drawing.SystemColors.ControlText;
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "stronaGlownaZalogowana";
             this.Text = "stronaGlownaZalogowana";
             this.Load += new System.EventHandler(this.stronaGlownaZalogowana_Load);
             this.panel1.ResumeLayout(false);
+            this.panelContainerSG.ResumeLayout(false);
             this.ResumeLayout(false);
 
         }
@@ -192,5 +204,6 @@
         private System.Windows.Forms.Button ZDU;
         private System.Windows.Forms.Button btnZaloguj;
         private System.Windows.Forms.Panel panelContainerSG;
+        private stronaglownaRestaur stronaglownaRestaur1;
     }
 }

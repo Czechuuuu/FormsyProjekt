@@ -108,18 +108,6 @@
     <Compile Include="stronaGlownaZalogowana.Designer.cs">
       <DependentUpon>stronaGlownaZalogowana.cs</DependentUpon>
     </Compile>
-    <Compile Include="UserControl\UserControlMenu\UserCMenu2.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\UserControlMenu\UserCMenu2.Designer.cs">
-      <DependentUpon>UserCMenu2.cs</DependentUpon>
-    </Compile>
-    <Compile Include="UserControl\UserControlMenu\UserCMenu1.cs">
-      <SubType>UserControl</SubType>
-    </Compile>
-    <Compile Include="UserControl\UserControlMenu\UserCMenu1.Designer.cs">
-      <DependentUpon>UserCMenu1.cs</DependentUpon>
-    </Compile>
     <Compile Include="UserControl\stronaglownaRestaur.cs">
       <SubType>UserControl</SubType>
     </Compile>
@@ -281,6 +269,11 @@
     <None Include="Resources\Bez tytułu.png2.png" />
     <None Include="Resources\2083799-Ze-wzgledu-na-zmieniajace-sie-potrzeby-gosci-wlasciciele-restauracji-Harnas-postanowili-nieco-odswiezyc-wnetrze-lokalu-oraz-karte-dan.jpg" />
     <None Include="Resources\resttauracja w srodku.png" />
+    <None Include="Resources\mapa.png" />
+    <None Include="Resources\mapa 1.png" />
+    <None Include="Resources\mapa 2.png" />
+    <None Include="Resources\mapa 3.png" />
+    <None Include="Resources\kontakt.png" />
     <Content Include="SQLite.Interop.dll">
       <CopyToOutputDirectory>Always</CopyToOutputDirectory>
     </Content>
