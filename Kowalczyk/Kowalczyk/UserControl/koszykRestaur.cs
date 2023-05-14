@@ -424,10 +424,136 @@ namespace Kowalczyk
             String to = "";
             int ktory = 0;
             int flag = 0;
+            String ktoryzestaw = "";
+            int odktoregoID = 0;
             if (kosz.SelectedItem == null) 
             {
                 flag = 1;
             }
+
+            bool dolnyzakres = false;
+            bool gornyzakres = false;
+            String pomoc;
+
+            if (flag == 0)
+            {
+                int ktory2 = kosz.SelectedIndex;
+
+                for (int i = kosz.SelectedIndex; i < kosz.SelectedIndex+5; i++)
+                {
+                    if ((dolnyzakres == false))
+                    {
+                        if (i < kosz.Items.Count)
+                        {
+                            if (kosz.Items[i].ToString() == "----------------------------")
+                            {
+                                dolnyzakres = true;
+                            }
+                        }
+                    }
+                    if ((gornyzakres == false))
+                    {
+                        if (ktory2 >= 0)
+                        {
+                            pomoc = kosz.Items[ktory2].ToString();
+                            var word = pomoc.Split(' ');
+                            if (word.Length > 1)
+                            {
+                                if (word[1][0] == 's' && word[0][0] == '-')
+                                {
+                                    gornyzakres = true;
+                                    ktoryzestaw = "s";
+                                    odktoregoID = ktory2;
+                                }
+                                if (word[1][0] == 'h' && word[0][0] == '-')
+                                {
+                                    gornyzakres = true;
+                                    ktoryzestaw = "h";
+                                    odktoregoID = ktory2;
+                                }
+                                if (word[1][0] == 'p' && word[0][0] == '-')
+                                {
+                                    gornyzakres = true;
+                                    ktoryzestaw = "p";
+                                    odktoregoID = ktory2;
+                                }
+                                if (word[1][0] == 'n' && word[0][0] == '-')
+                                {
+                                    gornyzakres = true;
+                                    ktoryzestaw = "n";
+                                    odktoregoID = ktory2;
+                                }
+                            }
+                        }
+                    }
+                    ktory2 = ktory2 - 1;
+                }
+
+                if (dolnyzakres == true && gornyzakres == true)
+                {
+                    for (int i = 0; i < 5; i++)
+                    {
+                        kosz.Items.RemoveAt(odktoregoID);
+                    }
+
+                    if (ktoryzestaw == "n")
+                    {
+                        suma = suma - 15;
+                        sumapro.Text = $"{suma.ToString()} zł";
+                        czyjuzjest[3] = 0;
+                        for (int i = 0; i < lista.Items.Count; i++)
+                        {
+                            if (lista.Items[i].ToString() == "--Zestaw nuggets--")
+                            {
+                                lista.Items.RemoveAt(i);
+                            }
+                        }
+                    }
+                    if (ktoryzestaw == "s")
+                    {
+                        suma = suma - 17;
+                        sumapro.Text = $"{suma.ToString()} zł";
+                        czyjuzjest[2] = 0;
+                        for (int i = 0; i < lista.Items.Count; i++)
+                        {
+                            if (lista.Items[i].ToString() == "--Zestaw skrzydełka--")
+                            {
+                                lista.Items.RemoveAt(i);
+                            }
+                        }
+                    }
+                    if (ktoryzestaw == "p")
+                    {
+                        suma = suma - 22;
+                        sumapro.Text = $"{suma.ToString()} zł";
+                        czyjuzjest[1] = 0;
+                        for (int i = 0; i < lista.Items.Count; i++)
+                        {
+                            if (lista.Items[i].ToString() == "--Zestaw podwójny cheeseburger--")
+                            {
+                                lista.Items.RemoveAt(i);
+                            }
+                        }
+                    }
+                    if (ktoryzestaw == "h")
+                    {
+                        suma = suma - 16;
+                        sumapro.Text = $"{suma.ToString()} zł";
+                        czyjuzjest[0] = 0;
+                        for (int i = 0; i < lista.Items.Count; i++)
+                        {
+                            if (lista.Items[i].ToString() == "--Zestaw hamburger--")
+                            {
+                                lista.Items.RemoveAt(i);
+                            }
+                        }
+                    }
+                    flag = 1;
+                }
+
+            }
+
+
             if (flag == 0)
             {
                 String cos = kosz.SelectedItem.ToString();
@@ -519,7 +645,7 @@ namespace Kowalczyk
             {
                 if ((promokod.Text == "7YvgAz") && czyjuzjest[0] == 0)
                 {
-                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add("--Zestaw hamburger--");
                     kosz.Items.Add($"{Produkty[10]} - {Ceny[10]} zł");
                     kosz.Items.Add($"{Produkty[9]} - {Ceny[9]} zł");
                     kosz.Items.Add($"{Produkty[11]} - {Ceny[11]} zł");
@@ -527,6 +653,8 @@ namespace Kowalczyk
                     suma = suma + 16;
                     sumapro.Text = $"{suma.ToString()} zł";
                     czyjuzjest[0] = czyjuzjest[0] + 1;
+                    lista.Items.Add("--Zestaw hamburger--");
+
                 }
                 else if ((promokod.Text == "7YvgAz") && czyjuzjest[0] != 0)
                 {
@@ -536,7 +664,7 @@ namespace Kowalczyk
                 //kupon 2 Cheeseburger
                 if ((promokod.Text == "oMfUkk") && czyjuzjest[1] == 0)
                 {
-                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add("--Zestaw podwójny cheeseburger--");
                     kosz.Items.Add($"{Produkty[3]} - {Ceny[3]} zł");
                     kosz.Items.Add($"{Produkty[5]} - {Ceny[5]} zł");
                     kosz.Items.Add($"{Produkty[0]} - {Ceny[0]} zł");
@@ -544,6 +672,7 @@ namespace Kowalczyk
                     suma = suma + 22;
                     sumapro.Text = $"{suma.ToString()} zł";
                     czyjuzjest[1] = czyjuzjest[1] + 1;
+                    lista.Items.Add("--Zestaw podwójny cheeseburger--");
                 }
                 else if ((promokod.Text == "oMfUkk") && czyjuzjest[1] != 0)
                 {
@@ -553,7 +682,7 @@ namespace Kowalczyk
                 //kupon3 skrzydałka
                 if ((promokod.Text == "ndrueB") && czyjuzjest[2] == 0)
                 {
-                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add("--Zestaw skrzydełka--");
                     kosz.Items.Add($"{Produkty[7]} - {Ceny[7]} zł");
                     kosz.Items.Add($"{Produkty[8]} - {Ceny[8]} zł");
                     kosz.Items.Add($"{Produkty[10]} - {Ceny[10]} zł");
@@ -561,6 +690,7 @@ namespace Kowalczyk
                     suma = suma + 17;
                     sumapro.Text = $"{suma.ToString()} zł";
                     czyjuzjest[2] = czyjuzjest[2] + 1;
+                    lista.Items.Add("--Zestaw skrzydełka--");
                 }
                 else if ((promokod.Text == "ndrueB") && czyjuzjest[2] != 0)
                 {
@@ -570,7 +700,7 @@ namespace Kowalczyk
                 //kupon4 Nuggets
                 if ((promokod.Text == "wjL95V") && czyjuzjest[3] == 0)
                 {
-                    kosz.Items.Add("--Zestaw promocyjny--");
+                    kosz.Items.Add("--Zestaw nuggets--");
                     kosz.Items.Add($"{Produkty[4]} - {Ceny[4]} zł");
                     kosz.Items.Add($"{Produkty[2]} - {Ceny[2]} zł");
                     kosz.Items.Add($"{Produkty[11]} - {Ceny[10]} zł");
@@ -578,12 +708,14 @@ namespace Kowalczyk
                     suma = suma + 15;
                     sumapro.Text = $"{suma.ToString()} zł";
                     czyjuzjest[3] = czyjuzjest[3] + 1;
+                    lista.Items.Add("--Zestaw nuggets--");
                 }
                 else if ((promokod.Text == "wjL95V") && czyjuzjest[3] != 0)
                 {
                     SystemSounds.Asterisk.Play();
                     MessageBox.Show("Można wykorzystać kupon tylko raz");
                 }
+                promokod.Text = "";
             }
             else
             {
