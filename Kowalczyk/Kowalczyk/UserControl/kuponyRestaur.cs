@@ -17,5 +17,31 @@ namespace Kowalczyk
             InitializeComponent();
         }
 
+        private void btnCopy1_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("7YvgAz");
+            MessageBox.Show("Skopiowano do schowka");
+        }
+
+        private void btnCopy2_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("oMfUkk");
+            MessageBox.Show("Skopiowano do schowka");
+
+        }
+
+        private void btnCopy3_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("ndrueB");
+            MessageBox.Show("Skopiowano do schowka");
+
+        }
+
+        private void btnCopy4_Click(object sender, EventArgs e)
+        {
+            Clipboard.SetText("wjL95V");
+            MessageBox.Show("Skopiowano do schowka");
+
+        }
     }
 }

@@ -38,6 +38,10 @@
             this.pictureBox3 = new System.Windows.Forms.PictureBox();
             this.pictureBox2 = new System.Windows.Forms.PictureBox();
             this.pictureBox1 = new System.Windows.Forms.PictureBox();
+            this.btnCopy1 = new System.Windows.Forms.Button();
+            this.btnCopy2 = new System.Windows.Forms.Button();
+            this.btnCopy3 = new System.Windows.Forms.Button();
+            this.btnCopy4 = new System.Windows.Forms.Button();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox4)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox3)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.pictureBox2)).BeginInit();
@@ -156,11 +160,55 @@
             this.pictureBox1.TabIndex = 0;
             this.pictureBox1.TabStop = false;
             // 
+            // btnCopy1
+            // 
+            this.btnCopy1.Location = new System.Drawing.Point(165, 314);
+            this.btnCopy1.Name = "btnCopy1";
+            this.btnCopy1.Size = new System.Drawing.Size(75, 23);
+            this.btnCopy1.TabIndex = 10;
+            this.btnCopy1.Text = "Skopiuj";
+            this.btnCopy1.UseVisualStyleBackColor = true;
+            this.btnCopy1.Click += new System.EventHandler(this.btnCopy1_Click);
+            // 
+            // btnCopy2
+            // 
+            this.btnCopy2.Location = new System.Drawing.Point(408, 314);
+            this.btnCopy2.Name = "btnCopy2";
+            this.btnCopy2.Size = new System.Drawing.Size(75, 23);
+            this.btnCopy2.TabIndex = 11;
+            this.btnCopy2.Text = "Skopiuj";
+            this.btnCopy2.UseVisualStyleBackColor = true;
+            this.btnCopy2.Click += new System.EventHandler(this.btnCopy2_Click);
+            // 
+            // btnCopy3
+            // 
+            this.btnCopy3.Location = new System.Drawing.Point(661, 314);
+            this.btnCopy3.Name = "btnCopy3";
+            this.btnCopy3.Size = new System.Drawing.Size(75, 23);
+            this.btnCopy3.TabIndex = 12;
+            this.btnCopy3.Text = "Skopiuj";
+            this.btnCopy3.UseVisualStyleBackColor = true;
+            this.btnCopy3.Click += new System.EventHandler(this.btnCopy3_Click);
+            // 
+            // btnCopy4
+            // 
+            this.btnCopy4.Location = new System.Drawing.Point(910, 314);
+            this.btnCopy4.Name = "btnCopy4";
+            this.btnCopy4.Size = new System.Drawing.Size(75, 23);
+            this.btnCopy4.TabIndex = 13;
+            this.btnCopy4.Text = "Skopiuj";
+            this.btnCopy4.UseVisualStyleBackColor = true;
+            this.btnCopy4.Click += new System.EventHandler(this.btnCopy4_Click);
+            // 
             // kuponyRestaur
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
+            this.Controls.Add(this.btnCopy4);
+            this.Controls.Add(this.btnCopy3);
+            this.Controls.Add(this.btnCopy2);
+            this.Controls.Add(this.btnCopy1);
             this.Controls.Add(this.label6);
             this.Controls.Add(this.label5);
             this.Controls.Add(this.label4);
@@ -194,5 +242,9 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Label label5;
         private System.Windows.Forms.Label label6;
+        private System.Windows.Forms.Button btnCopy1;
+        private System.Windows.Forms.Button btnCopy2;
+        private System.Windows.Forms.Button btnCopy3;
+        private System.Windows.Forms.Button btnCopy4;
     }
 }
