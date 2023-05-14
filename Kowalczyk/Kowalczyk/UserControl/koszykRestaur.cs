@@ -19,6 +19,7 @@ namespace Kowalczyk
         static public String[] Produkty = new string[12] {"Herbata mrożona", "Hot dog", "Coca-Cola", "Sałatka Cezar", "Nuggetsy z kurczaka", "Podwójny cheeseburger", "Cheeseburger", "Skrzydełka kurczaka", "Kawa", "Lemoniada", "Frytki", "Hamburger" };
         static public int[] Ceny = new int[12] { 6, 7, 7, 10, 8, 13, 8, 10, 6, 6, 7, 8 };
         static public int[] ilosc = new int[12] {0, 0, 0, 0, 0, 0, 0, 0 , 0 , 0, 0, 0 };
+        int[] czyjuzjest = new int[4] { 0, 0, 0, 0 };
 
 
 
@@ -30,6 +31,7 @@ namespace Kowalczyk
         private void koszykRestaur_Load(object sender, EventArgs e)
         {
             ilosc = new int[12] { 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0, 0 };
+            czyjuzjest = new int[4] { 0, 0, 0, 0 };
             suma = 0;
 
         }
@@ -492,51 +494,103 @@ namespace Kowalczyk
         {
             //dodawanie do koszyka całych kuponów rabatowych
                 //Kupon 1 Hamburger
-                if (promokod.Text == "7YvgAz")
+
+            bool flag1 = false;
+
+            if (promokod.Text == "7YvgAz")
+            {
+                flag1 = true;
+            }
+            else if (promokod.Text == "oMfUkk")
+            {
+                flag1 = true;
+            }
+            else if (promokod.Text == "ndrueB")
+            {
+                flag1 = true;
+            }
+            else if (promokod.Text == "wjL95V")
+            {
+                flag1 = true;
+            }
+
+
+            if (flag1 == true)
+            {
+                if ((promokod.Text == "7YvgAz") && czyjuzjest[0] == 0)
                 {
                     kosz.Items.Add("--Zestaw promocyjny--");
                     kosz.Items.Add($"{Produkty[10]} - {Ceny[10]} zł");
                     kosz.Items.Add($"{Produkty[9]} - {Ceny[9]} zł");
                     kosz.Items.Add($"{Produkty[11]} - {Ceny[11]} zł");
                     kosz.Items.Add("----------------------------");
-                    suma = 16;
+                    suma = suma + 16;
                     sumapro.Text = $"{suma.ToString()} zł";
+                    czyjuzjest[0] = czyjuzjest[0] + 1;
+                }
+                else if ((promokod.Text == "7YvgAz") && czyjuzjest[0] != 0)
+                {
+                    SystemSounds.Asterisk.Play();
+                    MessageBox.Show("Można wykorzystać kupon tylko raz");
                 }
                 //kupon 2 Cheeseburger
-                if (promokod.Text == "oMfUkk")
+                if ((promokod.Text == "oMfUkk") && czyjuzjest[1] == 0)
                 {
                     kosz.Items.Add("--Zestaw promocyjny--");
                     kosz.Items.Add($"{Produkty[3]} - {Ceny[3]} zł");
                     kosz.Items.Add($"{Produkty[5]} - {Ceny[5]} zł");
                     kosz.Items.Add($"{Produkty[0]} - {Ceny[0]} zł");
                     kosz.Items.Add("----------------------------");
-                    suma = 22;
+                    suma = suma + 22;
                     sumapro.Text = $"{suma.ToString()} zł";
+                    czyjuzjest[1] = czyjuzjest[1] + 1;
+                }
+                else if ((promokod.Text == "oMfUkk") && czyjuzjest[1] != 0)
+                {
+                    SystemSounds.Asterisk.Play();
+                    MessageBox.Show("Można wykorzystać kupon tylko raz");
                 }
                 //kupon3 skrzydałka
-                if (promokod.Text == "ndrueB")
+                if ((promokod.Text == "ndrueB") && czyjuzjest[2] == 0)
                 {
                     kosz.Items.Add("--Zestaw promocyjny--");
                     kosz.Items.Add($"{Produkty[7]} - {Ceny[7]} zł");
                     kosz.Items.Add($"{Produkty[8]} - {Ceny[8]} zł");
                     kosz.Items.Add($"{Produkty[10]} - {Ceny[10]} zł");
                     kosz.Items.Add("----------------------------");
-                    suma = 17;
+                    suma = suma + 17;
                     sumapro.Text = $"{suma.ToString()} zł";
+                    czyjuzjest[2] = czyjuzjest[2] + 1;
+                }
+                else if ((promokod.Text == "ndrueB") && czyjuzjest[2] != 0)
+                {
+                    SystemSounds.Asterisk.Play();
+                    MessageBox.Show("Można wykorzystać kupon tylko raz");
                 }
                 //kupon4 Nuggets
-                if (promokod.Text == "wjL95V")
+                if ((promokod.Text == "wjL95V") && czyjuzjest[3] == 0)
                 {
                     kosz.Items.Add("--Zestaw promocyjny--");
                     kosz.Items.Add($"{Produkty[4]} - {Ceny[4]} zł");
                     kosz.Items.Add($"{Produkty[2]} - {Ceny[2]} zł");
                     kosz.Items.Add($"{Produkty[11]} - {Ceny[10]} zł");
                     kosz.Items.Add("----------------------------");
-                    suma = 15;
+                    suma = suma + 15;
                     sumapro.Text = $"{suma.ToString()} zł";
+                    czyjuzjest[3] = czyjuzjest[3] + 1;
                 }
+                else if ((promokod.Text == "wjL95V") && czyjuzjest[3] != 0)
+                {
+                    SystemSounds.Asterisk.Play();
+                    MessageBox.Show("Można wykorzystać kupon tylko raz");
+                }
+            }
+            else
+            {
+                SystemSounds.Asterisk.Play();
+                MessageBox.Show("Podano nieprawidłowy kod");
+            }
 
-            
         }
     }
 }
