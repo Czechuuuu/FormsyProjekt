@@ -28,12 +28,16 @@
         /// </summary>
         private void InitializeComponent()
         {
+            this.components = new System.ComponentModel.Container();
             this.ObecneHaslo = new System.Windows.Forms.Label();
             this.NoweHaslo = new System.Windows.Forms.Label();
             this.curpass = new System.Windows.Forms.TextBox();
             this.newpass = new System.Windows.Forms.TextBox();
             this.asd = new System.Windows.Forms.Button();
             this.button_exit = new System.Windows.Forms.Button();
+            this.btnHide = new System.Windows.Forms.Button();
+            this.passHide = new System.Windows.Forms.TextBox();
+            this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.SuspendLayout();
             // 
             // ObecneHaslo
@@ -60,6 +64,7 @@
             // 
             this.curpass.Location = new System.Drawing.Point(295, 167);
             this.curpass.Name = "curpass";
+            this.curpass.PasswordChar = '*';
             this.curpass.Size = new System.Drawing.Size(219, 20);
             this.curpass.TabIndex = 4;
             this.curpass.TextChanged += new System.EventHandler(this.curpass_TextChanged);
@@ -68,13 +73,14 @@
             // 
             this.newpass.Location = new System.Drawing.Point(295, 219);
             this.newpass.Name = "newpass";
+            this.newpass.PasswordChar = '*';
             this.newpass.Size = new System.Drawing.Size(219, 20);
             this.newpass.TabIndex = 5;
             // 
             // asd
             // 
             this.asd.Location = new System.Drawing.Point(417, 286);
-            this.asd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.asd.Margin = new System.Windows.Forms.Padding(2);
             this.asd.Name = "asd";
             this.asd.Size = new System.Drawing.Size(96, 23);
             this.asd.TabIndex = 6;
@@ -92,19 +98,45 @@
             this.button_exit.UseVisualStyleBackColor = true;
             this.button_exit.Click += new System.EventHandler(this.button_exit_Click);
             // 
+            // btnHide
+            // 
+            this.btnHide.Location = new System.Drawing.Point(520, 217);
+            this.btnHide.Name = "btnHide";
+            this.btnHide.Size = new System.Drawing.Size(75, 23);
+            this.btnHide.TabIndex = 9;
+            this.btnHide.Text = "Pokaż hasło";
+            this.btnHide.UseVisualStyleBackColor = true;
+            this.btnHide.MouseDown += new System.Windows.Forms.MouseEventHandler(this.btnHide_MouseDown);
+            this.btnHide.MouseUp += new System.Windows.Forms.MouseEventHandler(this.btnHide_MouseUp);
+            // 
+            // passHide
+            // 
+            this.passHide.Location = new System.Drawing.Point(294, 219);
+            this.passHide.Name = "passHide";
+            this.passHide.Size = new System.Drawing.Size(220, 20);
+            this.passHide.TabIndex = 10;
+            // 
+            // timer1
+            // 
+            this.timer1.Enabled = true;
+            this.timer1.Interval = 1;
+            this.timer1.Tick += new System.EventHandler(this.timer1_Tick);
+            // 
             // ZDU
             // 
             this.AutoScaleDimensions = new System.Drawing.SizeF(6F, 13F);
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.ClientSize = new System.Drawing.Size(800, 450);
+            this.Controls.Add(this.passHide);
+            this.Controls.Add(this.btnHide);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.asd);
             this.Controls.Add(this.newpass);
             this.Controls.Add(this.curpass);
             this.Controls.Add(this.NoweHaslo);
             this.Controls.Add(this.ObecneHaslo);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ZDU";
             this.Text = "Zmiana danych";
             this.ResumeLayout(false);
@@ -120,5 +152,8 @@
         private System.Windows.Forms.TextBox newpass;
         private System.Windows.Forms.Button asd;
         private System.Windows.Forms.Button button_exit;
+        private System.Windows.Forms.Button btnHide;
+        private System.Windows.Forms.TextBox passHide;
+        private System.Windows.Forms.Timer timer1;
     }
 }

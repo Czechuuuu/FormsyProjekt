@@ -7,6 +7,7 @@ using System.Drawing;
 using System.IO;
 using System.Linq;
 using System.Media;
+using System.Security.Policy;
 using System.Text;
 using System.Threading.Tasks;
 using System.Windows.Forms;
@@ -18,6 +19,7 @@ namespace Kowalczyk
         public ZDU()
         {
             InitializeComponent();
+            passHide.Hide();
         }
 
         private void asd_Click(object sender, EventArgs e)
@@ -97,6 +99,24 @@ namespace Kowalczyk
         private void listBox1_SelectedIndexChanged(object sender, EventArgs e)
         {
 
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            passHide.Text = newpass.Text;
+        }
+
+        private void btnHide_MouseDown(object sender, MouseEventArgs e)
+        {
+            passHide.Show();
+            newpass.Hide();
+
+        }
+
+        private void btnHide_MouseUp(object sender, MouseEventArgs e)
+        {
+            passHide.Hide();
+            newpass.Show();
         }
     }
 }
