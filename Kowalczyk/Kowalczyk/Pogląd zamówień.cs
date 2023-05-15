@@ -20,11 +20,69 @@ namespace Kowalczyk
 
         private void PoglądZamówień_Load(object sender, EventArgs e)
         {
+            int[] tab = new int[3] {0,0,0};
             var lines = File.ReadAllLines("koszyk.txt");
             String[] lista = new String[lines.Length];
             for (int i = 0; i < lines.Length; i++)
             {
                 var word = lines[i].Split(' ');
+                if (word[15] == "1")
+                {
+                    tab[0] = int.Parse(word[12]);
+                    tab[1] = int.Parse(word[14]);
+                    tab[2] = int.Parse(word[13]);
+
+                    tab[0] = tab[0] + 1;
+                    tab[1] = tab[1] + 1;
+                    tab[2] = tab[2] + 1;
+
+                    word[12] = tab[0].ToString();
+                    word[14] = tab[1].ToString();
+                    word[13] = tab[2].ToString();
+                }
+                if (word[16] == "1")
+                {
+                    tab[0] = int.Parse(word[6]);
+                    tab[1] = int.Parse(word[8]);
+                    tab[2] = int.Parse(word[3]);
+
+                    tab[0] = tab[0] + 1;
+                    tab[1] = tab[1] + 1;
+                    tab[2] = tab[2] + 1;
+
+                    word[6] = tab[0].ToString();
+                    word[8] = tab[1].ToString();
+                    word[3] = tab[2].ToString();
+                }
+                if (word[17] == "1")
+                {
+                    tab[0] = int.Parse(word[13]);
+                    tab[1] = int.Parse(word[10]);
+                    tab[2] = int.Parse(word[11]);
+
+                    tab[0] = tab[0] + 1;
+                    tab[1] = tab[1] + 1;
+                    tab[2] = tab[2] + 1;
+
+                    word[13] = tab[0].ToString();
+                    word[10] = tab[1].ToString();
+                    word[11] = tab[2].ToString();
+                }
+                if (word[18] == "1")
+                {
+                    tab[0] = int.Parse(word[13]);
+                    tab[1] = int.Parse(word[5]);
+                    tab[2] = int.Parse(word[7]);
+
+                    tab[0] = tab[0] + 1;
+                    tab[1] = tab[1] + 1;
+                    tab[2] = tab[2] + 1;
+
+                    word[13] = tab[0].ToString();
+                    word[5] = tab[1].ToString();
+                    word[7] = tab[2].ToString();
+                }
+
                 listazam.Items.Add($"ID zamówienia: {word[0]}");
                 listazam.Items.Add($"ID użytkownika zamawiającego: {word[1]}");
                 listazam.Items.Add($"Herbata mrożona: {word[3]}");

@@ -19,7 +19,7 @@ namespace Kowalczyk
         static public String[] Produkty = new string[12] {"Herbata mrożona", "Hot dog", "Coca-Cola", "Sałatka Cezar", "Nuggetsy z kurczaka", "Podwójny cheeseburger", "Cheeseburger", "Skrzydełka kurczaka", "Kawa", "Lemoniada", "Frytki", "Hamburger" };
         static public int[] Ceny = new int[12] { 6, 7, 7, 10, 8, 13, 8, 10, 6, 6, 7, 8 };
         static public int[] ilosc = new int[12] {0, 0, 0, 0, 0, 0, 0, 0 , 0 , 0, 0, 0 };
-        int[] czyjuzjest = new int[4] { 0, 0, 0, 0 };
+        static public int[] czyjuzjest = new int[4] { 0, 0, 0, 0 };
 
 
 
