@@ -41,7 +41,7 @@ namespace Kowalczyk
             }
             sr.Close();
 
-            if (imie.Text == "" || nazwisko.Text == "" || ulica.Text == "" || nrdomiesz.Text == "" || kodpocz.Text == "" || miasmie.Text == "" || adrpoele.Text == "" || nrtele.Text == "")
+            if (imie.Text == "" || nazwisko.Text == "" || ulica.Text == "" || nrdomiesz.Text == "" || kodpocz.Text == "" || miasmie.Text == "" || adrpoele.Text == "" || nrtele.Text == "" || nrkarty.Text == "" || datawaz.Text == "" || kodzabez.Text == "")
             {
                 SystemSounds.Asterisk.Play();
                 MessageBox.Show("Nie wypełniono danych");
@@ -66,7 +66,7 @@ namespace Kowalczyk
                     }
                 }
             }
-            else if (nrtele.Text.Length != 9)
+            else if (nrtele.Text.Length != 11)
             {
                 niemadanych = true;
                 ilejestbledow = ilejestbledow + 1;
@@ -103,6 +103,90 @@ namespace Kowalczyk
                 }
             }
 
+            if (nrkarty.Text.Length == 16)
+            {
+                for (int i = 0; i < nrkarty.Text.Length; i++)
+                {
+                    if (Char.IsDigit(nrkarty.Text[i]) == false)
+                    {
+                        niemadanych = true;
+                        ilejestbledow = ilejestbledow + 1;
+                        if (ilejestbledow == 2)
+                        {
+                            goto duzobledow;
+                        }
+                        break;
+                    }
+                }
+
+            }
+            else if (nrkarty.Text.Length != 19)
+            {
+                niemadanych = true;
+                ilejestbledow = ilejestbledow + 1;
+                if (ilejestbledow == 2)
+                {
+                    goto duzobledow;
+                }
+            }
+
+            if (datawaz.Text.Length == 4)
+            {
+                for (int i = 0; i < datawaz.Text.Length; i++)
+                {
+                    if (Char.IsDigit(datawaz.Text[i]) == false)
+                    {
+                        niemadanych = true;
+                        ilejestbledow = ilejestbledow + 1;
+                        if (ilejestbledow == 2)
+                        {
+                            goto duzobledow;
+                        }
+                        break;
+                    }
+                }
+
+            }
+            else if (datawaz.Text.Length != 5)
+            {
+                niemadanych = true;
+                ilejestbledow = ilejestbledow + 1;
+                if (ilejestbledow == 2)
+                {
+                    goto duzobledow;
+                }
+            }
+
+            if (kodzabez.Text.Length == 3)
+            {
+                for (int i = 0; i < kodzabez.Text.Length; i++)
+                {
+                    if (Char.IsDigit(kodzabez.Text[i]) == false)
+                    {
+                        niemadanych = true;
+                        ilejestbledow = ilejestbledow + 1;
+                        if (ilejestbledow == 2)
+                        {
+                            goto duzobledow;
+                        }
+                        break;
+                    }
+                }
+
+            }
+            else if (kodzabez.Text.Length != 3)
+            {
+                niemadanych = true;
+                ilejestbledow = ilejestbledow + 1;
+                if (ilejestbledow == 2)
+                {
+                    goto duzobledow;
+                }
+            }
+
+
+
+
             if ((nrtele.Text.Length == 9) && czyjestblad == false)
             {
                 for (int i = 0; i < nrtele.Text.Length; i++)
@@ -116,11 +200,71 @@ namespace Kowalczyk
                     }
                 }
             }
-            else if ((nrtele.Text.Length != 9) && czyjestblad == false)
+            else if ((nrtele.Text.Length != 11) && czyjestblad == false)
             {
                 czyjestblad = true;
                 SystemSounds.Asterisk.Play();
                 MessageBox.Show("Nieprawidłowy numer telefonu");
+            }
+
+            if ((nrkarty.Text.Length == 16) && czyjestblad == false)
+            {
+                for (int i = 0; i < nrkarty.Text.Length; i++)
+                {
+                    if (Char.IsDigit(nrkarty.Text[i]) == false)
+                    {
+                        czyjestblad = true;
+                        SystemSounds.Asterisk.Play();
+                        MessageBox.Show("Nieprawidłowy numer karty");
+                        break;
+                    }
+                }
+            }
+            else if ((nrkarty.Text.Length != 19) && czyjestblad == false)
+            {
+                czyjestblad = true;
+                SystemSounds.Asterisk.Play();
+                MessageBox.Show("Nieprawidłowy numer karty");
+            }
+
+            if ((datawaz.Text.Length == 4) && czyjestblad == false)
+            {
+                for (int i = 0; i < datawaz.Text.Length; i++)
+                {
+                    if (Char.IsDigit(datawaz.Text[i]) == false)
+                    {
+                        czyjestblad = true;
+                        SystemSounds.Asterisk.Play();
+                        MessageBox.Show("Nieprawidłowa data ważnosci");
+                        break;
+                    }
+                }
+            }
+            else if ((datawaz.Text.Length != 5) && czyjestblad == false)
+            {
+                czyjestblad = true;
+                SystemSounds.Asterisk.Play();
+                MessageBox.Show("Nieprawidłowa data ważności");
+            }
+
+            if ((kodzabez.Text.Length == 3) && czyjestblad == false)
+            {
+                for (int i = 0; i < kodzabez.Text.Length; i++)
+                {
+                    if (Char.IsDigit(kodzabez.Text[i]) == false)
+                    {
+                        czyjestblad = true;
+                        SystemSounds.Asterisk.Play();
+                        MessageBox.Show("Nieprawidłowy kod zabezpieczający");
+                        break;
+                    }
+                }
+            }
+            else if ((kodzabez.Text.Length != 3) && czyjestblad == false)
+            {
+                czyjestblad = true;
+                SystemSounds.Asterisk.Play();
+                MessageBox.Show("Nieprawidłowy kod zabezpieczający");
             }
 
             if ((kodpocz.Text.Length == 5) && czyjestblad == false)
