@@ -96,6 +96,15 @@ namespace Kowalczyk
                     }
                 }
 
+                for (int i = 0; i < czyjuzjest.Length; i++)
+                {
+                    if (czyjuzjest[i] != 0)
+                    {
+                        czycosjest = true;
+                        break;
+                    }
+                }
+
                 if (czycosjest == false)
                 {
                     SystemSounds.Asterisk.Play();
