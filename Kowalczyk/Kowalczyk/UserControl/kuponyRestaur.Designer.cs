@@ -70,7 +70,7 @@
             this.label2.Name = "label2";
             this.label2.Size = new System.Drawing.Size(135, 23);
             this.label2.TabIndex = 5;
-            this.label2.Text = "20.05.2023 24:00";
+            this.label2.Text = "25.05.2023 23:00";
             // 
             // label3
             // 
