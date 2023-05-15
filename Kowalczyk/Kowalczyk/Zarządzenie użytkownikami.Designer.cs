@@ -90,7 +90,7 @@
             this.ListaU.FormattingEnabled = true;
             this.ListaU.ItemHeight = 17;
             this.ListaU.Location = new System.Drawing.Point(417, 47);
-            this.ListaU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ListaU.Margin = new System.Windows.Forms.Padding(2);
             this.ListaU.Name = "ListaU";
             this.ListaU.Size = new System.Drawing.Size(282, 344);
             this.ListaU.TabIndex = 31;
@@ -115,7 +115,7 @@
             this.button1.Name = "button1";
             this.button1.Size = new System.Drawing.Size(220, 80);
             this.button1.TabIndex = 33;
-            this.button1.Text = "Pogląd zamówień";
+            this.button1.Text = "Podgląd zamówień";
             this.button1.UseVisualStyleBackColor = true;
             this.button1.Click += new System.EventHandler(this.button1_Click);
             // 
@@ -132,7 +132,7 @@
             this.Controls.Add(this.UU);
             this.Controls.Add(this.DU);
             this.Controls.Add(this.button_exit);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ZU";
             this.Text = "Zarządzanie Użytkownikami";
             this.Load += new System.EventHandler(this.ZU_Load);
