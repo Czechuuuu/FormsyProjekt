@@ -299,6 +299,7 @@
             // 
             this.kodzabez.Location = new System.Drawing.Point(396, 336);
             this.kodzabez.Name = "kodzabez";
+            this.kodzabez.PasswordChar = '*';
             this.kodzabez.Size = new System.Drawing.Size(100, 20);
             this.kodzabez.TabIndex = 30;
             // 
@@ -377,7 +378,7 @@
             this.Controls.Add(this.label1);
             this.Controls.Add(this.label2);
             this.Controls.Add(this.imie);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "Zamówienie";
             this.Text = "Zamówienie";
             this.Load += new System.EventHandler(this.Zamówienie_Load);
