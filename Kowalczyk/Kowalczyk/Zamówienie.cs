@@ -93,7 +93,7 @@ namespace Kowalczyk
                 }
 
             }
-            else if (kodpocz.Text.Length !=5)
+            else if (kodpocz.Text.Length !=6)
             {
                 niemadanych = true;
                 ilejestbledow = ilejestbledow + 1;
@@ -136,7 +136,7 @@ namespace Kowalczyk
                 }
 
             }
-            else if ((kodpocz.Text.Length != 5) && czyjestblad == false)
+            else if ((kodpocz.Text.Length != 6) && czyjestblad == false)
             {
                 czyjestblad = true;
                 SystemSounds.Asterisk.Play();
