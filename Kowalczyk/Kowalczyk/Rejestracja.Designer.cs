@@ -39,7 +39,6 @@
             this.label4 = new System.Windows.Forms.Label();
             this.button_exit = new System.Windows.Forms.Button();
             this.Zatwierdz = new System.Windows.Forms.Button();
-            this.button1 = new System.Windows.Forms.Button();
             this.btnHide = new System.Windows.Forms.Button();
             this.timer1 = new System.Windows.Forms.Timer(this.components);
             this.passHide = new System.Windows.Forms.TextBox();
@@ -95,12 +94,6 @@
             this.Zatwierdz.UseVisualStyleBackColor = true;
             this.Zatwierdz.Click += new System.EventHandler(this.Zatwierdz_Click_1);
             // 
-            // button1
-            // 
-            resources.ApplyResources(this.button1, "button1");
-            this.button1.Name = "button1";
-            this.button1.UseVisualStyleBackColor = true;
-            // 
             // btnHide
             // 
             resources.ApplyResources(this.btnHide, "btnHide");
@@ -127,7 +120,6 @@
             this.BackColor = System.Drawing.Color.BurlyWood;
             this.Controls.Add(this.passHide);
             this.Controls.Add(this.btnHide);
-            this.Controls.Add(this.button1);
             this.Controls.Add(this.Zatwierdz);
             this.Controls.Add(this.button_exit);
             this.Controls.Add(this.label4);
@@ -154,7 +146,6 @@
         private System.Windows.Forms.Label label4;
         private System.Windows.Forms.Button button_exit;
         private System.Windows.Forms.Button Zatwierdz;
-        private System.Windows.Forms.Button button1;
         private System.Windows.Forms.Button btnHide;
         private System.Windows.Forms.Timer timer1;
         private System.Windows.Forms.TextBox passHide;
