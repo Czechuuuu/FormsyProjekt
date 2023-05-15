@@ -17,6 +17,7 @@ namespace Kowalczyk
         public Rej()
         {
             InitializeComponent();
+            passHide.Hide();
         }
 
         private void label4_Click(object sender, EventArgs e)
@@ -108,5 +109,22 @@ namespace Kowalczyk
             }
         }
 
+        private void btnHide_MouseUp(object sender, MouseEventArgs e)
+        {
+            passHide.Hide();
+            haslo.Show();
+
+        }
+
+        private void timer1_Tick(object sender, EventArgs e)
+        {
+            passHide.Text = haslo.Text;
+        }
+
+        private void btnHide_MouseDown(object sender, MouseEventArgs e)
+        {
+            passHide.Show();
+            haslo.Hide();
+        }
     }
 }
