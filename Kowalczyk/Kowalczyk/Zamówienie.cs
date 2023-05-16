@@ -130,7 +130,7 @@ namespace Kowalczyk
                 }
             }
 
-            if (datawaz.Text.Length == 4)
+            if (datawaz.Text.Length == 6)
             {
                 for (int i = 0; i < datawaz.Text.Length; i++)
                 {
@@ -147,7 +147,7 @@ namespace Kowalczyk
                 }
 
             }
-            else if (datawaz.Text.Length != 5)
+            else if (datawaz.Text.Length != 7)
             {
                 niemadanych = true;
                 ilejestbledow = ilejestbledow + 1;
@@ -227,7 +227,7 @@ namespace Kowalczyk
                 MessageBox.Show("Nieprawidłowy numer karty");
             }
 
-            if ((datawaz.Text.Length == 4) && czyjestblad == false)
+            if ((datawaz.Text.Length == 6) && czyjestblad == false)
             {
                 for (int i = 0; i < datawaz.Text.Length; i++)
                 {
@@ -240,7 +240,7 @@ namespace Kowalczyk
                     }
                 }
             }
-            else if ((datawaz.Text.Length != 5) && czyjestblad == false)
+            else if ((datawaz.Text.Length != 7) && czyjestblad == false)
             {
                 czyjestblad = true;
                 SystemSounds.Asterisk.Play();

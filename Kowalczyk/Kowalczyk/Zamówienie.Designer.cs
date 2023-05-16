@@ -280,9 +280,9 @@
             this.label11.BackColor = System.Drawing.Color.LightGray;
             this.label11.Location = new System.Drawing.Point(234, 379);
             this.label11.Name = "label11";
-            this.label11.Size = new System.Drawing.Size(46, 13);
+            this.label11.Size = new System.Drawing.Size(62, 13);
             this.label11.TabIndex = 28;
-            this.label11.Text = "MM/RR";
+            this.label11.Text = "MM/RRRR";
             // 
             // label12
             // 

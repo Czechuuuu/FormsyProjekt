@@ -1,2 +1,2 @@
-2 Anna Nowak Lawendowa 2 81-394 Gdynia ania@mail.com 123-456-789
-5 Andrzej Kowalski Akacjowa 62 81-394 Gdynia andrzej@supermail.org 111-222-333
+2 Anna Nowak Lawendowa 2 23-231 Gdynia ania@mail.pl 123-123-123
+3 Andrzej Kowalski Akacjowa 23 21-231 Gdynia andrzej@supermail.pl 232-532-213

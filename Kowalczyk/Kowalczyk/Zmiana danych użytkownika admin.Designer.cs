@@ -76,7 +76,7 @@
             this.ListaU.FormattingEnabled = true;
             this.ListaU.ItemHeight = 17;
             this.ListaU.Location = new System.Drawing.Point(502, 67);
-            this.ListaU.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.ListaU.Margin = new System.Windows.Forms.Padding(2);
             this.ListaU.Name = "ListaU";
             this.ListaU.Size = new System.Drawing.Size(282, 344);
             this.ListaU.TabIndex = 20;
@@ -115,13 +115,14 @@
             // 
             this.newpass.Location = new System.Drawing.Point(34, 214);
             this.newpass.Name = "newpass";
+            this.newpass.PasswordChar = '*';
             this.newpass.Size = new System.Drawing.Size(164, 20);
             this.newpass.TabIndex = 24;
             // 
             // asd
             // 
             this.asd.Location = new System.Drawing.Point(34, 261);
-            this.asd.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.asd.Margin = new System.Windows.Forms.Padding(2);
             this.asd.Name = "asd";
             this.asd.Size = new System.Drawing.Size(75, 23);
             this.asd.TabIndex = 25;
@@ -155,7 +156,7 @@
             this.Controls.Add(this.label3);
             this.Controls.Add(this.komuzmienicdane);
             this.Controls.Add(this.label1);
-            this.Margin = new System.Windows.Forms.Padding(2, 2, 2, 2);
+            this.Margin = new System.Windows.Forms.Padding(2);
             this.Name = "ZDU2";
             this.Text = "Zmiana danych użytkownika";
             this.Load += new System.EventHandler(this.ZDU2_Load);
